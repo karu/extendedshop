@@ -1,0 +1,2531 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<TITLE>Extended Shop Template</TITLE>
+	<LINK title=Default media=screen href="typo3conf/ext/extendedshop/pi1/stileShop.css" type=text/css rel=stylesheet />
+</head>
+
+<body>
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>BASKET_TEMPLATE</h3>
+<em>This subpart is used to display the basket with all the products.</em><br />
+<br />
+<br />
+<!-- ###BASKET_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###INTRO### -->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by Webformat srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+<!-- ###INTRO### -->
+<!-- ###HEADER### -->
+	<!-- ###WARNINGS_TEMPLATE### -->
+	###WARNINGS_TEXT###
+	<!-- ###WARNINGS_TEMPLATE### -->
+	<form  method="post" name="tx_extendedshop_pi1_basket" action="###FORM_ADD###">
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+	<div class="shop_productBasketContainer">
+		<div class="shop_basketImage">
+			###PRODUCT_IMAGE###
+		</div>
+		<div class="shop_basketPrice">
+			<div class="shop_basketProductPrice">
+				###LABEL_TOTAL_PRODUCT_PRICE### ###PRODUCT_TOTAL_PRICE### ###PRODUCT_TOTAL_PRICE_B###
+			</div>
+		</div>
+		<div class="shop_basketData">
+			<div class="shop_basketProductTitle">###PRODUCT_TITLE###</div>
+			<div class="shop_basketProductCode">
+				###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+			</div>
+			<!-- ###PRICE### -->
+			<div class="shop_price">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<!-- ###PRICE### -->
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_oldPrice">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<div class='shop_offer'>
+				<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+				<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+			</div>
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_optionsContainer">
+				<!-- ###COMBINATIONS### -->
+				###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+				<!-- ###COMBINATIONS### --> <!-- ###LINKCOMBINATIONS### -->&nbsp;&nbsp; <a href="###ADD_COMBINATION###">###LABEL_ADD_COMBINATION###</a> &nbsp; <a href="###CLEAR_COMBINATION###">###LABEL_CLEAR_COMBINATION###</a><!-- ###LINKCOMBINATIONS### -->
+			</div>
+			<div class="shop_basketContainer">
+				###PRODUCT_QUANTITY_SELECTOR### 
+				&nbsp;&nbsp; <a href="#" onclick="javascript:document.tx_extendedshop_pi1_basket.submit(); return false;">###LABEL_UPDATE_BASKET###</a>
+				<input type="hidden" name="tx_extendedshop_pi1[basket_product][###BASKET_UID###][uid]" value="###PRODUCT_UID###" />
+				<input type="hidden" name="tx_extendedshop_pi1[basket_product][###BASKET_UID###][page]" value="###PRODUCT_PAGE###" />
+				<input type="hidden" name="tx_extendedshop_pi1[basket_product][###BASKET_UID###][category]" value="###PRODUCT_CATEGORY###" />
+				<input type="hidden" name="tx_extendedshop_pi1[basket_product][###BASKET_UID###][price]" value="###PRODUCT_SELLPRICE###" />
+				<input type="hidden" name="tx_extendedshop_pi1[basket_product][###BASKET_UID###][pricenotax]" value="###PRODUCT_SELLPRICE_NOTAX###" />
+				<input type="hidden" name="tx_extendedshop_pi1[basket_product][###BASKET_UID###][combinations]" value="###PRODUCT_COMBINATIONS###" />
+			</div>
+		</div>
+	</div>
+<!-- ###LIST### -->
+<!-- ###FOOTER### -->
+	</form>
+	<div id="shop_basketTotalContainer">
+		<div class="shop_basketPrice">
+			<div id="shop_basketTotalPrice">
+				###LABEL_BASKET_TOTAL### ###BASKET_TOTAL### ###BASKET_TOTAL_B###
+			</div>
+		</div>
+	</div>
+	<div id="shop_basketButtonsContainer">
+		<div class="shop_basketPrice">
+			<form method="post" name="tx_extendedshop_pi1_basket_submit" action="###FORM_BASKET###">
+				<input type="submit" onclick="document.tx_extendedshop_pi1_basket_submit.action='###FORM_CLEAR###'; document.tx_extendedshop_pi1_basket_submit.submit();" name="tx_extendedshop_pi1[clear]" value="###LABEL_BASKET_CLEAR###" />
+				<input type="submit" name="tx_extendedshop_pi1[proceed]" value="###LABEL_BASKET_PROCEED###"###BASKET_PROCEED### />
+			</form>
+		</div>
+	</div>
+</div>
+<!-- ###FOOTER### -->
+<!-- ###BASKET_TEMPLATE### end -->
+
+
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>EMPTY_BASKET_TEMPLATE</h3>
+<em>This subpart is used to display the basket with all the products.</em><br />
+<br />
+<br />
+<!-- ###EMPTY_BASKET_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	###LABEL_BASKET_EMPTY###
+</div>
+<!-- ###EMPTY_BASKET_TEMPLATE### end -->
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_LIST_TEMPLATE</h3>
+<em>This subpart is used to display the regular list of products. It's also used by search-results.</em><br />
+<br />
+<br />
+<!-- ###ITEM_LIST_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###HEADER### -->
+<div id="containerListShop">
+	<div class="product_ordering">
+		<span id="ordering_label">###LABEL_ORDER_BY###</span>
+		<span>###LABEL_ORDER_TITLE###</span>
+		<span>###LABEL_ORDER_PRICE###</span>
+	</div>
+
+<script type="text/javascript">
+<!--
+    xajax.loadingFunction = function()
+    	{$("#shop_loading").animate({opacity:0.7,height:"100%"},500);
+		$("#shop_loading_message").fadeIn("slow");
+	};
+    function hideLoadingMessage()
+            {
+                $("#shop_loading").animate({opacity:0,height:"0"},500);
+				$("#shop_loading_message").fadeOut("slow");
+            }
+    xajax.doneLoadingFunction = hideLoadingMessage;
+// --></script>
+<div id="shop_loading"></div>
+<div id="shop_loading_message" style="display:none">
+	<p><img src="typo3conf/ext/extendedshop/res/loading.gif" alt="Loading..." /></p>
+</div>
+
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+<!-- ###CATEGORY_VISUAL### -->
+###LABEL_CATEGORY_HEADER### ###CATEGORY_TITLE###<br />
+<!-- ###CATEGORY_VISUAL### -->
+<!-- ###SUPPLIER_VISUAL### -->
+###LABEL_SUPPLIER_HEADER### ###VALUE_SUPPLIER###
+<!-- ###SUPPLIER_VISUAL### -->
+	<div id="shop_linkPages">
+		<span class="shop_notSelectedPage">###LABEL_SHOW_ALL###</span> ###LABEL_TAB### ###PRODUCT_PAGES###
+	</div>
+	<div id="shop_productsList">
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+	<form method="post" ###XAJAX_CART_UPDATE### id="tx_extendedshop_pi1_basket_###PRODUCT_UID###" name="tx_extendedshop_pi1_basket###PRODUCT_UID###" action="###FORM_ADD###">
+		<div class="shop_productBasketContainer" id="shop_product_###PRODUCT_UID###">
+		<!-- ###XAJAX_CLOSEPREVIEW### -->
+			<div id="product_list_###PRODUCT_UID###" ###XAJAX_DISPLAY###>
+			<div class="shop_basketImage">
+				###PRODUCT_IMAGE###
+				###PRODUCT_IMAGE1###
+				###PRODUCT_IMAGE2###
+			</div>
+			<div class="shop_basketPrice">
+				<!-- ###PRICE### -->
+				<div class="shop_price">
+					###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+				</div>
+				<!-- ###PRICE### -->
+				<!-- ###PRICEDISCOUNT### -->
+				<div class="shop_oldPrice">
+					###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+				</div>
+				<div class='shop_offer'>
+					<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+					<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+				</div>
+				<!-- ###PRICEDISCOUNT### -->
+			</div>
+			<div class="shop_basketData">
+				<div class="shop_basketProductTitle">
+					###PRODUCT_TITLE###
+				</div>
+				<div class="shop_basketProductCode">
+					###LABEL_ITEMNUMBER### ###PRODUCT_CODE###<br />
+					<!-- ###CATEGORY_VISUAL### -->
+				###LABEL_CATEGORY### ###CATEGORY_TITLE###<br />
+				<!-- ###CATEGORY_VISUAL### -->
+				</div>
+			</div>
+			
+			<div class="shop_summary">
+				<p>###LABEL_SUMMARY###:</p>
+				<p>###PRODUCT_SUMMARY###</p>
+			</div>
+			
+			<div class="shop_optionsContainer">
+				<!-- ###COMBINATIONS### -->
+				###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+				<!-- ###COMBINATIONS### --> <!-- ###LINKCOMBINATIONS### -->&nbsp;&nbsp; <a href="###ADD_COMBINATION###">###LABEL_ADD_COMBINATION###</a> &nbsp; <a href="###CLEAR_COMBINATION###">###LABEL_CLEAR_COMBINATION###</a><!-- ###LINKCOMBINATIONS### -->
+			</div>
+			
+			<div class="shop_basketContainer">
+				###PRODUCT_QUANTITY_SELECTOR### &nbsp; <input type="image" name="tx_extendedshop_pi1[add]" src="typo3conf/ext/extendedshop/pi1/carrello.jpg" alt="###LABEL_ADD###" />
+				&nbsp;&nbsp; <a href="#" onclick="###LINK_SUBMIT###">###LABEL_ADD###</a>
+				<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][uid]" value="###PRODUCT_UID###" />
+				<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][page]" value="###PRODUCT_PAGE###" />
+				<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][category]" value="###PRODUCT_CATEGORY###" />
+				<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][price]" value="###PRODUCT_SELLPRICE###" />
+				<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][pricenotax]" value="###PRODUCT_SELLPRICE_NOTAX###" />
+				<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][combinations]" value="###PRODUCT_COMBINATIONS###" />
+			</div>
+
+		<div class="clear"></div>
+		</div>
+		<!-- ###XAJAX_CLOSEPREVIEW### -->
+		</div>
+	</form>
+<!-- ###LIST### -->
+<!-- ###FOOTER### -->
+	<div id="shop_linkPages">
+		<span class="shop_notSelectedPage">###LABEL_SHOW_ALL###</span> ###LABEL_TAB### ###PRODUCT_PAGES###
+	</div>
+	</div>
+</div>
+<!-- ###FOOTER### -->
+<!-- ###ITEM_LIST_TEMPLATE### end -->
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_LATEST_TEMPLATE</h3>
+<em>This subpart is used to display the regular list of products. It's also used by search-results.</em><br />
+<br />
+<br />
+<!-- ###ITEM_LATEST_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###HEADER### -->
+<div id="containerListShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+<!-- ###CATEGORY_VISUAL### -->
+###LABEL_CATEGORY_HEADER### ###CATEGORY_TITLE###<br />
+<!-- ###CATEGORY_VISUAL### -->
+<!-- ###SUPPLIER_VISUAL### -->
+###LABEL_SUPPLIER_HEADER### ###VALUE_SUPPLIER###
+<!-- ###SUPPLIER_VISUAL### -->
+	<div id="shop_linkPages">
+		<span class="shop_notSelectedPage">###LABEL_SHOW_ALL###</span> ###LABEL_TAB### ###PRODUCT_PAGES###
+	</div>
+	<div id="shop_productsList">
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+	<form  method="post" ###XAJAX_CART_UPDATE### id="tx_extendedshop_pi1_basket_###PRODUCT_UID###" name="tx_extendedshop_pi1_basket###PRODUCT_UID###" action="###FORM_ADD###">
+		<div class="shop_productBasketContainer">
+			<div class="shop_basketImage">
+				###PRODUCT_IMAGE###
+				###PRODUCT_IMAGE1###
+				###PRODUCT_IMAGE2###
+			</div>
+			<div class="shop_basketPrice">
+				<!-- ###PRICE### -->
+				<div class="shop_price">
+					###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+				</div>
+				<!-- ###PRICE### -->
+				<!-- ###PRICEDISCOUNT### -->
+				<div class="shop_oldPrice">
+					###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+				</div>
+				<div class='shop_offer'>
+					<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+					<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+				</div>
+				<!-- ###PRICEDISCOUNT### -->
+			</div>
+			<div class="shop_basketData">
+				<div class="shop_basketProductTitle">###PRODUCT_TITLE###</div>
+				<div class="shop_basketProductCode">
+					###LABEL_ITEMNUMBER### ###PRODUCT_CODE###<br />
+					<!-- ###CATEGORY_VISUAL### -->
+				###LABEL_CATEGORY### ###CATEGORY_TITLE###<br />
+				<!-- ###CATEGORY_VISUAL### -->
+				</div>
+				<div class="shop_optionsContainer">
+					<!-- ###COMBINATIONS### -->
+					###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+					<!-- ###COMBINATIONS### --> <!-- ###LINKCOMBINATIONS### -->&nbsp;&nbsp; <a href="###ADD_COMBINATION###">###LABEL_ADD_COMBINATION###</a> &nbsp; <a href="###CLEAR_COMBINATION###">###LABEL_CLEAR_COMBINATION###</a><!-- ###LINKCOMBINATIONS### -->
+				</div>
+				<div class="shop_basketContainer">
+					###PRODUCT_QUANTITY_SELECTOR### &nbsp; <input type="image" name="tx_extendedshop_pi1[add]" src="typo3conf/ext/extendedshop/pi1/carrello.jpg" alt="###LABEL_ADD###" />
+					&nbsp;&nbsp; <a href="#" onclick="###LINK_SUBMIT###">###LABEL_ADD###</a>
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][uid]" value="###PRODUCT_UID###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][page]" value="###PRODUCT_PAGE###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][category]" value="###PRODUCT_CATEGORY###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][price]" value="###PRODUCT_SELLPRICE###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][pricenotax]" value="###PRODUCT_SELLPRICE_NOTAX###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][combinations]" value="###PRODUCT_COMBINATIONS###" />
+				</div>
+			</div>
+		<div class="clear"></div>
+		</div>
+	</form>
+<!-- ###LIST### -->
+<!-- ###FOOTER### -->
+	</div>
+</div>
+<!-- ###FOOTER### -->
+<!-- ###ITEM_LATEST_TEMPLATE### end -->
+
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_LIST_IMAGE_TEMPLATE</h3>
+<em>This subpart is used to display the regular list of products. It's also used by search-results.</em><br />
+<br />
+<br />
+<!-- ###ITEM_LIST_IMAGE_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###HEADER### -->
+<div id="containerListShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+<!-- ###CATEGORY_VISUAL### -->
+###LABEL_CATEGORY_HEADER### ###CATEGORY_TITLE###<br />
+<!-- ###CATEGORY_VISUAL### -->
+<!-- ###SUPPLIER_VISUAL### -->
+###LABEL_SUPPLIER_HEADER### ###VALUE_SUPPLIER###
+<!-- ###SUPPLIER_VISUAL### -->
+
+	<div id="shop_linkPages">
+		<span class="shop_notSelectedPage">###LABEL_SHOW_ALL###</span> ###LABEL_TAB### ###PRODUCT_PAGES###
+	</div>
+	<div id="shop_productsList">
+		<table>
+<!-- ###HEADER### -->
+			<!-- ###ROW_START### -->
+				<tr>
+			<!-- ###ROW_START### -->
+				<!-- ###COLUMN### -->
+					<td width="###COLUMN_WIDTH###" colspan="###COLUMN_COLSPAN###" class="###COLUMN_CLASS###" align="center">
+						<div id="shop_product_###PRODUCT_UID###">
+						<input type="hidden" id="shop_xajax_preview_###PRODUCT_UID###" value="" />
+						<div class="shop_listImage">###PRODUCT_IMAGE###</div>
+						<div class="shop_listTitle">
+							###PRODUCT_TITLE###<br />
+							<!-- ###CATEGORY_VISUAL### -->
+							###LABEL_CATEGORY### ###CATEGORY_TITLE###<br />
+							<!-- ###CATEGORY_VISUAL### -->
+							<!-- ###PRICE### -->
+							<div class="shop_price">
+								###LABEL_PRICE_LIST### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+							</div>
+							<!-- ###PRICE### -->
+							<!-- ###PRICEDISCOUNT### -->
+							<div class="shop_oldPrice">
+								###LABEL_PRICE_LIST### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+							</div>
+							<div class='shop_offer'>
+								<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+								<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+							</div>
+							<!-- ###PRICEDISCOUNT### -->
+						</div>
+						</div>
+					</td>
+				<!-- ###COLUMN### -->
+			<!-- ###ROW_END### -->
+				</tr>
+			<!-- ###ROW_END### -->
+<!-- ###FOOTER### -->
+		</table>
+	</div>
+</div>
+<!-- ###FOOTER### -->
+<!-- ###ITEM_LIST_IMAGE_TEMPLATE### end -->
+
+
+
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_SINGLE_TEMPLATE</h3>
+<em>This subpart is used to display the data of one product.</em><br />
+<br />
+<br />
+<!-- ###ITEM_SINGLE_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###HEADER### -->
+<form  method="post" ###XAJAX_CART_UPDATE### id="tx_extendedshop_pi1_basket_###PRODUCT_UID###" action="###FORM_ADD###" name="tx_extendedshop_pi1_basket###PRODUCT_UID###">
+<div id="containerShop">
+<!-- ###HEADER### -->
+<!-- ###DETAIL### -->
+<!-- 
+	This shop extension for TYPO3 is brought to you by Webformat srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<div id="shop_detailContainter">
+		<table>
+			<tr>
+				<td rowspan=2>
+					<div id="shop_imageContainer">
+						###PRODUCT_IMAGE###
+						###PRODUCT_IMAGE1###
+						###PRODUCT_IMAGE2###
+					</div>
+					
+					<div id="shop_productsLink">
+					<!-- ###LINK_PRODUCTS### -->
+						<div id="shop_previous">
+							###PRODUCT_LINK_PREVIOUS###<br />
+							###PRODUCT_IMG_PREVIOUS###
+						</div>
+						<div id="shop_next">
+							###PRODUCT_LINK_NEXT###<br />
+							###PRODUCT_IMG_NEXT###
+						</div>
+					<!-- ###LINK_PRODUCTS### -->
+						<div id="shop_zoom">
+							###PRODUCT_ZOOM###
+						</div> 
+					</div>
+				</td>
+				<td class="shop_description">
+					<div id="shop_titleContainer">
+						<div id="shop_title">
+							###PRODUCT_TITLE###
+						</div>
+						<div id="shop_code">
+							###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+						</div>
+					</div>
+					<!-- ###CATEGORY_VISUAL### -->
+					###LABEL_CATEGORY### ###CATEGORY_TITLE###<br />
+					<!-- ###CATEGORY_VISUAL### -->
+					<br />
+					###PRODUCT_DESCRIPTION###<br />
+					###LABEL_PAGE_LIST###<br />
+					###LINK_PAGE_LIST###<br />
+					###LABEL_DOC_LIST###<br />
+					###LINK_DOC_LIST###<br />
+					<br />
+					###LABEL_SUPPLIER### ###VALUE_SUPPLIER###
+				</td>
+			</tr>
+			<tr>
+				<td class="shop_purchaseFormContainer">
+				<!-- ###PRICE### -->
+				<div class="shop_price">
+					###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+				</div>
+				<!-- ###PRICE### -->
+				<!-- ###PRICEDISCOUNT### -->
+				<div class="shop_oldPrice">
+					###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+				</div>
+				<div class='shop_offer'>
+					<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+					<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+				</div>
+				<!-- ###PRICEDISCOUNT### -->
+				<div class="shop_optionsContainer">
+					<!-- ###COMBINATIONS### -->
+					###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+					<!-- ###COMBINATIONS### --> <!-- ###LINKCOMBINATIONS### -->&nbsp;&nbsp; <a href="###ADD_COMBINATION###">###LABEL_ADD_COMBINATION###</a> &nbsp; <a href="###CLEAR_COMBINATION###">###LABEL_CLEAR_COMBINATION###</a><!-- ###LINKCOMBINATIONS### -->
+				</div>
+				<div class="shop_basketContainer">
+					###PRODUCT_QUANTITY_SELECTOR### &nbsp; <input type="image" name="tx_extendedshop_pi1[add]" src="typo3conf/ext/extendedshop/pi1/carrello.jpg" alt="###LABEL_ADD###" />
+					&nbsp;&nbsp; <a href="#" onclick="###LINK_SUBMIT###">###LABEL_ADD###</a>
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][uid]" value="###PRODUCT_UID###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][page]" value="###PRODUCT_PAGE###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][category]" value="###PRODUCT_CATEGORY###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][price]" value="###PRODUCT_SELLPRICE###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][pricenotax]" value="###PRODUCT_SELLPRICE_NOTAX###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][combinations]" value="###PRODUCT_COMBINATIONS###" />
+				</div>
+				</td>
+			</tr>
+		</table><br />
+		<a href="#" onclick="history.go(-1);return false;">###LABEL_BACK_URL###</a>
+	</div>
+	
+	<!-- ###CORRPRODUCTS### -->
+	<div class="product_slider related_products">
+            <div class="messaging">
+                Please Note: You may have disabled JavaScript and/or CSS. Although this news content will be accessible, certain functionality is unavailable.
+            </div>
+            <!-- <a href="#skip_to_news_1" class="skip">Skip to news content.</a> -->
+            <a href="#" class="prev"><img src="typo3conf/ext/extendedshop/pi1/images/prev.gif" width="16" height="16" alt="Previous" title="Previous" env="images" /></a>
+            <a href="#" class="next"><img src="typo3conf/ext/extendedshop/pi1/images/next.gif" width="16" height="16" alt="Next" title="Next" env="images" /></a>
+            <div class="product_items">
+                <a name="skip_to_news_1"></a>
+                <div class="container fl">
+                	<!-- ###CORRELATED_ROW### -->
+                    <div class="item fl">
+                        <a href="/">###PRODUCT_CORRELATEDPRODUCTS###</a>
+                        <div class="fl">
+                            <p>###PRODUCT_CORRELATEDPRODUCTS_TITLE###</p>
+							<p>###PRODUCT_CORRELATEDPRODUCTS_DESCRIPTION###</p>
+                        </div>
+                    </div>
+					<!-- ###CORRELATED_ROW### -->
+                </div>
+            </div>
+        </div>
+	<!-- ###CORRPRODUCTS### -->
+</div>
+</form>
+<!-- ###DETAIL### -->
+<!-- ###ITEM_SINGLE_TEMPLATE### end -->
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_SEARCH_TEMPLATE</h3>
+<em>This subpart is used to display the data of one product.</em><br />
+<br />
+<br />
+<!-- ###ITEM_SEARCH_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<!-- ###NORESULTS### -->
+	###LABEL_NO_RESULTS###
+	<!-- ###NORESULTS### -->
+	<form method="post" action="###FORM_SEARCH###">
+	<input size="30" maxlength="100" type="text" name="tx_extendedshop_pi1[swords]" value="###SWORDS###" />
+	<input type="submit" name="tx_extendedshop_pi1[order]" value="###LABEL_SEARCH###" />
+</form>
+</div>
+<!-- ###ITEM_SEARCH_TEMPLATE### end -->
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_ADVANCEDSEARCH_TEMPLATE</h3>
+<em>This subpart is used to display the data of one product.</em><br />
+<br />
+<br />
+<!-- ###ITEM_ADVANCEDSEARCH_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<!-- ###NORESULTS### -->
+	###LABEL_NO_RESULTS###
+	<!-- ###NORESULTS### -->
+	<form method="post" action="###FORM_ADVANCEDSEARCH###">
+	<table>
+	<tbody>
+		<tr><td>###LABEL_KEYWORDS###:</td><td><input size="30" maxlength="100" type="text" name="tx_extendedshop_pi1[search][keywords]" value="###S_KEYWORDS###" /></td></tr>
+		<tr><td>###LABEL_SIZES###:</td><td><input size="30" maxlength="100" type="text" name="tx_extendedshop_pi1[search][size]" value="###S_SIZE###" /><br /></td></tr>
+		<tr><td>###LABEL_COLOR###:</td><td><input size="30" maxlength="100" type="text" name="tx_extendedshop_pi1[search][color]" value="###S_COLORS###" /><br /></td></tr>
+		<tr><td>###LABEL_PRICE###</td><td><select name="tx_extendedshop_pi1[search][price]">
+							<option value="_"###S_PRICE__###></option>
+							<option value="0_10"###S_PRICE_0_10###>0 - 10</option>
+							<option value="10_50"###S_PRICE_10_50###>10 - 50</option>
+							<option value="50_100"###S_PRICE_50_100###>50 - 100</option>
+							<option value="100_"###S_PRICE_100_###>&gt; 100</option>
+						</select><br /></td></tr>
+	<tr><td></td><td><input type="submit" name="tx_extendedshop_pi1[search][order]" value="###LABEL_SEARCH###" /></td></tr>
+		<tr><td><input type="hidden" name="tx_extendedshop_pi1[search][supplier]" value="###S_SUPPLIER###" /></td></tr>
+	</tbody>
+	</table>
+</form>
+</div>
+<!-- ###ITEM_ADVANCEDSEARCH_TEMPLATE### end -->
+
+
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>PERSONAL_INFO_TEMPLATE</h3>
+<em>This subpart is used to display the basket with all the products.</em><br />
+<br />
+<br />
+<!-- ###PERSONAL_INFO_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<!-- ###INCOMPLETE### -->
+	<div id="shop_inconpletedInformations">
+		###LABEL_PERSONAL_INFO_NOTCOMPLETE###
+	</div>
+	<!-- ###INCOMPLETE### -->
+	<form method="post" name="extendedshop_userinfo" action="###FORM_BASKET###">
+	<input type="hidden" name="tx_extendedshop_pi1[datiPersonali]" value="1" />
+		<div id="shop_invoiceContainer">
+			<div class="shop_personalDataTitle">
+				###LABEL_PERSONAL_INFO_INVOICING###
+			</div>
+			<div class="shop_personalDataText">
+				###LABEL_PERSONAL_INFO_INVOICING_TEXT###
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_NAME######REQUIRED_NAME###</div>
+					<div class="shop_fieldInput"><input tabindex="1" maxlength="240" type="text" name="tx_extendedshop_pi1[personal][NAME]" value="###PERSONAL_NAME###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COMPANY######REQUIRED_COMPANY###</div>
+					<div class="shop_fieldInput"><input tabindex="9" maxlength="80" type="text" name="tx_extendedshop_pi1[personal][COMPANY]" value="###PERSONAL_COMPANY###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+					<div class="shop_addressFieldTitle">###LABEL_PERSONAL_INFO_ADDRESS######REQUIRED_ADDRESS###</div>
+					<div class="shop_addressFieldInput"><textarea tabindex="2" name="tx_extendedshop_pi1[personal][ADDRESS]" cols="25" rows="3">###PERSONAL_ADDRESS###</textarea></div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_CITY######REQUIRED_CITY###</div>
+					<div class="shop_fieldInput"><input tabindex="3" maxlength="80" type="text" name="tx_extendedshop_pi1[personal][CITY]" value="###PERSONAL_CITY###" /></div>
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_ZIP######REQUIRED_ZIP###</div>
+					<div class="shop_fieldInput"><input tabindex="4" maxlength="20" type="text" name="tx_extendedshop_pi1[personal][ZIP]" value="###PERSONAL_ZIP###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PRIVATE######REQUIRED_PRIVATE###</div>
+					<div class="shop_fieldInput">
+						<input tabindex="10" type="radio" name="tx_extendedshop_pi1[personal][PRIVATE]" value="0"###PERSONAL_PRIVATE_P### /> ###LABEL_PERSONAL_INFO_PRIVATE_P###<br />
+						<input tabindex="11" type="radio" name="tx_extendedshop_pi1[personal][PRIVATE]" value="1"###PERSONAL_PRIVATE_A### /> ###LABEL_PERSONAL_INFO_PRIVATE_A###
+					</div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_STATE######REQUIRED_STATE###</div>
+					<div class="shop_fieldInput"><input tabindex="5" maxlength="240" type="text" name="tx_extendedshop_pi1[personal][STATE]" value="###PERSONAL_STATE###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_VATCODE######REQUIRED_VATCODE###</div>
+					<div class="shop_fieldInput"><input tabindex="12" maxlength="16" type="text" name="tx_extendedshop_pi1[personal][VATCODE]" value="###PERSONAL_VATCODE###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COUNTRY######REQUIRED_COUNTRY###</div>
+					<div class="shop_fieldInput">###PERSONAL_COUNTRY_SELECT###</div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_MOBILE######REQUIRED_MOBILE###</div>
+					<div class="shop_fieldInput"><input tabindex="13" maxlength="30" type="text" name="tx_extendedshop_pi1[personal][MOBILE]" value="###PERSONAL_MOBILE###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PHONE######REQUIRED_PHONE###</div>
+					<div class="shop_fieldInput"><input tabindex="7" maxlength="30" type="text" name="tx_extendedshop_pi1[personal][PHONE]" value="###PERSONAL_PHONE###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_FAX######REQUIRED_FAX###</div>
+					<div class="shop_fieldInput"><input tabindex="14" maxlength="30" type="text" name="tx_extendedshop_pi1[personal][FAX]" value="###PERSONAL_FAX###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_EMAIL######REQUIRED_EMAIL###</div>
+					<div class="shop_fieldInput"><input tabindex="8" maxlength="80" type="text" name="tx_extendedshop_pi1[personal][EMAIL]" value="###PERSONAL_EMAIL###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_WWW######REQUIRED_WWW###</div>
+					<div class="shop_fieldInput"><input tabindex="15" maxlength="80" type="text" name="tx_extendedshop_pi1[personal][WWW]" value="###PERSONAL_WWW###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_authorizationContainer">
+					<div class="shop_authorizationFieldInput"><input tabindex="16" type="checkbox" name="tx_extendedshop_pi1[personal][AUTHORIZATION]" value="1"###PERSONAL_AUTHORIZATION_V### /></div>
+					<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_AUTHORIZATION######REQUIRED_AUTHORIZATION###</div>
+				</div>
+				<div class="shop_authorizationContainer">
+					<div class="shop_authorizationFieldInput"><input tabindex="17" type="checkbox" name="tx_extendedshop_pi1[personal][CONDITIONS]" value="1"###PERSONAL_CONDITIONS_V### /></div>
+					<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_CONDITIONS######REQUIRED_CONDITIONS###</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="shop_deliveryContainer">
+			<div class="shop_personalDataTitle">
+				<label for="view_shippingData" >###LABEL_PERSONAL_INFO_DELIVERY###</label> (<input value="1" type="checkbox" id="view_shippingData" ###DELIVERY_MORE_CHECKED### onclick="document.getElementById('shop_dataView').style.display = this.checked ? 'block' : 'none'" name="tx_extendedshop_pi1[delivery][more]"> visualizza)
+			</div>
+			<div id="shop_dataView" style="display:###DELIVERY_DISPLAY###">
+			<div class="shop_personalDataText">
+				###LABEL_PERSONAL_INFO_DELIVERY_TEXT###
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_NAME######REQUIRED_DELIVERY_INFO_NAME###</div>
+					<div class="shop_fieldInput"><input tabindex="18" maxlength="240" type="text" name="tx_extendedshop_pi1[delivery][NAME]" value="###DELIVERY_NAME###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_EMAIL######REQUIRED_DELIVERY_INFO_EMAIL###</div>
+					<div class="shop_fieldInput"><input tabindex="22" maxlength="80" type="text" name="tx_extendedshop_pi1[delivery][EMAIL]" value="###DELIVERY_EMAIL###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ADDRESS######REQUIRED_DELIVERY_INFO_ADDRESS###</div>
+					<div class="shop_fieldInput"><textarea tabindex="19" name="tx_extendedshop_pi1[delivery][ADDRESS]" cols="15" rows="2">###DELIVERY_ADDRESS###</textarea></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ZIP######REQUIRED_DELIVERY_INFO_ZIP###</div>
+					<div class="shop_fieldInput"><input tabindex="23" maxlength="20" type="text" name="tx_extendedshop_pi1[delivery][ZIP]" value="###DELIVERY_ZIP###" /></div>
+				</div>
+				<div class="shop_DXcontainerDouble">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_CITY######REQUIRED_DELIVERY_INFO_CITY###</div>
+					<div class="shop_fieldInput"><input tabindex="24" maxlength="80" type="text" name="tx_extendedshop_pi1[delivery][CITY]" value="###DELIVERY_CITY###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_STATE######REQUIRED_DELIVERY_INFO_STATE###</div>
+					<div class="shop_fieldInput"><input tabindex="20" maxlength="240" type="text" name="tx_extendedshop_pi1[delivery][STATE]" value="###DELIVERY_STATE###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_COUNTRY######REQUIRED_DELIVERY_INFO_COUNTRY###</div>
+					<!-- <div class="shop_fieldInput"><input maxlength="30" type="text" name="tx_extendedshop_pi1[delivery][COUNTRY]" value="###DELIVERY_COUNTRY###" /></div> -->
+					<div class="shop_fieldInput">###SHIPPING_SELECTOR###</div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_PHONE######REQUIRED_DELIVERY_INFO_PHONE###</div>
+					<div class="shop_fieldInput"><input tabindex="21" maxlength="30" type="text" name="tx_extendedshop_pi1[delivery][PHONE]" value="###DELIVERY_PHONE###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_MOBILE######REQUIRED_DELIVERY_INFO_MOBILE###</div>
+					<div class="shop_fieldInput"><input tabindex="26" maxlength="30" type="text" name="tx_extendedshop_pi1[delivery][MOBILE]" value="###DELIVERY_MOBILE###"/></div>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+		<div id="shop_personalDataButtonsContainer">
+			<input tabindex="27" type="submit" ###CLEAR_PERSON### name="tx_extendedshop_pi1[clearPerson]" value="###LABEL_PERSONAL_INFO_CLEAR###" />
+			<input tabindex="28" type="submit" name="tx_extendedshop_pi1[new]" value="###LABEL_PERSONAL_INFO_NEW###" />
+		</div>
+	</form>
+</div>
+<!-- ###PERSONAL_INFO_TEMPLATE### end -->
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>SHIPPING_TEMPLATE</h3>
+<em>This subpart is used to display the basket with all the products.</em><br />
+<br />
+<br />
+<!-- ###SHIPPING_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###SHIPPING### -->
+
+<form method="post" name="extendedshop_payment" action="###FORM_BASKET###">
+<input type="hidden" name="tx_extendedshop_pi1[shipping]" value="ok" />
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+
+<!-- ###ERRORS_SUBPART### -->
+<div id="shop_inconpletedInformations">
+	###ERRORS_SHIPPING_STEP###
+</div>
+<!-- ###ERRORS_SUBPART### -->
+
+	<div id="shop_shippingContainer">
+		<div id="shop_shippingTitle">
+			###LABEL_BASKET_SHIPPING_TITLE###
+		</div>
+		<div id="shop_shippingInput">
+			###SHIPPING_SELECTOR### ###SHIPPING_TITLE###
+		</div>
+		<div id="shop_shippingPrice">
+			<!-- ###FREESHIPPING_NO### -->###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_SHIPPING_TAX### ###PRICE_SHIPPING_TAX_B###<!-- ###FREESHIPPING_NO### -->
+			<!-- ###FREESHIPPING_YES### -->###PRICE_SHIPPING_TAX###<!-- ###FREESHIPPING_YES### -->
+		</div>
+	</div>
+	<div id="shop_paymentContainer">
+		<div id="shop_paymentTitle">
+			###LABEL_BASKET_PAYMENT_TITLE###
+		</div>
+		<div id="shop_paymentInput">
+			###PAYMENT_SELECTOR###
+		</div>
+		<div id="shop_paymentPrice">
+			###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_PAYMENT_TAX### ###PRICE_PAYMENT_TAX_B###
+		</div>
+	</div>
+<!-- ###SHIPPING### -->
+
+<!-- ###PRODUCTS### -->
+<!-- ###INTRO### -->
+<!-- ###INTRO### -->
+<!-- ###HEADER### -->
+	<div id="shop_basketIntro">
+		###LABEL_BASKET_ARTICOLI###
+	</div>
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+	<div class="shop_productBasketContainer">
+		<div class="shop_basketImage">
+			###PRODUCT_IMAGE###
+		</div>
+		<div class="shop_basketPrice">
+			<div class="shop_basketProductPrice">
+				###LABEL_TOTAL_PRODUCT_PRICE### ###PRODUCT_TOTAL_PRICE### ###PRODUCT_TOTAL_PRICE_B###
+			</div>
+		</div>
+		<div class="shop_basketData">
+			<div class="shop_basketProductTitle">
+				###PRODUCT_TITLE###
+			</div>
+			<div class="shop_basketProductCode">
+				###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+			</div>
+			<!-- ###PRICE### -->
+			<div class="shop_price">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<!-- ###PRICE### -->
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_oldPrice">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<div class='shop_offer'>
+				<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+				<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+			</div>
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_optionsContainer">
+				<!-- ###COMBINATIONS### -->
+				###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+				<!-- ###COMBINATIONS### --> 
+			</div>
+			<div class="shop_basketProductQuantity">
+				###LABEL_QUANTITY###: ###PRODUCT_QUANTITY###
+			</div>
+		</div>
+	</div>
+<!-- ###LIST### -->
+<!-- ###FOOTER### -->
+	<div id="shop_basketTotalContainer">
+		<div class="shop_basketImage">
+		</div>
+		<div class="shop_basketPrice">
+			<div id="shop_basketTotalPrice">
+				###LABEL_BASKET_TOTAL### ###BASKET_TOTAL### ###BASKET_TOTAL_B###<br />
+			</div>
+		</div>
+	</div>
+<!-- ###FOOTER### -->
+<!-- ###PRODUCTS### -->
+<!-- ###PERSONAL_INFO### -->
+	<div id="shop_invoiceContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_INVOICING###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_INVOICING_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_NAME###</div>
+				<div class="shop_fieldInput">###PERSONAL_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COMPANY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COMPANY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+				<div class="shop_addressFieldTitle">###LABEL_PERSONAL_INFO_ADDRESS###</div>
+				<div class="shop_addressOutput">###PERSONAL_ADDRESS###</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_CITY###</div>
+				<div class="shop_fieldInput">###PERSONAL_CITY###</div>
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###PERSONAL_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PRIVATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PRIVATE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_STATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_VATCODE###</div>
+				<div class="shop_fieldInput">###PERSONAL_VATCODE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COUNTRY###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###PERSONAL_MOBILE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_FAX###</div>
+				<div class="shop_fieldInput">###PERSONAL_FAX###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###PERSONAL_EMAIL###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_WWW###</div>
+				<div class="shop_fieldInput">###PERSONAL_WWW###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input disabled type="checkbox" name="tx_extendedshop_pi1[personal][AUTHORIZATION]" value="1"###PERSONAL_AUTHORIZATION_V### /></div>
+				<input type="hidden" name="tx_extendedshop_pi1[personal][AUTHORIZATION]" value="1" />
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_AUTHORIZATION###</div>
+			</div>
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input disabled type="checkbox" name="tx_extendedshop_pi1[personal][CONDITIONS]" value="1"###PERSONAL_CONDITIONS_V### /></div>
+				<input type="hidden" name="tx_extendedshop_pi1[personal][CONDITIONS]" value="1" />
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_CONDITIONS###</div>
+			</div>
+		</div>
+	</div>
+<!-- ###PERSONAL_INFO_DELIVERY### -->
+	<div id="shop_deliveryContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_DELIVERY###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_DELIVERY_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_NAME###</div>
+				<div class="shop_fieldInput">###DELIVERY_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###DELIVERY_EMAIL###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ADDRESS###</div>
+				<div class="shop_fieldInput">###DELIVERY_ADDRESS###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###DELIVERY_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainerDouble">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_CITY###</div>
+				<div class="shop_fieldInput">###DELIVERY_CITY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_STATE###</div>
+				<div class="shop_fieldInput">###DELIVERY_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###DELIVERY_COUNTRY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###DELIVERY_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###DELIVERY_MOBILE###</div>
+			</div>
+		</div>
+	</div>
+<!-- ###PERSONAL_INFO_DELIVERY### -->
+</div>
+	<div id="shop_noteContainer">
+		<div id="shop_noteTitle">###LABEL_BASKET_NOTE###</div>
+		<div id="shop_noteInput">
+			<textarea name="tx_extendedshop_pi1[personal][NOTE]" cols="15" rows="2">###PERSONAL_NOTE###</textarea>
+		</div>
+		<div id="shop_noteButtons">
+				<input type="hidden" name="tx_extendedshop_pi1[pagamento]" value="1" />
+				<input type="submit" ###ONCLICK_BACK### name="tx_extendedshop_pi1[proceed]" value="###LABEL_BASKET_BACK###" />
+				<input type="submit" name="tx_extendedshop_pi1[finalize]" value="###LABEL_BASKET_FINALIZE###" />
+		</div>
+	</div>
+</form>
+<!-- ###PERSONAL_INFO### -->
+<!-- ###SHIPPING_TEMPLATE### end -->
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>USER_REGISTRED_TEMPLATE</h3>
+<em>This subpart is used to display the data of a registred user.</em><br />
+<br />
+<br />
+<!-- ###USER_REGISTRED_TEMPLATE### begin
+	This subpart is used to display the data of a registred user.
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<!-- ###INCOMPLETE### -->
+	<div id="shop_inconpletedInformations">
+		###LABEL_PERSONAL_INFO_NOTCOMPLETE###
+	</div>
+	<!-- ###INCOMPLETE### -->
+	<form method="post" action="###FORM_BASKET###">
+	<input type="hidden" name="tx_extendedshop_pi1[datiPersonali]" value="1" />
+	<!-- ###PERSONAL_INFO### -->
+	<div id="shop_invoiceContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_INVOICING###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_INVOICING_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_NAME###</div>
+				<div class="shop_fieldInput">###PERSONAL_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COMPANY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COMPANY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_addressFieldTitle">###LABEL_PERSONAL_INFO_ADDRESS###</div>
+			<div class="shop_addressOutput">###PERSONAL_ADDRESS###</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_CITY###</div>
+				<div class="shop_fieldInput">###PERSONAL_CITY###</div>
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###PERSONAL_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PRIVATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PRIVATE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_STATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_VATCODE###</div>
+				<div class="shop_fieldInput">###PERSONAL_VATCODE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COUNTRY###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###PERSONAL_MOBILE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_FAX###</div>
+				<div class="shop_fieldInput">###PERSONAL_FAX###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###PERSONAL_EMAIL###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_WWW###</div>
+				<div class="shop_fieldInput">###PERSONAL_WWW###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input type="checkbox" name="tx_extendedshop_pi1[personal][AUTHORIZATION]" value="1"###PERSONAL_AUTHORIZATION_V### /></div>
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_AUTHORIZATION###</div>
+			</div>
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input type="checkbox" name="tx_extendedshop_pi1[personal][CONDITIONS]" value="1"###PERSONAL_CONDITIONS_V### /></div>
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_CONDITIONS###</div>
+			</div>
+		</div>
+	</div>
+	<div id="shop_deliveryContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_DELIVERY### (<input name="tx_extendedshop_pi1[delivery][more]" value="1" type="checkbox" ###DELIVERY_MORE_CHECKED### onclick="document.getElementById('shop_dataView').style.display = this.checked ? 'block' : 'none'"> ###LABEL_DELIVERY_INFO_MORE###)
+		</div>
+		<div id="shop_dataView" style="display:###DELIVERY_DISPLAY###">
+			<div class="shop_personalDataText">
+				###LABEL_PERSONAL_INFO_DELIVERY_TEXT###
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_NAME######REQUIRED_DELIVERY_INFO_NAME###</div>
+					<div class="shop_fieldInput"><input tabindex="18" maxlength="240" type="text" name="tx_extendedshop_pi1[delivery][NAME]" value="###DELIVERY_NAME###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_EMAIL######REQUIRED_DELIVERY_INFO_EMAIL###</div>
+					<div class="shop_fieldInput"><input tabindex="22" maxlength="80" type="text" name="tx_extendedshop_pi1[delivery][EMAIL]" value="###DELIVERY_EMAIL###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ADDRESS######REQUIRED_DELIVERY_INFO_ADDRESS###</div>
+					<div class="shop_fieldInput"><textarea tabindex="19" name="tx_extendedshop_pi1[delivery][ADDRESS]" cols="15" rows="2">###DELIVERY_ADDRESS###</textarea></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ZIP######REQUIRED_DELIVERY_INFO_ZIP###</div>
+					<div class="shop_fieldInput"><input tabindex="23" maxlength="20" type="text" name="tx_extendedshop_pi1[delivery][ZIP]" value="###DELIVERY_ZIP###" /></div>
+				</div>
+				<div class="shop_DXcontainerDouble">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_CITY######REQUIRED_DELIVERY_INFO_CITY###</div>
+					<div class="shop_fieldInput"><input tabindex="24" maxlength="80" type="text" name="tx_extendedshop_pi1[delivery][CITY]" value="###DELIVERY_CITY###" /></div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_STATE######REQUIRED_DELIVERY_INFO_STATE###</div>
+					<div class="shop_fieldInput"><input tabindex="20" maxlength="240" type="text" name="tx_extendedshop_pi1[delivery][STATE]" value="###DELIVERY_STATE###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_COUNTRY######REQUIRED_DELIVERY_INFO_COUNTRY###</div>
+					<!-- <div class="shop_fieldInput"><input maxlength="30" type="text" name="tx_extendedshop_pi1[delivery][COUNTRY]" value="###DELIVERY_COUNTRY###" /></div> -->
+					<div class="shop_fieldInput" tabindex="25">###SHIPPING_SELECTOR###</div>
+				</div>
+			</div>
+			<div class="shop_dataRowContainer">
+				<div class="shop_SXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_PHONE######REQUIRED_DELIVERY_INFO_PHONE###</div>
+					<div class="shop_fieldInput"><input tabindex="21" maxlength="30" type="text" name="tx_extendedshop_pi1[delivery][PHONE]" value="###DELIVERY_PHONE###" /></div>
+				</div>
+				<div class="shop_DXcontainer">
+					<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_MOBILE######REQUIRED_DELIVERY_INFO_MOBILE###</div>
+					<div class="shop_fieldInput"><input tabindex="26" maxlength="30" type="text" name="tx_extendedshop_pi1[delivery][MOBILE]" value="###DELIVERY_MOBILE###"/></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="shop_noteButtons">
+	
+		<input type="hidden" name="tx_extendedshop_pi1[personal][NAME]" value="###PERSONAL_NAME###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][COMPANY]" value="###PERSONAL_COMPANY###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][ADDRESS]" value="###PERSONAL_ADDRESS###"/>
+		<input type="hidden" name="tx_extendedshop_pi1[personal][CITY]" value="###PERSONAL_CITY###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][ZIP]" value="###PERSONAL_ZIP###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][PRIVATE]" value="###PERSONAL_PRIVATE###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][STATE]" value="###PERSONAL_STATE###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][COUNTRY]" value="###PERSONAL_COUNTRY_CODE###" ###PERSONAL_CONTRY### />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][VATCODE]" value="###PERSONAL_VATCODE###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][MOBILE]" value="###PERSONAL_MOBILE###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][PHONE]" value="###PERSONAL_PHONE###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][FAX]" value="###PERSONAL_FAX###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][EMAIL]" value="###PERSONAL_EMAIL###" />
+		<input type="hidden" name="tx_extendedshop_pi1[personal][WWW]" value="###PERSONAL_WWW###" />
+	
+		<input type="submit" name="tx_extendedshop_pi1[new]" value="###LABEL_PERSONAL_INFO_NEW###" />
+	</div>
+	</form>
+</div>	
+<!-- ###PERSONAL_INFO### -->
+<!-- ###USER_REGISTRED_TEMPLATE### end -->
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>FINALIZE_TEMPLATE</h3>
+<em>This subpart is used to display results of ordering.</em><br />
+<br />
+<br />
+<!-- ###FINALIZE_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###PERSONAL_INFO### -->
+<div id="containerShop">
+	<div id="shop_completedContainer">
+		<div id="shop_completedTitle">
+			###LABEL_BASKET_FINALIZE_TITLE###
+		</div>
+		<div id="shop_completedText">
+			###LABEL_BASKET_FINALIZE_TEXT###
+			<!-- ###PAYMENT_INFO### -->
+				<div id="shop_paymentInfo">###INFO_PAGAMENTO###</div>
+			<!-- ###PAYMENT_INFO### -->
+				<div class="shop_paymentInfo">###BANK_RESULT###</div>
+		</div>
+	</div>
+	<div id="shop_spacer">&nbsp;
+	</div>
+	<div id="shop_invoiceContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_INVOICING###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_INVOICING_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_NAME###</div>
+				<div class="shop_fieldInput">###PERSONAL_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COMPANY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COMPANY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+				<div class="shop_addressFieldTitle">###LABEL_PERSONAL_INFO_ADDRESS###</div>
+				<div class="shop_addressOutput">###PERSONAL_ADDRESS###</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_CITY###</div>
+				<div class="shop_fieldInput">###PERSONAL_CITY###</div>
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###PERSONAL_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PRIVATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PRIVATE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_STATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_VATCODE###</div>
+				<div class="shop_fieldInput">###PERSONAL_VATCODE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COUNTRY###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###PERSONAL_MOBILE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_FAX###</div>
+				<div class="shop_fieldInput">###PERSONAL_FAX###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###PERSONAL_EMAIL###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_WWW###</div>
+				<div class="shop_fieldInput">###PERSONAL_WWW###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input disabled type="checkbox" name="tx_extendedshop_pi1[personal][AUTHORIZATION]" value="1"###PERSONAL_AUTHORIZATION_V### /></div>
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_AUTHORIZATION###</div>
+			</div>
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input disabled type="checkbox" name="tx_extendedshop_pi1[personal][CONDITIONS]" value="1"###PERSONAL_CONDITIONS_V### /></div>
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_CONDITIONS###</div>
+			</div>
+		</div>
+	</div>
+<!-- ###PERSONAL_INFO_DELIVERY### -->	
+	<div id="shop_deliveryContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_DELIVERY###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_DELIVERY_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_NAME###</div>
+				<div class="shop_fieldInput">###DELIVERY_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###DELIVERY_EMAIL###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ADDRESS###</div>
+				<div class="shop_fieldInput">###DELIVERY_ADDRESS###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###DELIVERY_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainerDouble">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_CITY###</div>
+				<div class="shop_fieldInput">###DELIVERY_CITY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_STATE###</div>
+				<div class="shop_fieldInput">###DELIVERY_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###DELIVERY_COUNTRY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###DELIVERY_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###DELIVERY_MOBILE###</div>
+			</div>
+		</div>
+	</div>
+<!-- ###PERSONAL_INFO_DELIVERY### -->
+<!-- ###PERSONAL_INFO### -->
+
+<!-- ###PRODUCTS### -->
+<!-- ###INTRO### -->
+<!-- ###INTRO### -->
+<!-- ###HEADER### -->
+	<div id="shop_basketIntro">
+		###LABEL_BASKET_ARTICOLI###
+	</div>
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+	<div class="shop_productBasketContainer">
+		<div class="shop_basketImage">
+			###PRODUCT_IMAGE###
+		</div>
+		<div class="shop_basketPrice">
+			<div class="shop_basketProductPrice">
+				###LABEL_TOTAL_PRODUCT_PRICE### ###PRODUCT_TOTAL_PRICE### ###PRODUCT_TOTAL_PRICE_B###
+			</div>
+		</div>
+		<div class="shop_basketData">
+			<div class="shop_basketProductTitle">
+				###PRODUCT_TITLE###
+			</div>
+			<div class="shop_basketProductCode">
+				###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+			</div>
+			<!-- ###PRICE### -->
+			<div class="shop_price">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<!-- ###PRICE### -->
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_oldPrice">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<div class='shop_offer'>
+				<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+				<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+			</div>
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_optionsContainer">
+				<!-- ###COMBINATIONS### -->
+				###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+				<!-- ###COMBINATIONS### --> 
+			</div>
+			<div class="shop_basketProductQuantity">
+				###LABEL_QUANTITY###: ###PRODUCT_QUANTITY###
+			</div>
+		</div>
+	</div>
+<!-- ###LIST### -->
+<!-- ###PRODUCTS### -->
+<!-- ###SHIPPING### -->
+	<div id="shop_shippingContainer">
+		<div id="shop_shippingTitle">
+			###LABEL_BASKET_SHIPPING_TITLE###
+		</div>
+		<div id="shop_shippingInputFinal">
+			###SHIPPING_TITLE###
+		</div>
+		<div id="shop_shippingPrice">
+			<!-- ###FREESHIPPING_NO### -->###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_SHIPPING_TAX### ###PRICE_SHIPPING_TAX_B###<!-- ###FREESHIPPING_NO### -->
+			<!-- ###FREESHIPPING_YES### -->###PRICE_SHIPPING_TAX###<!-- ###FREESHIPPING_YES### -->
+		</div>
+	</div>
+	<div id="shop_paymentContainer">
+		<div id="shop_paymentTitle">
+			###LABEL_BASKET_PAYMENT_TITLE###
+		</div>
+		<div id="shop_paymentInputFinal">
+			###PAYMENT_TITLE###
+		</div>
+		<div id="shop_paymentPrice">
+			###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_PAYMENT_TAX### ###PRICE_PAYMENT_TAX_B###
+		</div>
+	</div>
+<!-- ###SHIPPING### -->
+<!-- ###FOOTER### -->
+	<div id="shop_basketTotalContainer">
+		<div class="shop_basketImage">
+		</div>
+		<div class="shop_basketPrice">
+			<div id="shop_basketTotalPrice">
+				###LABEL_BASKET_TOTAL### ###BASKET_TOTAL### ###BASKET_TOTAL_B###
+			</div>
+		</div>
+		<div class="shop_basketData">
+		</div>
+	</div>
+	<div id="shop_noteContainer">
+		<div id="shop_noteTitle">###LABEL_BASKET_NOTE###</div>
+		<div id="shop_noteInput">
+			###PERSONAL_NOTE###
+		</div>
+	</div>
+	<div id="shop_companyDataContainer">
+		###LABEL_COMPANYDATA###
+	</div>
+	<div id="shop_print">
+		<a href="javascript:window.print()" title="###LABEL_BASKET_STAMPA###">###LABEL_BASKET_STAMPA###</a>
+	</div>
+</div>
+<!-- ###FOOTER### -->
+<!-- ###FINALIZE_TEMPLATE### end -->
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>NEWUSER_TEMPLATE</h3>
+<em>This subpart is used to display the basket with all the products.</em><br />
+<br />
+<br />
+<!-- ###NEWUSER_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<b>###LABEL_NEWUSER_TITLE###</b><br /><br />
+	###LABEL_NEWUSER_TEXT###<br /><br />
+	###LABEL_NEWUSER_USER###: ###NEWUSER_USER###<br />
+	###LABEL_NEWUSER_PASS###: ###NEWUSER_PASS###<br />
+</div>
+<!-- ###NEWUSER_TEMPLATE### end -->
+
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ONLINEBANK_TEMPLATE</h3>
+<em>
+Subpart used to connect to an on-line bank.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###ONLINEBANK_TEMPLATE### begin
+	Subpart used if the order has to be payed with credit card to Banca Sella
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<div id="shop_bankContainer">
+		<div id="shop_bankTitle">
+			###LABEL_BANCA_TITOLO###
+		</div>
+		<div id="shop_bankText">
+			###LABEL_BANCA_TESTO###
+		</div>
+		<div class="shop_bankPrice">###LABEL_BASKET_TOTAL### ###BASKET_TOTAL###</div>
+		<div class="shop_bankLink">
+			<a href="###FORM_URL_ONLINEBANK###">###LABEL_BANCA_LINK###</a>
+		</div>
+	</div>
+</div>
+<!-- ###ONLINEBANK_TEMPLATE### end -->
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>AUTHORIZE_TEMPLATE</h3>
+<em>
+Subpart used to connect to Authorize.net on-line bank.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###AUTHORIZE_TEMPLATE### begin
+	Subpart used if the order has to be payed with credit card to Banca Sella
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<div id="shop_bankContainer">
+		<div id="shop_bankTitle">
+			###LABEL_BANCA_TITOLO###
+		</div>
+		<div id="shop_bankText">
+			###LABEL_BANCA_TESTO###
+		</div>
+		<div id="shop_bankPrice">###LABEL_BASKET_TOTAL### ###BASKET_TOTAL###</div>
+		<div class="shop_bankLink">
+			<form name="authorize" action="###form_URL_ONLINEBANK###" method="post">
+				<input type="hidden" name="x_login" value="###LOGIN_ID###" />
+				<input type="hidden" name="x_amount" value="###BASKET_TOTAL_NOformAT###" />
+				<input type="hidden" name="x_show_form" value="PAYMENT_form" />
+				<input type="hidden" name="x_test_request" value="TRUE" />
+				<input type="hidden" name="x_cust_id" value="###ORDER_TRACKING_NO###" />
+				<input type="hidden" name="x_relay_response" value="True" />
+				<input type="hidden" name="x_relay_url" value="###RETURN_LINK###" />
+				###FINGERPRINT_FIELDS###
+				<input type="submit" name="authorize_submit" value="###LABEL_BANCA_LINK###" />
+			</form>
+		</div>
+	</div>
+</div>
+<!-- ###AUTHORIZE_TEMPLATE### end -->
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>AUTHORIZE_TEMPLATE</h3>
+<em>
+Subpart used to connect to Authorize.net on-line bank.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###AUTHORIZE_ERROR_TEMPLATE### begin
+	Subpart used if the gateway Authorize.net doesn't accept the transaction
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<div id="shop_bankContainer">
+		<div id="shop_bankTitle">
+			###LABEL_AUTHORIZE_ERROR_TITLE###
+		</div>
+		<div id="shop_bankText">
+			###LABEL_AUTHORIZE_ERROR_TEXT###
+		</div>
+	</div>
+</div>
+<!-- ###AUTHORIZE_ERROR_TEMPLATE### end -->
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ORDERSINFO_TEMPLATE</h3>
+<em>
+Subpart used to display the orders info for the logged user.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###ORDERSINFO_TEMPLATE### begin
+	Subpart used if the gateway Authorize.net doesn't accept the transaction
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+
+<div id="ordersInfo">
+
+<!-- ###ORDERS_EMPTY### -->
+###LABEL_EMPTYORDERS_LIST###
+<!-- ###ORDERS_EMPTY### -->
+
+<!-- ###ORDERS_LIST### -->
+<!-- ###PAGE_ZONE### -->
+	<div id="shop_orders_linkPages">
+	  <a href="###ORDER_VIEWALL###">###LABEL_SHOW_ALL###</a> | ###ORDER_PAGES###
+	</div>
+<!-- ###PAGE_ZONE### -->
+	<table>
+		<thead>
+			<tr>
+				<th nowrap="true">###LABEL_NUMBER###</th>
+				<th nowrap="true">###LABEL_DATE###</th>
+				<th nowrap="true">###LABEL_SHIPPINGCUSTOMER###</th>
+				<th style="text-align:right" nowrap="true">###LABEL_PRODUCTS###</th>
+				<th style="text-align:right" nowrap="true">###LABEL_BASKET_TOTAL###</th>
+				<th nowrap="true">###LABEL_ORDERSTATUS###</th>
+				<th nowrap="true">###LABEL_DELIVERYDATE###</th>
+				<th nowrap="true">###LABEL_SHIPPING_TRACKING###</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- ###ORDER_ROW### -->
+				<tr class="###BACKGROUND###" onclick="window.location.href='###ORDER_DETAILS###'" style="cursor:pointer" onmouseover="this.className='hover'" onmouseout="this.className='###BACKGROUND###'">
+					<td><span class="bold">###ORDER_NUMBER###</span></td>
+					<td>###ORDER_DATE###</td>
+					<td>###DELIVERYTO_NAME###</td>
+					<td style="text-align:right">###ORDER_NUMPRODUCTS###</td>
+					<td style="text-align:right">###ORDER_TOTAL###</td>
+					<td>###ORDER_STATUS###</td>
+					<td>###ORDER_DELIVERYDATE###</td>
+					<td>###ORDER_SHIPPING_TRACKING###</td>
+				</tr>
+			<!-- ###ORDER_ROW### -->			
+		</tbody>
+	</table>
+</div>
+<!-- ###ORDERS_LIST### -->
+
+</div>
+<!-- ###ORDERSINFO_TEMPLATE### end -->
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ORDERSINFO_TEMPLATE_DETAIL</h3>
+<em>
+Subpart used to display the orders info for the logged user.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###ORDERSINFO_TEMPLATE_DETAIL### begin
+	Subpart used if the gateway Authorize.net doesn't accept the transaction
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+
+<div id="ordersInfo">
+<!-- ###PAGE_ZONE### -->
+	<div id="shop_orders_linkPages">
+	  ###RETURN_LINK###
+	</div>
+<!-- ###PAGE_ZONE### -->
+	<div id="shop_orderDetail_data">
+	<table>
+		<!-- ###ORDER_ROW### -->
+		<tr class="even">
+			<th>###LABEL_NUMBER###</th>
+			<td>###ORDER_NUMBER###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_DATE###</th>
+			<td>###ORDER_DATE###</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_CUSTOMER###</th>
+			<td>###CUSTOMER_NAME###<br />
+				###CUSTOMER_ADDRESS###<br />
+				###CUSTOMER_ZIP### ###CUSTOMER_CITY###<br />
+				###CUSTOMER_COUNTRY###<br />
+				###CUSTOMER_VATCODE###
+			</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_SHIPPINGCUSTOMER###</th>
+			<td>###DELIVERYTO_NAME###<br />
+				###DELIVERYTO_ADDRESS###<br />
+				###DELIVERYTO_ZIP### ###DELIVERYTO_CITY###<br />
+				###DELIVERYTO_COUNTRY###<br />
+				###DELIVERYTO_VATCODE###
+			</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_BASKET_SHIPPING_TITLE###</th>
+			<td>###ORDER_SHIPPING###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_BASKET_SHIPPING_COST###</th>
+			<td>###ORDER_SHIPPING_COST###</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_BASKET_PAYMENT_TITLE###</th>
+			<td>###ORDER_PAYMENT###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_BASKET_PAYMENT_COST###</th>
+			<td>###ORDER_PAYMENT_COST###</td>
+		</tr>
+		<tr class="even total">
+			<th>###LABEL_BASKET_TOTAL###</th>
+			<td>###ORDER_TOTAL###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_ORDERSTATUS###</th>
+			<td>###ORDER_STATUS###</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_DELIVERYDATE###</th>
+			<td>###ORDER_DELIVERYDATE###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_SHIPPING_TRACKING###</th>
+			<td>###ORDER_SHIPPING_TRACKING###</td>
+		</tr>
+		<!-- ###ORDER_ROW### -->
+		<!-- ###ROW_TEMPLATE### -->
+		<tr><td colspan="2">
+			<h3>###LABEL_ARTICLES###</h3>
+			<!-- ###SINGLE_ROW### -->
+			<table id="shop_orderDetail_articles">
+				<tr>
+					<td colspan="2">
+						<div class="bold">###LABEL_ITEMNUMBER### ###PRODUCT_CODE###</div>
+						###PRODUCT_TITLE###<br />
+						###PRODUCT_COMBINATIONS###<br />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align:center">
+						###PRODUCT_IMAGE###
+					</td>
+				</tr>
+				<tr>
+					<th>###LABEL_QUANTITY###</th>
+					<td>###PRODUCT_QUANTITY###</td>
+				</tr>
+				<tr>
+					<th>###LABEL_PRICE###</th>
+					<td>###PRODUCT_PRICE###</td>
+				</tr>
+				<tr>
+					<th>###LABEL_TOTAL_PRODUCT_PRICE###</th>
+					<td>###PRODUCT_TOTAL_PRICE###</td>
+				</tr>
+			</table>
+			<!-- ###SINGLE_ROW### -->
+		</td></tr>
+		<!-- ###ROW_TEMPLATE### -->
+	</table>
+	</div>
+	<div id="shop_orderDetail_comments">
+		<!-- ###ROW_COMMENTS### -->
+		<h3>###LABEL_COMMENT_AREA###</h3>
+	<table>
+		<tbody>	
+			<tr>
+				<th>###LABEL_COMMENT_DATA###</th>
+				<th colspan="3">###LABEL_COMMENT_MESSAGE###</th>
+				<th>###LABEL_COMMENT_USERID###</th>
+				<th>###LABEL_COMMENT_BEID###</th>
+			</tr>
+
+			<!-- ###SINGLE_COMMENT### -->
+				<tr class="###BACKGROUND_COMMENT###">
+					<td>###COMMENT_DATETIME###
+					</td>
+					<td colspan="3">###COMMENT_TEXT###</td>
+					<td>
+						###COMMENT_USERID###
+					</td>
+					<td>###COMMENT_BEID###</td>
+				</tr>
+			<!-- ###SINGLE_COMMENT### -->
+		</tbody>
+	</table>
+	<form name="comment_add" action="###FORM_ADD_COMMENT###" method="post">
+		<textarea name="tx_extendedshop_pi1[comment]" cols="25" rows="5">###PERSONAL_COMMENT###</textarea>
+		<!-- <input type="hidden" name="tx_extendedshop_pi1[orderid]" value="###ORDER_ID###"> -->
+		<br/>
+		<input name="comment_submit" type="submit" value="###LABEL_SEND_COMMENT###">
+	</form>
+	<!-- ###ROW_COMMENTS### -->
+	</div>	
+</div>
+</div>
+<!-- ###ORDERSINFO_TEMPLATE_DETAIL### end -->
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>BANK_FAILED_TEMPLATE</h3>
+<em>
+Subpart used for failed on-line payments.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###BANK_FAILED_TEMPLATE### begin
+	Subpart used if the gateway Authorize.net doesn't accept the transaction
+-->
+<div id="containerShop">
+<!-- 
+	This shop extension for TYPO3 is brought to you by WEBformAT srl - http://www.webformat.com
+	WEBformAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	<div id="shop_bankContainer">
+		<div id="shop_bankTitle">
+			###LABEL_BANK_FAILED_TITLE###
+		</div>
+		<div id="shop_bankText">
+			###LABEL_BANK_FAILED_TEXT###
+		</div>
+	</div>
+</div>
+<!-- ###BANK_FAILED_TEMPLATE### end -->
+
+
+
+
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ITEM_PREVIEW_TEMPLATE</h3>
+<em>This subpart is used to display the data of one product after an AJAX call.</em><br />
+<br />
+<br />
+<!-- ###ITEM_PREVIEW_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###HEADER### -->
+<div id="shop_product_preview_###PRODUCT_UID###" style="display: none;">
+
+<!-- ###HEADER### -->
+<!-- ###DETAIL### -->
+
+	<div id="shop_detailContainter">
+		<table>
+			<tr>
+				<td rowspan=2>
+					<div id="shop_imageContainer">
+						###PRODUCT_IMAGE###
+						###PRODUCT_IMAGE1###
+						###PRODUCT_IMAGE2###
+					</div>
+				</td>
+				<td class="shop_description">
+					<div id="shop_titleContainer">
+						<div id="shop_title">
+							###PRODUCT_TITLE### ###XAJAX_CLOSE###
+						</div>
+						<div id="shop_code">
+							###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+						</div>
+					</div>
+					<!-- ###CATEGORY_VISUAL### -->
+					###LABEL_CATEGORY### ###CATEGORY_TITLE###<br />
+					<!-- ###CATEGORY_VISUAL### -->
+					<br />
+					###PRODUCT_DESCRIPTION###<br />
+					###LABEL_PAGE_LIST###<br />
+					###LINK_PAGE_LIST###<br />
+					###LABEL_DOC_LIST###<br />
+					###LINK_DOC_LIST###<br />
+					<br />
+					###LABEL_SUPPLIER### ###VALUE_SUPPLIER###
+				</td>
+			</tr>
+			<tr>
+				<td class="shop_purchaseFormContainer">
+				<!-- ###PRICE### -->
+				<div class="shop_price">
+					###LABEL_PRICE### ###PRODUCT_PRICE### (###PRODUCT_PRICE_B###)
+				</div>
+				<!-- ###PRICE### -->
+				<!-- ###PRICEDISCOUNT### -->
+				<div class="shop_oldPrice">
+					###LABEL_PRICE### ###PRODUCT_PRICE### (###PRODUCT_PRICE_B###)
+				</div>
+				<div class='shop_offer'>
+					<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+					<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+				</div>
+				<!-- ###PRICEDISCOUNT### -->
+				<div class="shop_optionsContainer">
+					<!-- ###COMBINATIONS### -->
+					###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES###
+					<!-- ###COMBINATIONS### -->
+				</div>
+				<div class="shop_basketContainer">
+					###PRODUCT_QUANTITY_SELECTOR### &nbsp; <input type="image" name="tx_extendedshop_pi1[add]" src="typo3conf/ext/extendedshop/pi1/carrello.jpg" alt="###LABEL_ADD###" />
+					&nbsp;&nbsp; <a href="#" onclick="###LINK_SUBMIT###">###LABEL_ADD###</a>
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][uid]" value="###PRODUCT_UID###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][page]" value="###PRODUCT_PAGE###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][category]" value="###PRODUCT_CATEGORY###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][price]" value="###PRODUCT_SELLPRICE###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][pricenotax]" value="###PRODUCT_SELLPRICE_NOTAX###" />
+					<input type="hidden" name="tx_extendedshop_pi1[product][###PRODUCT_UID###][combinations]" value="###PRODUCT_COMBINATIONS###" />
+				</div>
+				</td>
+			</tr>
+		</table><br />
+	</div>
+	
+	<!-- ###CORRPRODUCTS### -->
+	<div class="product_slider related_products">
+            <div class="messaging">
+                Please Note: You may have disabled JavaScript and/or CSS. Although this news content will be accessible, certain functionality is unavailable.
+            </div>
+            <!-- <a href="#skip_to_news_1" class="skip">Skip to news content.</a> -->
+            <a href="#" class="prev"><img src="typo3conf/ext/extendedshop/pi1/images/prev.gif" width="16" height="16" alt="Previous" title="Previous" env="images" /></a>
+            <a href="#" class="next"><img src="typo3conf/ext/extendedshop/pi1/images/next.gif" width="16" height="16" alt="Next" title="Next" env="images" /></a>
+            <div class="product_items">
+                <a name="skip_to_news_1"></a>
+                <div class="container fl">
+                	<!-- ###CORRELATED_ROW### -->
+                    <div class="item fl">
+                        <a href="/">###PRODUCT_CORRELATEDPRODUCTS###</a>
+                        <div class="fl">
+                            <p>###PRODUCT_CORRELATEDPRODUCTS_TITLE###</p>
+							<p>###PRODUCT_CORRELATEDPRODUCTS_DESCRIPTION###</p>
+                        </div>
+                    </div>
+					<!-- ###CORRELATED_ROW### -->
+                </div>
+            </div>
+        </div>
+	<!-- ###CORRPRODUCTS### -->
+
+</div>
+<!-- ###DETAIL### -->
+<!-- ###ITEM_PREVIEW_TEMPLATE### end -->
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>FINALIZE_EMAIL_TEMPLATE</h3>
+<em>This subpart is used to send order results to the customer.</em><br />
+<br />
+<br />
+<!-- ###FINALIZE_EMAIL_TEMPLATE### begin
+-->
+<!-- ###PERSONAL_INFO### -->
+<div id="containerShop">
+	<div id="shop_completedContainer">
+		<div id="shop_completedTitle">
+			###LABEL_FINALIZE_EMAIL_TITLE###
+		</div>
+		<div id="shop_completedText">
+			###LABEL_FINALIZE_EMAIL_TEXT###
+			<!-- ###PAYMENT_INFO### -->
+				<div id="shop_paymentInfo">###INFO_PAGAMENTO###</div>
+			<!-- ###PAYMENT_INFO### -->
+				<div class="shop_paymentInfo">###BANK_RESULT###</div>
+		</div>
+	</div>
+	<div id="shop_spacer">&nbsp;
+	</div>
+	<div id="shop_invoiceContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_INVOICING###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_INVOICING_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_NAME###</div>
+				<div class="shop_fieldInput">###PERSONAL_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COMPANY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COMPANY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+				<div class="shop_addressFieldTitle">###LABEL_PERSONAL_INFO_ADDRESS###</div>
+				<div class="shop_addressOutput">###PERSONAL_ADDRESS###</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_CITY###</div>
+				<div class="shop_fieldInput">###PERSONAL_CITY###</div>
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###PERSONAL_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PRIVATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PRIVATE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_STATE###</div>
+				<div class="shop_fieldInput">###PERSONAL_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_VATCODE###</div>
+				<div class="shop_fieldInput">###PERSONAL_VATCODE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###PERSONAL_COUNTRY###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###PERSONAL_MOBILE###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###PERSONAL_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_FAX###</div>
+				<div class="shop_fieldInput">###PERSONAL_FAX###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###PERSONAL_EMAIL###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_PERSONAL_INFO_WWW###</div>
+				<div class="shop_fieldInput">###PERSONAL_WWW###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input disabled type="checkbox" name="tx_extendedshop_pi1[personal][AUTHORIZATION]" value="1"###PERSONAL_AUTHORIZATION_V### /></div>
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_AUTHORIZATION###</div>
+			</div>
+			<div class="shop_authorizationContainer">
+				<div class="shop_authorizationFieldInput"><input disabled type="checkbox" name="tx_extendedshop_pi1[personal][CONDITIONS]" value="1"###PERSONAL_CONDITIONS_V### /></div>
+				<div class="shop_authorizationFieldTitle">###LABEL_PERSONAL_INFO_CONDITIONS###</div>
+			</div>
+		</div>
+	</div>
+<!-- ###PERSONAL_INFO_DELIVERY### -->	
+	<div id="shop_deliveryContainer">
+		<div class="shop_personalDataTitle">
+			###LABEL_PERSONAL_INFO_DELIVERY###
+		</div>
+		<div class="shop_personalDataText">
+			###LABEL_PERSONAL_INFO_DELIVERY_TEXT###
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_NAME###</div>
+				<div class="shop_fieldInput">###DELIVERY_NAME###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_EMAIL###</div>
+				<div class="shop_fieldInput">###DELIVERY_EMAIL###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ADDRESS###</div>
+				<div class="shop_fieldInput">###DELIVERY_ADDRESS###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_ZIP###</div>
+				<div class="shop_fieldInput">###DELIVERY_ZIP###</div>
+			</div>
+			<div class="shop_DXcontainerDouble">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_CITY###</div>
+				<div class="shop_fieldInput">###DELIVERY_CITY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_STATE###</div>
+				<div class="shop_fieldInput">###DELIVERY_STATE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_COUNTRY###</div>
+				<div class="shop_fieldInput">###DELIVERY_COUNTRY###</div>
+			</div>
+		</div>
+		<div class="shop_dataRowContainer">
+			<div class="shop_SXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_PHONE###</div>
+				<div class="shop_fieldInput">###DELIVERY_PHONE###</div>
+			</div>
+			<div class="shop_DXcontainer">
+				<div class="shop_fieldTitle">###LABEL_DELIVERY_INFO_MOBILE###</div>
+				<div class="shop_fieldInput">###DELIVERY_MOBILE###</div>
+			</div>
+		</div>
+	</div>
+<!-- ###PERSONAL_INFO_DELIVERY### -->
+<!-- ###PERSONAL_INFO### -->
+
+<!-- ###PRODUCTS### -->
+<!-- ###INTRO### -->
+<!-- ###INTRO### -->
+<!-- ###HEADER### -->
+	<div id="shop_basketIntro">
+		###LABEL_BASKET_ARTICOLI###
+	</div>
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+	<div class="shop_productBasketContainer">
+		<div class="shop_basketImage">
+			###PRODUCT_IMAGE###
+		</div>
+		<div class="shop_basketPrice">
+			<div class="shop_basketProductPrice">
+				###LABEL_TOTAL_PRODUCT_PRICE### ###PRODUCT_TOTAL_PRICE### ###PRODUCT_TOTAL_PRICE_B###
+			</div>
+		</div>
+		<div class="shop_basketData">
+			<div class="shop_basketProductTitle">
+				###PRODUCT_TITLE###
+			</div>
+			<div class="shop_basketProductCode">
+				###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+			</div>
+			<!-- ###PRICE### -->
+			<div class="shop_price">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<!-- ###PRICE### -->
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_oldPrice">
+				###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+			</div>
+			<div class='shop_offer'>
+				<div class='shop_OfferPrice'>###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###</div>
+				<div class='shop_discount'>###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %</div>
+			</div>
+			<!-- ###PRICEDISCOUNT### -->
+			<div class="shop_optionsContainer">
+				<!-- ###COMBINATIONS### -->
+				###PRODUCT_COLORS### &nbsp;&nbsp; ###PRODUCT_SIZES### 
+				<!-- ###COMBINATIONS### --> 
+			</div>
+			<div class="shop_basketProductQuantity">
+				###LABEL_QUANTITY###: ###PRODUCT_QUANTITY###
+			</div>
+		</div>
+	</div>
+<!-- ###LIST### -->
+<!-- ###PRODUCTS### -->
+<!-- ###SHIPPING### -->
+	<div id="shop_shippingContainer">
+		<div id="shop_shippingTitle">
+			###LABEL_BASKET_SHIPPING_TITLE###
+		</div>
+		<div id="shop_shippingInputFinal">
+			###SHIPPING_TITLE###
+		</div>
+		<div id="shop_shippingPrice">
+			<!-- ###FREESHIPPING_NO### -->###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_SHIPPING_TAX### ###PRICE_SHIPPING_TAX_B###<!-- ###FREESHIPPING_NO### -->
+			<!-- ###FREESHIPPING_YES### -->###PRICE_SHIPPING_TAX###<!-- ###FREESHIPPING_YES### -->
+		</div>
+	</div>
+	<div id="shop_paymentContainer">
+		<div id="shop_paymentTitle">
+			###LABEL_BASKET_PAYMENT_TITLE###
+		</div>
+		<div id="shop_paymentInputFinal">
+			###PAYMENT_TITLE###
+		</div>
+		<div id="shop_paymentPrice">
+			###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_PAYMENT_TAX### ###PRICE_PAYMENT_TAX_B###
+		</div>
+	</div>
+<!-- ###SHIPPING### -->
+<!-- ###FOOTER### -->
+	<div id="shop_basketTotalContainer">
+		<div class="shop_basketImage">
+		</div>
+		<div class="shop_basketPrice">
+			<div id="shop_basketTotalPrice">
+				###LABEL_BASKET_TOTAL### ###BASKET_TOTAL### ###BASKET_TOTAL_B###
+			</div>
+		</div>
+		<div class="shop_basketData">
+		</div>
+	</div>
+	<div id="shop_noteContainer">
+		<div id="shop_noteTitle">###LABEL_BASKET_NOTE###</div>
+		<div id="shop_noteInput">
+			###PERSONAL_NOTE###
+		</div>
+	</div>
+	<div id="shop_companyDataContainer">
+		###LABEL_FINALIZE_EMAIL_FOOTER###
+	</div>
+</div>
+<!-- ###FOOTER### -->
+<!-- ###FINALIZE_EMAIL_TEMPLATE### end -->
+
+
+
+
+
+
+<!-- ###FINALIZE_EMAIL_TEMPLATE_PLAINTEXT### begin -->
+<!-- ###PERSONAL_INFO### -->
+###LABEL_FINALIZE_EMAIL_TITLE###
+
+###LABEL_FINALIZE_EMAIL_TEXT###
+
+<!-- ###PAYMENT_INFO### -->
+###INFO_PAGAMENTO###
+<!-- ###PAYMENT_INFO### -->
+###BANK_RESULT###
+
+*###LABEL_PERSONAL_INFO_INVOICING###*
+###LABEL_PERSONAL_INFO_INVOICING_TEXT###
+
+###LABEL_PERSONAL_INFO_NAME### ###PERSONAL_NAME###
+###LABEL_PERSONAL_INFO_COMPANY### ###PERSONAL_COMPANY###
+###LABEL_PERSONAL_INFO_ADDRESS### ###PERSONAL_ADDRESS###
+###LABEL_PERSONAL_INFO_CITY### ###PERSONAL_CITY###
+###LABEL_PERSONAL_INFO_ZIP### ###PERSONAL_ZIP###
+###LABEL_PERSONAL_INFO_PRIVATE### ###PERSONAL_PRIVATE###
+###LABEL_PERSONAL_INFO_STATE### ###PERSONAL_STATE###
+###LABEL_PERSONAL_INFO_VATCODE### ###PERSONAL_VATCODE###
+###LABEL_PERSONAL_INFO_COUNTRY### ###PERSONAL_COUNTRY###
+###LABEL_PERSONAL_INFO_MOBILE### ###PERSONAL_MOBILE###
+###LABEL_PERSONAL_INFO_PHONE### ###PERSONAL_PHONE###
+###LABEL_PERSONAL_INFO_FAX### ###PERSONAL_FAX###
+###LABEL_PERSONAL_INFO_EMAIL### ###PERSONAL_EMAIL###
+###LABEL_PERSONAL_INFO_WWW### ###PERSONAL_WWW###
+
+<!-- ###PERSONAL_INFO_DELIVERY### -->
+*###LABEL_PERSONAL_INFO_DELIVERY###*
+###LABEL_PERSONAL_INFO_DELIVERY_TEXT###
+			
+###LABEL_DELIVERY_INFO_NAME### ###DELIVERY_NAME###
+###LABEL_DELIVERY_INFO_EMAIL### ###DELIVERY_EMAIL###
+###LABEL_DELIVERY_INFO_ADDRESS### ###DELIVERY_ADDRESS###
+###LABEL_DELIVERY_INFO_ZIP### ###DELIVERY_ZIP###
+###LABEL_DELIVERY_INFO_CITY### ###DELIVERY_CITY###
+###LABEL_DELIVERY_INFO_STATE### ###DELIVERY_STATE###
+###LABEL_DELIVERY_INFO_COUNTRY### ###DELIVERY_COUNTRY###
+###LABEL_DELIVERY_INFO_PHONE### ###DELIVERY_PHONE###
+###LABEL_DELIVERY_INFO_MOBILE### ###DELIVERY_MOBILE###
+<!-- ###PERSONAL_INFO_DELIVERY### -->
+<!-- ###PERSONAL_INFO### -->
+
+<!-- ###PRODUCTS### -->
+<!-- ###INTRO### -->
+<!-- ###INTRO### -->
+<!-- ###HEADER### -->
+*###LABEL_BASKET_ARTICOLI###*
+<!-- ###HEADER### -->
+<!-- ###LIST### -->
+
+###PRODUCT_TITLE###
+###LABEL_ITEMNUMBER### ###PRODUCT_CODE###
+<!-- ###PRICE### -->
+###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+<!-- ###PRICE### -->
+<!-- ###PRICEDISCOUNT### -->
+###LABEL_PRICE### ###PRODUCT_PRICE### ###PRODUCT_PRICE_B###
+###LABEL_OFFERTPRICE### ###PRODUCT_OFFERTPRICE### ###PRODUCT_OFFERTPRICE_B###
+###LABEL_DISCOUNT### ###PRODUCT_DISCOUNT### %
+<!-- ###PRICEDISCOUNT### -->
+<!-- ###COMBINATIONS### -->
+###PRODUCT_COLORS###  ###PRODUCT_SIZES### 
+<!-- ###COMBINATIONS### --> 
+###LABEL_QUANTITY###: ###PRODUCT_QUANTITY###
+###LABEL_TOTAL_PRODUCT_PRICE### ###PRODUCT_TOTAL_PRICE### ###PRODUCT_TOTAL_PRICE_B###
+
+<!-- ###LIST### -->
+<!-- ###PRODUCTS### -->
+<!-- ###SHIPPING### -->
+*###LABEL_BASKET_SHIPPING_TITLE###*
+###SHIPPING_TITLE###
+<!-- ###FREESHIPPING_NO### -->###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_SHIPPING_TAX### ###PRICE_SHIPPING_TAX_B###<!-- ###FREESHIPPING_NO### -->
+<!-- ###FREESHIPPING_YES### -->###PRICE_SHIPPING_TAX###<!-- ###FREESHIPPING_YES### -->
+
+*###LABEL_BASKET_PAYMENT_TITLE###*
+###PAYMENT_TITLE###
+###LABEL_TOTAL_PRODUCT_PRICE### ###PRICE_PAYMENT_TAX### ###PRICE_PAYMENT_TAX_B###
+<!-- ###SHIPPING### -->
+<!-- ###FOOTER### -->
+*###LABEL_BASKET_TOTAL### ###BASKET_TOTAL### ###BASKET_TOTAL_B###*
+
+###LABEL_BASKET_NOTE###
+###PERSONAL_NOTE###
+
+###LABEL_FINALIZE_EMAIL_FOOTER###
+<!-- ###FOOTER### -->
+<!-- ###FINALIZE_EMAIL_TEMPLATE_PLAINTEXT### end -->
+
+
+
+
+<BR /><BR /><BR /><BR /><HR /><BR /><BR /><BR />
+<h3>ORDERSINFO_TEMPLATE_DETAIL</h3>
+<em>
+Subpart used to display the orders info for the logged user.<BR />
+<BR />
+</em><br />
+<br />
+<br />
+<!-- ###PDF_EMAIL_ATTACHMENT### begin
+-->
+	<table>
+		<!-- ###ORDER_ROW### -->
+		<tr class="even">
+			<th>###LABEL_NUMBER###</th>
+			<td>###ORDER_NUMBER###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_DATE###</th>
+			<td>###ORDER_DATE###</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_CUSTOMER###</th>
+			<td>###CUSTOMER_NAME###<br />
+				###CUSTOMER_ADDRESS###<br />
+				###CUSTOMER_ZIP### ###CUSTOMER_CITY###<br />
+				###CUSTOMER_COUNTRY###<br />
+				###CUSTOMER_VATCODE###
+			</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_SHIPPINGCUSTOMER###</th>
+			<td>###DELIVERYTO_NAME###<br />
+				###DELIVERYTO_ADDRESS###<br />
+				###DELIVERYTO_ZIP### ###DELIVERYTO_CITY###<br />
+				###DELIVERYTO_COUNTRY###<br />
+				###DELIVERYTO_VATCODE###
+			</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_BASKET_SHIPPING_TITLE###</th>
+			<td>###ORDER_SHIPPING###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_BASKET_SHIPPING_COST###</th>
+			<td>###ORDER_SHIPPING_COST###</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_BASKET_PAYMENT_TITLE###</th>
+			<td>###ORDER_PAYMENT###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_BASKET_PAYMENT_COST###</th>
+			<td>###ORDER_PAYMENT_COST###</td>
+		</tr>
+		<tr class="even total">
+			<th>###LABEL_BASKET_TOTAL###</th>
+			<td>###ORDER_TOTAL###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_ORDERSTATUS###</th>
+			<td>###ORDER_STATUS###</td>
+		</tr>
+		<tr class="even">
+			<th>###LABEL_DELIVERYDATE###</th>
+			<td>###ORDER_DELIVERYDATE###</td>
+		</tr>
+		<tr class="odd">
+			<th>###LABEL_SHIPPING_TRACKING###</th>
+			<td>###ORDER_SHIPPING_TRACKING###</td>
+		</tr>
+		<!-- ###ORDER_ROW### -->
+		<!-- ###ROW_TEMPLATE### -->
+		<tr><td colspan="2">
+			<h3>###LABEL_ARTICLES###</h3>
+			<!-- ###SINGLE_ROW### -->
+			<table id="shop_orderDetail_articles">
+				<tr>
+					<td colspan="2">
+						<div class="bold">###LABEL_ITEMNUMBER### ###PRODUCT_CODE###</div>
+						###PRODUCT_TITLE###<br />
+						###PRODUCT_COMBINATIONS###<br />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align:center">
+						###PRODUCT_IMAGE###
+					</td>
+				</tr>
+				<tr>
+					<th>###LABEL_QUANTITY###</th>
+					<td>###PRODUCT_QUANTITY###</td>
+				</tr>
+				<tr>
+					<th>###LABEL_PRICE###</th>
+					<td>###PRODUCT_PRICE###</td>
+				</tr>
+				<tr>
+					<th>###LABEL_TOTAL_PRODUCT_PRICE###</th>
+					<td>###PRODUCT_TOTAL_PRICE###</td>
+				</tr>
+			</table>
+			<!-- ###SINGLE_ROW### -->
+		</td></tr>
+		<!-- ###ROW_TEMPLATE### -->
+	</table>
+<!-- ###PDF_EMAIL_ATTACHMENT### end -->
+
+
+</body>
+</html>

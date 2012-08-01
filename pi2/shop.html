@@ -1,0 +1,50 @@
+<h3>MINIBASKET_TEMPLATE</h3>
+<em>This subpart is used to display the basket with all the products.</em><br />
+<br />
+<br />
+<!-- ###MINIBASKET_TEMPLATE### begin
+	This subpart is used to display the regular list of products. It's also used by search-results.
+-->
+<!-- ###EMPTY_MINIBASKET_TEMPLATE### end -->
+<div id="shop_minibasket">
+	
+	<!-- ###XAJAX_SUBPART### -->
+	
+<!-- 
+	This shop extension for TYPO3 is brought to you by Webformat srl - http://www.webformat.com
+	WEBFORMAT SHOP SYSTEM is a free open source extension created by Webformat srl and licensed under GNU/GPL.
+	Information and contribution at http://www.webformat.com - info@webformat.com
+-->
+	###LABEL_BASKET_TOTAL### ###BASKET_TOTAL### ###BASKET_TOTAL_B###<br />
+	###LABEL_BASKET_PRODUCTSQUANTITY### ###BASKET_NUMPRODUCTS###
+	
+	<div id="shop_minibasketButtonsContainer">
+		<div class="shop_basketPrice">
+			<form method="post" action="###FORM_BASKET###">
+				<input type="submit" name="tx_extendedshop_pi2[clear]" value="###LABEL_BASKET_CLEAR###" />
+				<a href="###BASKET_URL###">###LABEL_BASKET_PROCEED###</a>
+			</form>
+		</div>
+	</div>
+	
+	<!-- ###WARNINGS_TEMPLATE### -->
+	###WARNINGS_TEXT###
+	<!-- ###WARNINGS_TEMPLATE### -->
+	
+	<div id="shop_minibasket_message" style="display:none;">
+		###LABEL_BASKET_UPDATED###<br/>
+		<input type="button" onclick="closeCart()" value="###LABEL_CLOSE_CART###"/>
+	</div>
+	
+	<div id="shop_nero"></div>
+	<div id="shop_minibasket_message2" style="display:none">
+		<p>###LABEL_BASKET_UPDATED###<br/>
+			<input type="button" onclick="closeThis()" value="###LABEL_CLOSE_CART###"/>
+		</p>
+	</div>
+	
+	<!-- ###XAJAX_SUBPART### -->
+	
+</div>
+<!-- ###EMPTY_MINIBASKET_TEMPLATE### end -->
+<!-- ###MINIBASKET_TEMPLATE### end -->

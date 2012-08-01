@@ -1,0 +1,12 @@
+
+HOW TO UPGRADE FROM 1.x TO 2.x
+
+When you upgrade a previously installed 1.x Webformat Shop System, you have to pay attention to the users migration: all the customers in 2.x version are FE-users records while in 1.x version are tt_address records.
+To help you during this upgrade phase, you can use an Upgrade Tool. After the installation of the new version, go to the EM and enter in the extension details, you'll find a new voice in the drop-down selection: "UPDATE!". Select this option.
+You'll see the list of the customers of your Shop. You have to select one FE-group (outherwise you can specify a name for a new one): all the new FE-user records will be assigned to this FE-group. Then you can click on the "convert" button and all the tt_address customers will be converted in fe_users customers.
+
+If everything is OK during the conversion, you can provide your customers with a login box to allow them to enter in a restricted area of your site (where probably the ORDERSINFO plugin will be provided).
+
+Hope you will enjoy it :-)
+
+Mauro Lorenzutti

@@ -1,0 +1,134 @@
+# cat=Webformat Shop System/file/01; type=file[html,htm,tmpl,txt]; label= Template File: This is the template file
+plugin.tx_extendedshop_pi1.file.templateFile = EXT:extendedshop/pi1/shop.html
+
+# cat=Webformat Shop System/file/02; type=file[css]; label= CSS File: This is the style file
+plugin.tx_extendedshop_pi1.file.cssFile = EXT:extendedshop/pi1/stileShop.css
+
+# cat=Webformat Shop System/file/03; type=file[css]; label= CSS Mail: This is the style file to be used in the order confirmation email
+plugin.tx_extendedshop_pi1.file.cssMail = EXT:extendedshop/pi1/stileShop.css
+
+# cat=Webformat Shop System/config/03; type=int; label= Number of decimals
+plugin.tx_extendedshop_pi1.priceDec = 2
+
+# cat=Webformat Shop System/config/04; type=string; label= Decimal separator
+plugin.tx_extendedshop_pi1.priceDecPoint = ,
+
+# cat=Webformat Shop System/config/05; type=string; label= Thousand separator
+plugin.tx_extendedshop_pi1.priceThousandPoint = .
+
+# cat=Webformat Shop System/config/06; type=int; label= Click Enlarge List: Set to 1 if you want to open a popup when the user clicks over the image in the list mode. If 0 the image is a link to the detail of the product
+plugin.tx_extendedshop_pi1.clickEnlargeList = 0
+
+# cat=Webformat Shop System/config/07; type=int; label= Click Enlarge Single: Set to 1 if you want to open a popup when the user clicks over the image in the detail mode.
+plugin.tx_extendedshop_pi1.clickEnlarge = 1
+
+# cat=Webformat Shop System/config/08; type=int; label= List Mode: 0 for the sequential listing, 1 for the table listing.
+plugin.tx_extendedshop_pi1.listMode = 1
+
+# cat=Webformat Shop System/config/09; type=int; label= List Mode: If modeImage==0, this is the max number of items to show in a page.
+plugin.tx_extendedshop_pi1.listMaxItems = 5
+
+# cat=Webformat Shop System/config/10; type=int; label= Table Mode: Min-Width of the column.
+plugin.tx_extendedshop_pi1.columnWidth = 140
+
+# cat=Webformat Shop System/config/11; type=int; label= Table Mode: Number of products for row.
+plugin.tx_extendedshop_pi1.numColumns = 4
+
+# cat=Webformat Shop System/config/12; type=int; label= Table Mode: Number of rows for page.
+plugin.tx_extendedshop_pi1.numRows = 2
+
+# cat=Webformat Shop System/config/13; type=int; label= Pid basket
+plugin.tx_extendedshop_pi1.pidBasket = 2
+
+# cat=Webformat Shop System/config/14; type=int; label= Pid user info
+plugin.tx_extendedshop_pi1.pidUserInfo = 
+
+# cat=Webformat Shop System/config/15; type=int; label= Pid payment
+plugin.tx_extendedshop_pi1.pidPayment = 
+
+# cat=Webformat Shop System/config/16; type=int; label= Pid finalize
+plugin.tx_extendedshop_pi1.pidFinalize = 
+
+# cat=Webformat Shop System/config/17; type=int; label= Pid product page
+plugin.tx_extendedshop_pi1.pidProductPage = 
+
+# cat=Webformat Shop System/config/18; type=int; label= Pid category page
+plugin.tx_extendedshop_pi1.pidCategoryPage = 
+
+# cat=Webformat Shop System/config/19; type=int; label= Pid supplier page
+plugin.tx_extendedshop_pi1.pidSupplierPage = 
+
+# cat=Webformat Shop System/config/20; type=int; label= Pid orders
+plugin.tx_extendedshop_pi1.pidOrders = 25
+
+# cat=Webformat Shop System/config/21; type=int; label= Pid delivery
+plugin.tx_extendedshop_pi1.pidDelivery = 25
+
+# cat=Webformat Shop System/config/21; type=int; label= Pid users
+plugin.tx_extendedshop_pi1.pidUsers = 10
+
+# cat=Webformat Shop System/shop/22; type=string; label= Free delivery: Min amount for a free delivery.
+plugin.tx_extendedshop_pi1.freeDelivery = 55,00
+
+# cat=Webformat Shop System/shop/23; type=string; label= Min amount: Min amount for an order.
+plugin.tx_extendedshop_pi1.minAmount = 0,00
+
+# cat=Webformat Shop System/shop/24; type=string; label= Shop Email: order email from.
+plugin.tx_extendedshop_pi1.fromEmail = myShop@mySite.com
+
+# cat=Webformat Shop System/shop/25; type=string; label= Shop Name: order name from.
+plugin.tx_extendedshop_pi1.fromName = myShop
+
+# cat=Webformat Shop System/shop/26; type=string; label= Shop BCC Email: Receiver of the order confiration email (in the bcc field).
+plugin.tx_extendedshop_pi1.bccEmail = myShop@mySite.com
+
+# cat=Webformat Shop System/shop/27; type=int; label= UID WebsiteGroup: uid of the group for new customers.
+plugin.tx_extendedshop_pi1.group_customer = 1
+
+# cat=Webformat Shop System/shop/28; type=int; label= Orders for page: number of orders in a single page in the ORDERSINFO mode.
+plugin.tx_extendedshop_pi1.ordersForPage = 5
+
+# cat=Webformat Shop System/shop/29; type=int; label= In Stock Management: Set to 1 if you want to enable the stock management.
+plugin.tx_extendedshop_pi1.enable_instock_management = 0
+
+# cat=Webformat Shop System/shop/30; type=int; label= In Product Management: Set to 0 if you want to go to the basket after the insertin product, set to 1 if you want to remain in the same page after the insertion of the product.
+plugin.tx_extendedshop_pi1.insertProduct_nextPage = 0
+
+# cat=Webformat Shop System/shop/31; type=string; label= Order code: string to prepend to the order number.
+plugin.tx_extendedshop_pi1.orderCode = order_
+
+# cat=Webformat Shop System/shop/32; type=int; label= Enable Static Info Table: Set to 0 if you want want to mantain the old management, set to 1 if you want to menage shipping with static_info_table.
+plugin.tx_extendedshop_pi1.enableStaticInfoTable = 1
+
+# cat=Webformat Shop System/shop/33; type=int; label= Enable User Management: Set to 0 if you want want to mantain the old management, set to 1 if you want to menage users with external extensions.
+plugin.tx_extendedshop_pi1.enableUserManagement = 1
+
+# cat=Webformat Shop System/shop/34; type=int; label= Managing resellers: Indicate the resellers ID group for a different price management for resellers
+plugin.tx_extendedshop_pi1.resellersGroupID = 
+
+# cat=Webformat Shop System/shop/35; type=int; label= Minimum inStock product: Under the quantity the system will advice by mail for the critical quantity
+plugin.tx_extendedshop_pi1.allert_instock_management =
+
+# cat=Webformat Shop System/shop/36; type=int; label= Hide no tax: Set to 1 if you want want hide the NoTax price for non-business customers.
+plugin.tx_extendedshop_pi1.hideNoTax = 0
+
+# cat=Webformat Shop System/shop/37; type=string; label= Wrapper for price B: defines how to wrap the NoTax price.
+plugin.tx_extendedshop_pi1.wrapPriceB = (|)
+
+# cat=Webformat Shop System/shop/38; type=int; label= Tax percent: default tax value
+plugin.tx_extendedshop_pi1.taxPercent = 20
+
+# cat=Webformat Shop System/shop/39; type=int; label= Disable Italian VAT management: set it to 0 to enable custom Italian VAT management
+plugin.tx_extendedshop_pi1.disableVATUserCheck = 1
+
+# cat=Webformat Shop System/shop/40; type=string; label=Wrapper for warnings in basket and minibasket
+plugin.tx_extendedshop_pi1.wrapWarnings = <p>|</p>
+
+# cat=Webformat Shop System/shop/41; type=int; label= Tax Mode: Set to 1 if you want to insert price tax esclusive.
+plugin.tx_extendedshop_pi1.taxMode = 0
+
+# cat=Webformat Shop System/shop/42; type=int; label= Debug Mode: Set to 1 if you want to view debug output.
+plugin.tx_extendedshop_pi1.debug = 0
+
+# cat=Webformat Shop System/shop/43; type=int; label= Show original price: Set to 1 if you want to view the original price if a user or usergroup have a discount.
+plugin.tx_extendedshop_pi1.showOriginalPrice = 0

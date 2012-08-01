@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Tables and fields labels</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="fe_users.tx_extendedshop_vatcode">Vat Code</label>
+            <label index="fe_users.tx_extendedshop_mobile">Mobile</label>
+            <label index="fe_users.tx_extendedshop_state">State</label>
+            <label index="fe_users.tx_extendedshop_private.I.0">Private</label>
+            <label index="fe_users.tx_extendedshop_private.I.1">Company</label>
+            <label index="fe_users.tx_extendedshop_private">Private</label>
+            <label index="fe_users.tx_extendedshop_privacy">Privacy</label>
+            <label index="tt_address.tx_extendedshop_vatcode">Vat Code</label>
+            <label index="tt_address.tx_extendedshop_state">State</label>
+            <label index="tt_address.tx_extendedshop_private.I.0">Private</label>
+            <label index="tt_address.tx_extendedshop_private.I.1">Company</label>
+            <label index="tt_address.tx_extendedshop_private">Private</label>
+            <label index="tx_extendedshop_category">WebformatShop - Category</label>
+            <label index="tx_extendedshop_category.code">Code</label>
+            <label index="tx_extendedshop_category.title">Title</label>
+            <label index="tx_extendedshop_category.summary">Summary</label>
+            <label index="tx_extendedshop_category.description">Description</label>
+            <label index="tx_extendedshop_category.image">Image</label>
+            <label index="tx_extendedshop_orders">WebformatShop - Order</label>
+            <label index="tx_extendedshop_orders.code">Order Code</label>
+            <label index="tx_extendedshop_orders.customer">Customer</label>
+            <label index="tx_extendedshop_orders.shippingcustomer">Shipping Customer</label>
+            <label index="tx_extendedshop_orders.date">Date</label>
+            <label index="tx_extendedshop_orders.shipping">Shipping</label>
+            <label index="tx_extendedshop_orders.payment">Payment</label>
+            <label index="tx_extendedshop_orders.shipping_cost">Shipping cost</label>
+            <label index="tx_extendedshop_orders.payment_cost">Payment cost</label>
+            <label index="tx_extendedshop_orders.total">Total</label>
+            <label index="tx_extendedshop_orders.total_notax">Total No Tax</label>
+            <label index="tx_extendedshop_orders.weight">Weight</label>
+            <label index="tx_extendedshop_orders.volume">Volume</label>
+            <label index="tx_extendedshop_orders.trackingcode">Tracking-code</label>
+            <label index="tx_extendedshop_orders.state">Order State</label>
+            <label index="tx_extendedshop_orders.ip">IP</label>
+            <label index="tx_extendedshop_orders.note">Note</label>
+            <label index="tx_extendedshop_orders.status">Order status</label>
+            <label index="tx_extendedshop_orders.deliverydate">Delivery date</label>
+            <label index="tx_extendedshop_orders.complete">Completed?</label>
+            <label index="tx_extendedshop_orders.ordernote">Order note</label>
+            <label index="tx_extendedshop_orders.shipping_tracking">Shipping tracking code</label>
+            <label index="tx_extendedshop_rows">WebformatShop - Order Rows</label>
+            <label index="tx_extendedshop_rows.ordercode">Order Code</label>
+            <label index="tx_extendedshop_rows.productcode">Product Code</label>
+            <label index="tx_extendedshop_rows.quantity">Quantity</label>
+            <label index="tx_extendedshop_rows.price">Price</label>
+            <label index="tx_extendedshop_rows.weight">Weight</label>
+            <label index="tx_extendedshop_rows.volume">Volume</label>
+            <label index="tx_extendedshop_rows.state">State</label>
+            <label index="tx_extendedshop_rows.itemcode">Item code</label>
+            <label index="tx_extendedshop_rows.options">Options</label>
+            <label index="tx_extendedshop_products">WebformatShop - Products</label>
+            <label index="tx_extendedshop_products.code">Itemnumber</label>
+            <label index="tx_extendedshop_products.title">Title</label>
+            <label index="tx_extendedshop_products.pagetitle">Page Title</label>
+            <label index="tx_extendedshop_products.summary">Summary</label>
+            <label index="tx_extendedshop_products.description">Description</label>
+            <label index="tx_extendedshop_products.image">Image</label>
+            <label index="tx_extendedshop_products.price">Price</label>
+            <label index="tx_extendedshop_products.pricenotax">Price No Tax</label>
+            <label index="tx_extendedshop_products.instock">In Stock</label>
+            <label index="tx_extendedshop_products.category">Category</label>
+            <label index="tx_extendedshop_products.www">WWW</label>
+            <label index="tx_extendedshop_products.ordered">Ordered</label>
+            <label index="tx_extendedshop_products.weight">Weight</label>
+            <label index="tx_extendedshop_products.volume">Volume</label>
+            <label index="tx_extendedshop_products.correlatedaccessories">Correlated Accessories</label>
+            <label index="tx_extendedshop_products.offertprice">Offert price</label>
+            <label index="tx_extendedshop_products.offertpricenotax">Offert price no tax</label>
+            <label index="tx_extendedshop_products.discount">Discount</label>
+            <label index="tx_extendedshop_products.sizes">Sizes</label>
+            <label index="tx_extendedshop_products.colors">Colors</label>
+            <label index="tx_extendedshop_products.correlatedproducts">Correlated Products</label>
+            <label index="tx_extendedshop_products.lingua">Language</label>
+            <label index="tx_extendedshop_products.parent">Origin</label>
+            <label index="tx_extendedshop_status">WebformatShop - Order status</label>
+            <label index="tx_extendedshop_status.status">Status</label>
+            <label index="tx_extendedshop_status.priority">Priority</label>
+            <label index="tt_content.pi_flexform.sheet_general">General Settings</label>
+            <label index="tt_content.pi_flexform.view_mode">View mode</label>
+            <label index="tt_content.pi_flexform.view_mode.I.1">Products list</label>
+            <label index="tt_content.pi_flexform.view_mode.I.2">Single product</label>
+            <label index="tt_content.pi_flexform.view_mode.I.3">Offers</label>
+            <label index="tt_content.pi_flexform.view_mode.I.4">Search</label>
+            <label index="tt_content.pi_flexform.view_mode.I.5">Andanced search</label>
+            <label index="tt_content.pi_flexform.view_mode.I.6">Orders info</label>
+            <label index="tt_content.pi_flexform.view_mode.I.7">Basket</label>
+            <label index="tt_content.pi_flexform.view_mode.I.8">User Info</label>
+            <label index="tt_content.pi_flexform.view_mode.I.9">Payment</label>
+            <label index="tt_content.pi_flexform.view_mode.I.10">Finalize</label>
+			<label index="tt_content.pi_flexform.view_mode.I.11">User Registred</label>
+			<label index="tt_content.pi_flexform.view_mode.I.12">Product Page</label>
+			<label index="tt_content.pi_flexform.view_mode.I.13">Category Page</label>
+			<label index="tt_content.pi_flexform.view_mode.I.14">Supplier Page</label>
+			<label index="tt_content.pi_flexform.view_mode.I.15">Latest products</label>
+			<label index="tt_content.pi_flexform.view_mode.I.16">Order conversion in PDF</label>
+            <label index="tt_content.list_type_pi1">Webformat Shop System</label>
+			<label index="static_countries.tx_extendedshop_sc_shipping">Shipping Cost</label>
+            <label index="static_territories.tx_extendedshop_st_shipping">Shipping Cost</label>
+			<label index="tx_extendedshop_products.documents">List of document file</label>
+			<label index="tx_extendedshop_products.doc_labels">Documents labels</label>
+            <label index="tx_extendedshop_products.correlatedpage">Correlated Page</label>
+            <label index="tx_extendedshop_products.pricedirect">Direct Price</label>
+            <label index="tx_extendedshop_products.supplier">Supplier</label>
+			<label index="tx_extendedshop_products.thumbtype">Thumbtails type</label>
+			<label index="tx_extendedshop_products.tx_toicategory_toi_category">Categories</label>
+			<label index="fe_users.tx_extendedshop_discount">User Discount</label>
+            <label index="fe_groups.tx_extendedshop_discount">Group Discount</label>
+			<label index="tx_extendedshop_comments">Order Comments</label>
+            <label index="tx_extendedshop_comments.order">Order uid</label>
+            <label index="tx_extendedshop_comments.datetime">Date and Time</label>
+            <label index="tx_extendedshop_comments.userid">User Id</label>
+            <label index="tx_extendedshop_comments.message">Comment</label>
+            <label index="tx_extendedshop_comments.beuser">BE User</label>
+            <label index="tt_content.pi_flexform.sheet_category">Category Settings</label>
+            <label index="tt_content.pi_flexform.category">Categories</label>
+            <label index="tx_extendedshop_shipping">WebformatShop - Shipping methods</label>
+            <label index="tx_extendedshop_shipping.title">Title</label>
+            <label index="tx_extendedshop_shipping.description">Description</label>
+            <label index="tx_extendedshop_shipping.image">Image</label>
+            <label index="tx_extendedshop_shipping.price">Price</label>
+            <label index="tx_extendedshop_shipping.pricenotax">Price No Tax</label>
+            <label index="tx_extendedshop_shippingplace">WebformatShop - Shipping destinations</label>
+            <label index="tx_extendedshop_shippingplace.country">Country</label>
+            <label index="tx_extendedshop_shippingplace.shipping">Shipping methods</label>
+            <label index="tt_content.pi_flexform.sheet_latest">Latest Settings:</label>
+            <label index="tt_content.pi_flexform.limit">Number of products to show:</label>   
+            <label index="tx_extendedshop_vat">VAT options</label>
+            <label index="tx_extendedshop_vat.name">Name</label>
+            <label index="tx_extendedshop_vat.percent">Percent</label>
+            <label index="tx_extendedshop_products.vat">VAT</label>
+            <label index="tx_extendedshop_products.max_for_order">Max items for order</label>
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="tt_content.tx_extendedshop_tx_extendedshop_code">Codice di visualizzazione:</label>
+            <label index="fe_users.tx_extendedshop_vatcode">Partita IVA/Codice Fiscale:</label>
+            <label index="fe_users.tx_extendedshop_mobile">Cellulare:</label>
+            <label index="fe_users.tx_extendedshop_state">Provincia:</label>
+            <label index="fe_users.tx_extendedshop_private.I.0">Privato</label>
+            <label index="fe_users.tx_extendedshop_private.I.1">Azienda</label>
+            <label index="fe_users.tx_extendedshop_private">Status:</label>
+            <label index="fe_users.tx_extendedshop_privacy">Privacy:</label>
+            <label index="tt_address.tx_extendedshop_vatcode">Partita IVA/Codice Fiscale:</label>
+            <label index="tt_address.tx_extendedshop_state">Provincia:</label>
+            <label index="tt_address.tx_extendedshop_private.I.0">Privato</label>
+            <label index="tt_address.tx_extendedshop_private.I.1">Azienda</label>
+            <label index="tt_address.tx_extendedshop_private">Privato:</label>
+            <label index="tx_extendedshop_category">WebformatShop - Categorie:</label>
+            <label index="tx_extendedshop_category.code">Codice:</label>
+            <label index="tx_extendedshop_category.title">Titolo:</label>
+            <label index="tx_extendedshop_category.summary">Sommario:</label>
+            <label index="tx_extendedshop_category.description">Descrizione:</label>
+            <label index="tx_extendedshop_category.image">Immagini:</label>
+            <label index="tx_extendedshop_orders">WebformatShop - Ordini:</label>
+            <label index="tx_extendedshop_orders.code">Codice Ordine:</label>
+            <label index="tx_extendedshop_orders.customer">Cliente:</label>
+            <label index="tx_extendedshop_orders.shippingcustomer">Cliente Destinatario:</label>
+            <label index="tx_extendedshop_orders.date">Data:</label>
+            <label index="tx_extendedshop_orders.shipping">Trasporto:</label>
+            <label index="tx_extendedshop_orders.payment">Pagamento:</label>
+            <label index="tx_extendedshop_orders.shipping_cost">Spese spedizione:</label>
+            <label index="tx_extendedshop_orders.payment_cost">Spese pagamento:</label>
+            <label index="tx_extendedshop_orders.total">Totale:</label>
+            <label index="tx_extendedshop_orders.total_notax">Totale IVA esclusa:</label>
+            <label index="tx_extendedshop_orders.weight">Peso:</label>
+            <label index="tx_extendedshop_orders.volume">Volume:</label>
+            <label index="tx_extendedshop_orders.trackingcode">Tracking-code:</label>
+            <label index="tx_extendedshop_orders.state">Stato dell\'ordine:</label>
+            <label index="tx_extendedshop_orders.ip">IP:</label>
+            <label index="tx_extendedshop_orders.note">Note:</label>
+            <label index="tx_extendedshop_orders.status">Stato dell'ordine:</label>
+            <label index="tx_extendedshop_orders.complete">Completato?</label>
+            <label index="tx_extendedshop_orders.deliverydate">Data di consegna:</label>
+            <label index="tx_extendedshop_orders.ordernote">Note dell'ordine:</label>
+            <label index="tx_extendedshop_orders.shipping_tracking">Tracking della spedizione</label>
+            <label index="tx_extendedshop_rows">WebformatShop - Righe dell'ordine:</label>
+            <label index="tx_extendedshop_rows.ordercode">Codice Ordine:</label>
+            <label index="tx_extendedshop_rows.productcode">Codice Prodotto:</label>
+            <label index="tx_extendedshop_rows.quantity">Quantita:</label>
+            <label index="tx_extendedshop_rows.price">Prezzo:</label>
+            <label index="tx_extendedshop_rows.weight">Peso:</label>
+            <label index="tx_extendedshop_rows.volume">Volume:</label>
+            <label index="tx_extendedshop_rows.state">Stato:</label>
+            <label index="tx_extendedshop_rows.itemcode">Codice articolo:</label>
+            <label index="tx_extendedshop_rows.options">Opzioni:</label>
+            <label index="tx_extendedshop_products">WebformatShop - Prodotti:</label>
+            <label index="tx_extendedshop_products.code">Codice articolo:</label>
+            <label index="tx_extendedshop_products.title">Titolo:</label>
+            <label index="tx_extendedshop_products.pagetitle">Titolo della pagina:</label>
+            <label index="tx_extendedshop_products.summary">Sommario:</label>
+            <label index="tx_extendedshop_products.description">Descrizione:</label>
+            <label index="tx_extendedshop_products.image">Immagini:</label>
+            <label index="tx_extendedshop_products.price">Prezzo:</label>
+            <label index="tx_extendedshop_products.pricenotax">Prezzo IVA esclusa:</label>
+            <label index="tx_extendedshop_products.instock">In Magazzino:</label>
+            <label index="tx_extendedshop_products.category">Categoria:</label>
+            <label index="tx_extendedshop_products.www">WWW:</label>
+            <label index="tx_extendedshop_products.ordered">Ordinato:</label>
+            <label index="tx_extendedshop_products.weight">Peso:</label>
+            <label index="tx_extendedshop_products.volume">Volume:</label>
+            <label index="tx_extendedshop_products.correlatedaccessories">Accessori Correlati:</label>
+            <label index="tx_extendedshop_products.offertprice">Prezzo offerta:</label>
+            <label index="tx_extendedshop_products.offertpricenotax">Prezzo offerta senza IVA:</label>
+            <label index="tx_extendedshop_products.discount">Sconto:</label>
+            <label index="tx_extendedshop_products.sizes">Taglie:</label>
+            <label index="tx_extendedshop_products.colors">Colori:</label>
+            <label index="tx_extendedshop_products.correlatedproducts">Prodotti Correlati:</label>
+            <label index="tt_content.list_type_pi1">Webformat Shop System</label>
+            <label index="tx_extendedshop_products.lingua">Lingua:</label>
+            <label index="tx_extendedshop_products.parent">Origine:</label>
+            <label index="tx_extendedshop_status">WebformatShop - Stato dell'ordine:</label>
+            <label index="tx_extendedshop_status.status">Stato:</label>
+            <label index="tx_extendedshop_status.priority">Priorità:</label>
+            <label index="tt_content.pi_flexform.sheet_general">Setting Generale</label>
+            <label index="tt_content.pi_flexform.view_mode">Tipo di vista:</label>
+            <label index="tt_content.pi_flexform.view_mode.I.1">Lista Prodotti</label>
+            <label index="tt_content.pi_flexform.view_mode.I.2">Prodotto singolo</label>
+            <label index="tt_content.pi_flexform.view_mode.I.3">Offerte</label>
+            <label index="tt_content.pi_flexform.view_mode.I.4">Ricerca</label>
+            <label index="tt_content.pi_flexform.view_mode.I.5">Ricerca Avanzat</label>
+            <label index="tt_content.pi_flexform.view_mode.I.6">Info Ordini</label>
+            <label index="tt_content.pi_flexform.view_mode.I.7">Carrello</label>
+            <label index="tt_content.pi_flexform.view_mode.I.8">Info Utenti</label>
+            <label index="tt_content.pi_flexform.view_mode.I.9">Pagamenti</label>
+            <label index="tt_content.pi_flexform.view_mode.I.10">Riepilogo Ordine</label>
+			<label index="tt_content.pi_flexform.view_mode.I.11">Utente Registrato</label>
+			<label index="tt_content.pi_flexform.view_mode.I.12">Pagina Prodotto</label>
+			<label index="tt_content.pi_flexform.view_mode.I.13">Pagina Categoria</label>
+			<label index="tt_content.pi_flexform.view_mode.I.14">Pagina Fornitore</label>
+			<label index="tt_content.pi_flexform.view_mode.I.15">Ultimi prodotti</label>
+			<label index="static_countries.tx_extendedshop_sc_shipping">Costi di spedizione:</label>
+            <label index="static_territories.tx_extendedshop_st_shipping">Costi di spedizione:</label>
+			<label index="tx_extendedshop_products.documents">Lista di documenti:</label>
+			<label index="tx_extendedshop_products.doc_labels">Label per i documenti:</label>
+            <label index="tx_extendedshop_products.correlatedpage">Pagine correlate:</label>
+            <label index="tx_extendedshop_products.pricedirect">Prezzo Diretto:</label>
+            <label index="tx_extendedshop_products.supplier">Fornitore:</label>
+			<label index="tx_extendedshop_products.thumbtype">Tipo di visualizzazione immagini di dettaglio</label>
+			<label index="tx_extendedshop_products.tx_toicategory_toi_category">Categorie:</label>
+			<label index="fe_users.tx_extendedshop_discount">Sconto Utente:</label>
+            <label index="fe_groups.tx_extendedshop_discount">Sconto gruppo:</label>
+			<label index="tx_extendedshop_comments">Commenti Ordine:</label>
+            <label index="tx_extendedshop_comments.order">Codice Ordine:</label>
+            <label index="tx_extendedshop_comments.datetime">Data e Ora:</label>
+            <label index="tx_extendedshop_comments.userid">ID Utente:</label>
+            <label index="tx_extendedshop_comments.message">Commenti:</label>
+            <label index="tx_extendedshop_comments.beuser">Utente BE:</label>	
+            <label index="tt_content.pi_flexform.sheet_category">Categorie:</label>		
+            <label index="tt_content.pi_flexform.category">Categorie da visualizzare:</label>
+            <label index="tx_extendedshop_shipping">WebformatShop - Metodi di spedizione</label>
+            <label index="tx_extendedshop_shipping.title">Titolo:</label>
+            <label index="tx_extendedshop_shipping.description">Descrizione:</label>
+            <label index="tx_extendedshop_shipping.image">Immagine:</label>
+            <label index="tx_extendedshop_shipping.price">Prezzo:</label>
+            <label index="tx_extendedshop_shipping.pricenotax">Prezzo IVA esclusa:</label>
+            <label index="tx_extendedshop_shippingplace">WebformatShop - Destinazioni di spedizione</label>
+            <label index="tx_extendedshop_shippingplace.country">Stato:</label>
+            <label index="tx_extendedshop_shippingplace.shipping">Metodi di spedizione:</label>
+            <label index="tt_content.pi_flexform.sheet_latest">Ultimi prodotti:</label>
+            <label index="tt_content.pi_flexform.limit">Numero di prodotti:</label>
+            <label index="tx_extendedshop_vat">Opzioni IVA</label>
+            <label index="tx_extendedshop_vat.name">Nome</label>
+            <label index="tx_extendedshop_vat.percent">Percentuale</label>
+            <label index="tx_extendedshop_products.vat">IVA</label> 
+            <label index="tx_extendedshop_products.max_for_order">Numero massimo di prodotti per singolo ordine</label>  
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="tt_content.tx_extendedshop_tx_extendedshop_code">Visualisointikoodi</label>
+            <label index="tt_address.tx_extendedshop_login">Kirjaudu</label>
+            <label index="tt_address.tx_extendedshop_password">Salasana</label>
+            <label index="tt_address.tx_extendedshop_vatcode">Vat-koodi</label>
+            <label index="tt_address.tx_extendedshop_state">Valtio</label>
+            <label index="tt_address.tx_extendedshop_private.I.0">Yksityinen</label>
+            <label index="tt_address.tx_extendedshop_private.I.1">Yhtiö</label>
+            <label index="tt_address.tx_extendedshop_private">Yksityinen</label>
+            <label index="tt_address.tx_extendedshop_authorization">Henkilökohtainen tiedon autentikointi</label>
+            <label index="tt_address.tx_extendedshop_conditions">Ehtojen kuittaus</label>
+            <label index="tx_extendedshop_category">WebformatShop - Kategoriat</label>
+            <label index="tx_extendedshop_category.code">Koodi</label>
+            <label index="tx_extendedshop_category.title">Otsikko</label>
+            <label index="tx_extendedshop_category.summary">Yhteenveto</label>
+            <label index="tx_extendedshop_category.description">Kuvaus</label>
+            <label index="tx_extendedshop_category.image">Kuva</label>
+            <label index="tx_extendedshop_accessories">WebformatShop - Lisätarvikkeet</label>
+            <label index="tx_extendedshop_accessories.code">Kohdenumero</label>
+            <label index="tx_extendedshop_accessories.title">Otsikko</label>
+            <label index="tx_extendedshop_accessories.summary">Yhteenveto</label>
+            <label index="tx_extendedshop_accessories.description">Kuvaus</label>
+            <label index="tx_extendedshop_accessories.image">Kuva</label>
+            <label index="tx_extendedshop_accessories.price">Hinta</label>
+            <label index="tx_extendedshop_accessories.pricenotax">Hinta ilman veroja</label>
+            <label index="tx_extendedshop_accessories.instock">Varastossa</label>
+            <label index="tx_extendedshop_accessories.ordered">Tilattu</label>
+            <label index="tx_extendedshop_accessories.weight">Paino</label>
+            <label index="tx_extendedshop_accessories.volume">Määrä</label>
+            <label index="tx_extendedshop_orders">WebformatShop - Tilaukset</label>
+            <label index="tx_extendedshop_orders.code">Tilauskoodi</label>
+            <label index="tx_extendedshop_orders.customer">Asiakas</label>
+            <label index="tx_extendedshop_orders.shippingcustomer">Asiakas, jolle kuljetetaan</label>
+            <label index="tx_extendedshop_orders.date">Päiväys</label>
+            <label index="tx_extendedshop_orders.shipping">Kuljetus</label>
+            <label index="tx_extendedshop_orders.payment">Maksu</label>
+            <label index="tx_extendedshop_orders.total">Kokonaismäärä</label>
+            <label index="tx_extendedshop_orders.weight">Paino</label>
+            <label index="tx_extendedshop_orders.volume">Määrä</label>
+            <label index="tx_extendedshop_orders.trackingcode">Seurantakoodi</label>
+            <label index="tx_extendedshop_orders.state">Tilausvaltio</label>
+            <label index="tx_extendedshop_orders.ip">IP</label>
+            <label index="tx_extendedshop_orders.note">Huomautukset</label>
+            <label index="tx_extendedshop_rows">WebformatShop - Rivit</label>
+            <label index="tx_extendedshop_rows.ordercode">Tilauskoodi</label>
+            <label index="tx_extendedshop_rows.productcode">Tuotekoodi</label>
+            <label index="tx_extendedshop_rows.quantity">Lukumäärä</label>
+            <label index="tx_extendedshop_rows.price">Hinta</label>
+            <label index="tx_extendedshop_rows.weight">Paino</label>
+            <label index="tx_extendedshop_rows.volume">Määrä</label>
+            <label index="tx_extendedshop_rows.state">Valtio</label>
+            <label index="tx_extendedshop_rows.accessoriescodes"> Koodit</label>
+            <label index="tx_extendedshop_rows.options">Vaihtoehdot</label>
+            <label index="tx_extendedshop_products">WebformatShop - Tuotteet</label>
+            <label index="tx_extendedshop_products.code">Tuotekoodi</label>
+            <label index="tx_extendedshop_products.title">Otsikko</label>
+            <label index="tx_extendedshop_products.pagetitle">Sivun otsikko</label>
+            <label index="tx_extendedshop_products.summary">Yhteenveto</label>
+            <label index="tx_extendedshop_products.description">Kuvaus</label>
+            <label index="tx_extendedshop_products.image">Kuva</label>
+            <label index="tx_extendedshop_products.price">Hinta</label>
+            <label index="tx_extendedshop_products.pricenotax">Hinta ilman veroja</label>
+            <label index="tx_extendedshop_products.instock">Varastossa</label>
+            <label index="tx_extendedshop_products.category">Kategoria</label>
+            <label index="tx_extendedshop_products.www">WWW-osoite</label>
+            <label index="tx_extendedshop_products.ordered">Tilattu</label>
+            <label index="tx_extendedshop_products.weight">Paino</label>
+            <label index="tx_extendedshop_products.volume">Määrä</label>
+            <label index="tx_extendedshop_products.correlatedaccessories">Tuotteeseen liittyvät lisätarvikkeet</label>
+            <label index="tx_extendedshop_products.offertprice">Tarjoushinta</label>
+            <label index="tx_extendedshop_products.offertpricenotax">Tarjoushinta ilman veroja</label>
+            <label index="tx_extendedshop_products.discount">Alennus</label>
+            <label index="tx_extendedshop_products.sizes">Koot</label>
+            <label index="tx_extendedshop_products.colors">Värit</label>
+            <label index="tx_extendedshop_products.correlatedproducts">Tuotteeseen liittyvät muut tuotteet</label>
+            <label index="tt_content.list_type_pi1">Webformat-ostossysteemi</label>
+            <label index="tx_extendedshop_products.lingua">Kieli</label>
+            <label index="tx_extendedshop_products.parent">Alkuperä</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="fe_users.tx_extendedshop_vatcode" type="integer">246293578</label>
+            <label index="fe_users.tx_extendedshop_mobile" type="integer">142415860</label>
+            <label index="fe_users.tx_extendedshop_state" type="integer">74066497</label>
+            <label index="fe_users.tx_extendedshop_private.I.0" type="integer">75468930</label>
+            <label index="fe_users.tx_extendedshop_private.I.1" type="integer">29846719</label>
+            <label index="fe_users.tx_extendedshop_private" type="integer">75468930</label>
+            <label index="tt_address.tx_extendedshop_vatcode" type="integer">246293578</label>
+            <label index="tt_address.tx_extendedshop_state" type="integer">74066497</label>
+            <label index="tt_address.tx_extendedshop_private.I.0" type="integer">75468930</label>
+            <label index="tt_address.tx_extendedshop_private.I.1" type="integer">29846719</label>
+            <label index="tt_address.tx_extendedshop_private" type="integer">75468930</label>
+            <label index="tx_extendedshop_category" type="integer">65176047</label>
+            <label index="tx_extendedshop_category.code" type="integer">211868589</label>
+            <label index="tx_extendedshop_category.title" type="integer">192455458</label>
+            <label index="tx_extendedshop_category.summary" type="integer">43016481</label>
+            <label index="tx_extendedshop_category.description" type="integer">190479069</label>
+            <label index="tx_extendedshop_category.image" type="integer">199571973</label>
+            <label index="tx_extendedshop_orders" type="integer">173757354</label>
+            <label index="tx_extendedshop_orders.code" type="integer">214312083</label>
+            <label index="tx_extendedshop_orders.customer" type="integer">216163841</label>
+            <label index="tx_extendedshop_orders.shippingcustomer" type="integer">31634682</label>
+            <label index="tx_extendedshop_orders.date" type="integer">71780721</label>
+            <label index="tx_extendedshop_orders.shipping" type="integer">246009726</label>
+            <label index="tx_extendedshop_orders.payment" type="integer">205863499</label>
+            <label index="tx_extendedshop_orders.total" type="integer">158007617</label>
+            <label index="tx_extendedshop_orders.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_orders.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_orders.trackingcode" type="integer">71548808</label>
+            <label index="tx_extendedshop_orders.state" type="integer">69351</label>
+            <label index="tx_extendedshop_orders.ip" type="integer">168993543</label>
+            <label index="tx_extendedshop_orders.note" type="integer">61891740</label>
+            <label index="tx_extendedshop_orders.status" type="integer">91395953</label>
+            <label index="tx_extendedshop_orders.deliverydate" type="integer">12908586</label>
+            <label index="tx_extendedshop_orders.complete" type="integer">59881544</label>
+            <label index="tx_extendedshop_orders.ordernote" type="integer">223370853</label>
+            <label index="tx_extendedshop_rows" type="integer">87969945</label>
+            <label index="tx_extendedshop_rows.ordercode" type="integer">214312083</label>
+            <label index="tx_extendedshop_rows.productcode" type="integer">156422816</label>
+            <label index="tx_extendedshop_rows.quantity" type="integer">110422225</label>
+            <label index="tx_extendedshop_rows.price" type="integer">56627526</label>
+            <label index="tx_extendedshop_rows.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_rows.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_rows.state" type="integer">74066497</label>
+            <label index="tx_extendedshop_rows.itemcode" type="integer">17653608</label>
+            <label index="tx_extendedshop_rows.options" type="integer">229542606</label>
+            <label index="tx_extendedshop_products" type="integer">84172147</label>
+            <label index="tx_extendedshop_products.code" type="integer">44443218</label>
+            <label index="tx_extendedshop_products.title" type="integer">192455458</label>
+            <label index="tx_extendedshop_products.pagetitle" type="integer">42353938</label>
+            <label index="tx_extendedshop_products.summary" type="integer">43016481</label>
+            <label index="tx_extendedshop_products.description" type="integer">190479069</label>
+            <label index="tx_extendedshop_products.image" type="integer">199571973</label>
+            <label index="tx_extendedshop_products.price" type="integer">56627526</label>
+            <label index="tx_extendedshop_products.pricenotax" type="integer">200406834</label>
+            <label index="tx_extendedshop_products.instock" type="integer">110954685</label>
+            <label index="tx_extendedshop_products.category" type="integer">61717939</label>
+            <label index="tx_extendedshop_products.www" type="integer">127121561</label>
+            <label index="tx_extendedshop_products.ordered" type="integer">40765857</label>
+            <label index="tx_extendedshop_products.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_products.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_products.correlatedaccessories" type="integer">2301835</label>
+            <label index="tx_extendedshop_products.offertprice" type="integer">242655601</label>
+            <label index="tx_extendedshop_products.offertpricenotax" type="integer">260583201</label>
+            <label index="tx_extendedshop_products.discount" type="integer">17095049</label>
+            <label index="tx_extendedshop_products.sizes" type="integer">93775387</label>
+            <label index="tx_extendedshop_products.colors" type="integer">97847433</label>
+            <label index="tx_extendedshop_products.correlatedproducts" type="integer">248692556</label>
+            <label index="tx_extendedshop_products.lingua" type="integer">77154959</label>
+            <label index="tx_extendedshop_products.parent" type="integer">65927370</label>
+            <label index="tx_extendedshop_status" type="integer">233799472</label>
+            <label index="tx_extendedshop_status.status" type="integer">247806604</label>
+            <label index="tx_extendedshop_status.priority" type="integer">84056429</label>
+            <label index="tt_content.pi_flexform.sheet_general" type="integer">86983571</label>
+            <label index="tt_content.pi_flexform.view_mode" type="integer">231114144</label>
+            <label index="tt_content.pi_flexform.view_mode.I.1" type="integer">198026565</label>
+            <label index="tt_content.pi_flexform.view_mode.I.2" type="integer">149322752</label>
+            <label index="tt_content.pi_flexform.view_mode.I.3" type="integer">155589613</label>
+            <label index="tt_content.pi_flexform.view_mode.I.4" type="integer">20138052</label>
+            <label index="tt_content.pi_flexform.view_mode.I.5" type="integer">59674040</label>
+            <label index="tt_content.pi_flexform.view_mode.I.6" type="integer">6621497</label>
+            <label index="tt_content.pi_flexform.view_mode.I.7" type="integer">253347845</label>
+            <label index="tt_content.pi_flexform.view_mode.I.8" type="integer">213666707</label>
+            <label index="tt_content.pi_flexform.view_mode.I.9" type="integer">205863499</label>
+            <label index="tt_content.pi_flexform.view_mode.I.10" type="integer">265643486</label>
+            <label index="tt_content.list_type_pi1" type="integer">91586101</label>
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="tt_content.tx_extendedshop_tx_extendedshop_code" type="integer">222419149</label>
+            <label index="fe_users.tx_extendedshop_vatcode" type="integer">246293578</label>
+            <label index="fe_users.tx_extendedshop_mobile" type="integer">142415860</label>
+            <label index="fe_users.tx_extendedshop_state" type="integer">74066497</label>
+            <label index="fe_users.tx_extendedshop_private.I.0" type="integer">75468930</label>
+            <label index="fe_users.tx_extendedshop_private.I.1" type="integer">29846719</label>
+            <label index="fe_users.tx_extendedshop_private" type="integer">75468930</label>
+            <label index="tt_address.tx_extendedshop_vatcode" type="integer">246293578</label>
+            <label index="tt_address.tx_extendedshop_state" type="integer">74066497</label>
+            <label index="tt_address.tx_extendedshop_private.I.0" type="integer">75468930</label>
+            <label index="tt_address.tx_extendedshop_private.I.1" type="integer">29846719</label>
+            <label index="tt_address.tx_extendedshop_private" type="integer">75468930</label>
+            <label index="tx_extendedshop_category" type="integer">65176047</label>
+            <label index="tx_extendedshop_category.code" type="integer">211868589</label>
+            <label index="tx_extendedshop_category.title" type="integer">192455458</label>
+            <label index="tx_extendedshop_category.summary" type="integer">43016481</label>
+            <label index="tx_extendedshop_category.description" type="integer">190479069</label>
+            <label index="tx_extendedshop_category.image" type="integer">199571973</label>
+            <label index="tx_extendedshop_orders" type="integer">173757354</label>
+            <label index="tx_extendedshop_orders.code" type="integer">214312083</label>
+            <label index="tx_extendedshop_orders.customer" type="integer">216163841</label>
+            <label index="tx_extendedshop_orders.shippingcustomer" type="integer">31634682</label>
+            <label index="tx_extendedshop_orders.date" type="integer">71780721</label>
+            <label index="tx_extendedshop_orders.shipping" type="integer">246009726</label>
+            <label index="tx_extendedshop_orders.payment" type="integer">205863499</label>
+            <label index="tx_extendedshop_orders.total" type="integer">158007617</label>
+            <label index="tx_extendedshop_orders.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_orders.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_orders.trackingcode" type="integer">71548808</label>
+            <label index="tx_extendedshop_orders.state" type="integer">69351</label>
+            <label index="tx_extendedshop_orders.ip" type="integer">168993543</label>
+            <label index="tx_extendedshop_orders.note" type="integer">61891740</label>
+            <label index="tx_extendedshop_orders.status" type="integer">91395953</label>
+            <label index="tx_extendedshop_orders.complete" type="integer">59881544</label>
+            <label index="tx_extendedshop_orders.deliverydate" type="integer">12908586</label>
+            <label index="tx_extendedshop_orders.ordernote" type="integer">223370853</label>
+            <label index="tx_extendedshop_rows" type="integer">87969945</label>
+            <label index="tx_extendedshop_rows.ordercode" type="integer">214312083</label>
+            <label index="tx_extendedshop_rows.productcode" type="integer">156422816</label>
+            <label index="tx_extendedshop_rows.quantity" type="integer">110422225</label>
+            <label index="tx_extendedshop_rows.price" type="integer">56627526</label>
+            <label index="tx_extendedshop_rows.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_rows.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_rows.state" type="integer">74066497</label>
+            <label index="tx_extendedshop_rows.itemcode" type="integer">17653608</label>
+            <label index="tx_extendedshop_rows.options" type="integer">229542606</label>
+            <label index="tx_extendedshop_products" type="integer">84172147</label>
+            <label index="tx_extendedshop_products.code" type="integer">44443218</label>
+            <label index="tx_extendedshop_products.title" type="integer">192455458</label>
+            <label index="tx_extendedshop_products.pagetitle" type="integer">42353938</label>
+            <label index="tx_extendedshop_products.summary" type="integer">43016481</label>
+            <label index="tx_extendedshop_products.description" type="integer">190479069</label>
+            <label index="tx_extendedshop_products.image" type="integer">199571973</label>
+            <label index="tx_extendedshop_products.price" type="integer">56627526</label>
+            <label index="tx_extendedshop_products.pricenotax" type="integer">200406834</label>
+            <label index="tx_extendedshop_products.instock" type="integer">110954685</label>
+            <label index="tx_extendedshop_products.category" type="integer">61717939</label>
+            <label index="tx_extendedshop_products.www" type="integer">127121561</label>
+            <label index="tx_extendedshop_products.ordered" type="integer">40765857</label>
+            <label index="tx_extendedshop_products.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_products.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_products.correlatedaccessories" type="integer">2301835</label>
+            <label index="tx_extendedshop_products.offertprice" type="integer">242655601</label>
+            <label index="tx_extendedshop_products.offertpricenotax" type="integer">260583201</label>
+            <label index="tx_extendedshop_products.discount" type="integer">17095049</label>
+            <label index="tx_extendedshop_products.sizes" type="integer">93775387</label>
+            <label index="tx_extendedshop_products.colors" type="integer">97847433</label>
+            <label index="tx_extendedshop_products.correlatedproducts" type="integer">248692556</label>
+            <label index="tt_content.list_type_pi1" type="integer">91586101</label>
+            <label index="tx_extendedshop_products.lingua" type="integer">77154959</label>
+            <label index="tx_extendedshop_products.parent" type="integer">65927370</label>
+            <label index="tx_extendedshop_status" type="integer">233799472</label>
+            <label index="tx_extendedshop_status.status" type="integer">247806604</label>
+            <label index="tx_extendedshop_status.priority" type="integer">84056429</label>
+            <label index="tt_content.pi_flexform.sheet_general" type="integer">86983571</label>
+            <label index="tt_content.pi_flexform.view_mode" type="integer">231114144</label>
+            <label index="tt_content.pi_flexform.view_mode.I.1" type="integer">198026565</label>
+            <label index="tt_content.pi_flexform.view_mode.I.2" type="integer">149322752</label>
+            <label index="tt_content.pi_flexform.view_mode.I.3" type="integer">155589613</label>
+            <label index="tt_content.pi_flexform.view_mode.I.4" type="integer">20138052</label>
+            <label index="tt_content.pi_flexform.view_mode.I.5" type="integer">59674040</label>
+            <label index="tt_content.pi_flexform.view_mode.I.6" type="integer">6621497</label>
+            <label index="tt_content.pi_flexform.view_mode.I.7" type="integer">253347845</label>
+            <label index="tt_content.pi_flexform.view_mode.I.8" type="integer">213666707</label>
+            <label index="tt_content.pi_flexform.view_mode.I.9" type="integer">205863499</label>
+            <label index="tt_content.pi_flexform.view_mode.I.10" type="integer">265643486</label>
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="tt_content.tx_extendedshop_tx_extendedshop_code" type="integer">222419149</label>
+            <label index="tt_address.tx_extendedshop_login" type="integer">222419149</label>
+            <label index="tt_address.tx_extendedshop_password" type="integer">222419149</label>
+            <label index="tt_address.tx_extendedshop_vatcode" type="integer">246293578</label>
+            <label index="tt_address.tx_extendedshop_state" type="integer">74066497</label>
+            <label index="tt_address.tx_extendedshop_private.I.0" type="integer">75468930</label>
+            <label index="tt_address.tx_extendedshop_private.I.1" type="integer">29846719</label>
+            <label index="tt_address.tx_extendedshop_private" type="integer">75468930</label>
+            <label index="tt_address.tx_extendedshop_authorization" type="integer">222419149</label>
+            <label index="tt_address.tx_extendedshop_conditions" type="integer">222419149</label>
+            <label index="tx_extendedshop_category" type="integer">65176047</label>
+            <label index="tx_extendedshop_category.code" type="integer">211868589</label>
+            <label index="tx_extendedshop_category.title" type="integer">192455458</label>
+            <label index="tx_extendedshop_category.summary" type="integer">43016481</label>
+            <label index="tx_extendedshop_category.description" type="integer">190479069</label>
+            <label index="tx_extendedshop_category.image" type="integer">199571973</label>
+            <label index="tx_extendedshop_accessories" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.code" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.title" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.summary" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.description" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.image" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.price" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.pricenotax" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.instock" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.ordered" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.weight" type="integer">222419149</label>
+            <label index="tx_extendedshop_accessories.volume" type="integer">222419149</label>
+            <label index="tx_extendedshop_orders" type="integer">173757354</label>
+            <label index="tx_extendedshop_orders.code" type="integer">214312083</label>
+            <label index="tx_extendedshop_orders.customer" type="integer">216163841</label>
+            <label index="tx_extendedshop_orders.shippingcustomer" type="integer">31634682</label>
+            <label index="tx_extendedshop_orders.date" type="integer">71780721</label>
+            <label index="tx_extendedshop_orders.shipping" type="integer">246009726</label>
+            <label index="tx_extendedshop_orders.payment" type="integer">205863499</label>
+            <label index="tx_extendedshop_orders.total" type="integer">158007617</label>
+            <label index="tx_extendedshop_orders.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_orders.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_orders.trackingcode" type="integer">71548808</label>
+            <label index="tx_extendedshop_orders.state" type="integer">69351</label>
+            <label index="tx_extendedshop_orders.ip" type="integer">168993543</label>
+            <label index="tx_extendedshop_orders.note" type="integer">61891740</label>
+            <label index="tx_extendedshop_rows" type="integer">87969945</label>
+            <label index="tx_extendedshop_rows.ordercode" type="integer">214312083</label>
+            <label index="tx_extendedshop_rows.productcode" type="integer">156422816</label>
+            <label index="tx_extendedshop_rows.quantity" type="integer">110422225</label>
+            <label index="tx_extendedshop_rows.price" type="integer">56627526</label>
+            <label index="tx_extendedshop_rows.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_rows.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_rows.state" type="integer">74066497</label>
+            <label index="tx_extendedshop_rows.accessoriescodes" type="integer">222419149</label>
+            <label index="tx_extendedshop_rows.options" type="integer">229542606</label>
+            <label index="tx_extendedshop_products" type="integer">84172147</label>
+            <label index="tx_extendedshop_products.code" type="integer">44443218</label>
+            <label index="tx_extendedshop_products.title" type="integer">192455458</label>
+            <label index="tx_extendedshop_products.pagetitle" type="integer">42353938</label>
+            <label index="tx_extendedshop_products.summary" type="integer">43016481</label>
+            <label index="tx_extendedshop_products.description" type="integer">190479069</label>
+            <label index="tx_extendedshop_products.image" type="integer">199571973</label>
+            <label index="tx_extendedshop_products.price" type="integer">56627526</label>
+            <label index="tx_extendedshop_products.pricenotax" type="integer">200406834</label>
+            <label index="tx_extendedshop_products.instock" type="integer">110954685</label>
+            <label index="tx_extendedshop_products.category" type="integer">61717939</label>
+            <label index="tx_extendedshop_products.www" type="integer">127121561</label>
+            <label index="tx_extendedshop_products.ordered" type="integer">40765857</label>
+            <label index="tx_extendedshop_products.weight" type="integer">147098064</label>
+            <label index="tx_extendedshop_products.volume" type="integer">198682993</label>
+            <label index="tx_extendedshop_products.correlatedaccessories" type="integer">2301835</label>
+            <label index="tx_extendedshop_products.offertprice" type="integer">242655601</label>
+            <label index="tx_extendedshop_products.offertpricenotax" type="integer">260583201</label>
+            <label index="tx_extendedshop_products.discount" type="integer">17095049</label>
+            <label index="tx_extendedshop_products.sizes" type="integer">93775387</label>
+            <label index="tx_extendedshop_products.colors" type="integer">97847433</label>
+            <label index="tx_extendedshop_products.correlatedproducts" type="integer">248692556</label>
+            <label index="tt_content.list_type_pi1" type="integer">91586101</label>
+            <label index="tx_extendedshop_products.lingua" type="integer">77154959</label>
+            <label index="tx_extendedshop_products.parent" type="integer">65927370</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

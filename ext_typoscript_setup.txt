@@ -1,0 +1,410 @@
+plugin.tx_extendedshop_pi2= USER_INT
+plugin.tx_extendedshop_pi2{
+# The main function
+  userFunc = tx_extendedshop_pi2->main
+
+# Template
+  templateFile = EXT:extendedshop/pi2/shop.html
+
+  CMD = MINIBASKET
+  taxPercent = {$plugin.tx_extendedshop_pi1.taxPercent}
+  
+# Over this amount (shipping and payment excluded) the delivery is free
+  freeDelivery = {$plugin.tx_extendedshop_pi1.freeDelivery}
+
+# Min amount for an order
+  minOrder = {$plugin.tx_extendedshop_pi1.minAmount}
+
+# Uid of the basket page
+  pid_basket = {$plugin.tx_extendedshop_pi1.pidBasket}
+  
+# Uid of the userinfo page
+  pid_userinfo = {$plugin.tx_extendedshop_pi1.pidUserInfo}
+  
+  priceDec = {$plugin.tx_extendedshop_pi1.priceDec}
+  priceDecPoint = {$plugin.tx_extendedshop_pi1.priceDecPoint}
+  priceThousandPoint = {$plugin.tx_extendedshop_pi1.priceThousandPoint}
+
+  # Set it to 1 to hide the notax price
+  hideNoTax = {$plugin.tx_extendedshop_pi1.hideNoTax};
+  
+  # Set it to 1 to calculate the tax price
+  taxMode = {$plugin.tx_extendedshop_pi1.taxMode}
+  
+  # Wrapper for the notax price
+  price_b.wrap = {$plugin.tx_extendedshop_pi1.wrapPriceB}
+  warnings.wrap = {$plugin.tx_extendedshop_pi1.wrapWarnings}
+  
+  disableVATUserCheck = {$plugin.tx_extendedshop_pi1.disableVATUserCheck}
+  debug = {$plugin.tx_extendedshop_pi1.debug}
+}
+
+
+
+plugin.tx_extendedshop_pi1= USER
+plugin.tx_extendedshop_pi1{
+	debug = {$plugin.tx_extendedshop_pi1.debug}
+  userFunc = tx_extendedshop_pi1->main
+
+  general_stdWrap {
+    parseFunc < tt_content.text.20.parseFunc
+  }
+
+# Template e CSS file
+  templateFile = {$plugin.tx_extendedshop_pi1.file.templateFile}
+  cssFile = {$plugin.tx_extendedshop_pi1.file.cssFile}
+  cssMail = {$plugin.tx_extendedshop_pi1.file.cssMail}
+
+  pid_list.field = pages
+  recursive.field = recursive
+  code.field = select_key
+  limit = 100
+  priceDec = {$plugin.tx_extendedshop_pi1.priceDec}
+  priceDecPoint = {$plugin.tx_extendedshop_pi1.priceDecPoint}
+  priceThousandPoint = {$plugin.tx_extendedshop_pi1.priceThousandPoint}
+  enable_instock_management = {$plugin.tx_extendedshop_pi1.enable_instock_management}
+  allert_instock_management = {$plugin.tx_extendedshop_pi1.allert_instock_management}
+  insertProduct_nextPage = {$plugin.tx_extendedshop_pi1.insertProduct_nextPage}
+  orderCode = {$plugin.tx_extendedshop_pi1.orderCode}
+  enableStaticInfoTable = {$plugin.tx_extendedshop_pi1.enableStaticInfoTable}
+  enableUserManagement = {$plugin.tx_extendedshop_pi1.enableUserManagement}
+  resellersGroupID = {plugin.tx_extendedshop_pi1.resellersGroupID}
+  
+# List mode: 0 for the sequential listing, 1 for the table listing
+  list.modeImage = {$plugin.tx_extendedshop_pi1.listMode}
+# If modeImage==0, this is the max number of items to show in a page
+  list.maxItems = {$plugin.tx_extendedshop_pi1.listMaxItems}
+# If listMode = 1 then you can ask for a last column with the right colspan in case of a wrong number of products in the last line. 1 for the last col, 0 otherwise
+  list.lastCol = 1
+# If modeImage==1
+# Min-Width of the column
+  list.columnWidth = {$plugin.tx_extendedshop_pi1.columnWidth}
+# Number of items in a row
+  list.productsForRow = {$plugin.tx_extendedshop_pi1.numColumns}
+# Number of rows in a page
+  list.productsRowNumbers = {$plugin.tx_extendedshop_pi1.numRows}
+  
+  list.linkTitle = 1
+  cart.linkTitle = 1
+  
+  listModeDoesntIncludeSingleMode = 0
+
+  pageBrowser {
+    maxPages = 7
+    showResultCount = 1
+    showPBrowserText = 0
+    dontLinkActivePage = 1
+    tableParams = cellpadding="2" align="center"
+
+    # settings for the extended pageBrowser from TYPO3 3.8.0
+    showFirstLast = 1
+    pagefloat = center
+    showRange = 1
+    disabledLinkWrap = <span style="color:#bbb;">|</span>
+    inactiveLinkWrap = |
+    activeLinkWrap = <strong>|</strong>
+    LinksWrap =|
+    showResultsWrap = |<br />
+    showResultsNumbersWrap = 
+    browseBoxWrap =  
+    browseLinksWrap = |
+  }
+
+
+# Configuration of the detail image
+  image {
+    file.maxW = 250
+    imageLinkWrap = {$plugin.tx_extendedshop_pi1.clickEnlarge}
+    imageLinkWrap {
+      enable = 1
+      bodyTag = <BODY bgColor=black>
+      wrap = <A href="javascript:close();"> | </A>
+      width = 400
+      #height = 320
+      JSwindow = 1
+      JSwindow.newWindow = 1
+      JSwindow.expand = 17,20
+    }
+  }
+
+# Configuration of the zoom link image (under the detail image)
+  zoomimage {
+    file = EXT:extendedshop/pi1/zoom.gif
+    file.maxW = 50
+    imageLinkWrap = {$plugin.tx_extendedshop_pi1.clickEnlarge}
+  }
+
+# Configuration of the list image
+  listImage {
+    file.maxW = 140
+    file.maxH = 200
+    link_to_details = 1
+    imageLinkWrap = {$plugin.tx_extendedshop_pi1.clickEnlargeList}
+    imageLinkWrap {
+      enable = 1
+      bodyTag = <BODY bgColor=black>
+      wrap = <A href="javascript:close();"> | </A>
+      width = 400
+      #height = 100
+      JSwindow = 1
+      JSwindow.newWindow = 1
+      JSwindow.expand = 17,20
+    }
+  }
+
+# Configuration of the images in the ordersInfo mode
+  ordersImage {
+    file.maxW = 140
+  }
+  next {
+    file.maxW = 40
+  }
+  previous {
+    file.maxW = 40
+  }
+
+# Configuration of the correlated product image
+  correlatedImage {
+    file.maxW = 100
+    imageLinkWrap = {$plugin.tx_extendedshop_pi1.clickEnlarge_list}
+    imageLinkWrap {
+      enable = 1
+      bodyTag = <BODY bgColor=black>
+      wrap = <A href="javascript:close();"> | </A>
+      width = 400
+      #height = 100
+      JSwindow = 1
+      JSwindow.newWindow = 1
+      JSwindow.expand = 17,20
+    }
+  }
+
+# Fields to search for
+  searchFields = code,title
+
+# Required fields in the personal info page
+  requiredFields =name,address,city,zip,state,phone,email,authorization,conditions
+  requiredFieldsSymbol = *
+
+# Required delivery fields in the personal info page
+  requiredDeliveryFields =name,address,city,zip,state,country
+
+# Over this amount (shipping and payment excluded) the delivery is free
+  freeDelivery = {$plugin.tx_extendedshop_pi1.freeDelivery}
+  # Set this to 1 if you want to show a free shipping message instead of Price 0
+  freeShippingMessage = 0
+
+# Min amount for an order
+  minOrder = {$plugin.tx_extendedshop_pi1.minAmount}
+
+# Uid of the basket page
+  pid_basket = {$plugin.tx_extendedshop_pi1.pidBasket}
+# Uid of the userinfo page
+  pid_userinfo = {$plugin.tx_extendedshop_pi1.pidUserInfo}
+# Uid of the payment page
+  pid_payment = {$plugin.tx_extendedshop_pi1.pidPayment}
+# Uid of the finalize page
+  pid_finalize = {$plugin.tx_extendedshop_pi1.pidFinalize}
+# Uid of the product page
+  pid_productPage = {$plugin.tx_extendedshop_pi1.pidProductPage}
+# Uid of the category page
+  pid_categoryPage = {$plugin.tx_extendedshop_pi1.pidCategoryPage}
+# Uid of the supplier page
+  pid_supplierPage = {$plugin.tx_extendedshop_pi1.pidSupplierPage}    
+        
+# Uid of the system folder containing the orders
+  pid_orders = {$plugin.tx_extendedshop_pi1.pidOrders}
+# Uid of the system folder containing the delivery address
+  pid_delivery = {$plugin.tx_extendedshop_pi1.pidDelivery}
+# Uid of the system folder containing the website users
+  pid_users = {$plugin.tx_extendedshop_pi1.pidUsers}
+
+# Uid of the group for new customers
+  group_customer = {$plugin.tx_extendedshop_pi1.group_customer}
+
+# Sender of the order confirmation email
+  orderEmail_from = {$plugin.tx_extendedshop_pi1.fromEmail}
+  orderEmail_fromName = {$plugin.tx_extendedshop_pi1.fromName}
+
+# Receiver of the order confiration email (in the bcc field)
+  orderEmail_to = {$plugin.tx_extendedshop_pi1.bccEmail}
+  
+  # To send the order details as a pdf attachment with the order confermation email, you have to create a page (access: shot at any login) and put the plugin "Extendedshop" into the page with code "PDF_EMAIL_ATTACHMENT" and to install a pdf_generater plugin
+  # Then you should switch to 1 the following option
+  send_pdf = 0
+  # You have to set the uid of the previously created page:
+  send_pdf.pdf_page = 100
+  # You have to define the right typeNum for the conversion to PDF
+  send_pdf.pdf_page_typenum = 123
+  # You have to create a folder where the pdf files are stored and to secure it with an htaccess file
+  send_pdf.temp_folder = fileadmin/secure/pdf/
+  # If you want to delete the pdf file just after the email has been sent, enable this option:
+  delete_file_after_email = 0
+  
+   
+
+# Set it to 1 if you need a simple input field for the product quantity, leave it to 0 if you want to mantain the selector box
+  quantity_input = 0
+  
+  # Set it to 1 to hide the notax price
+  hideNoTax = {$plugin.tx_extendedshop_pi1.hideNoTax}
+  # Wrapper for the notax price
+  price_b.wrap = {$plugin.tx_extendedshop_pi1.wrapPriceB}
+  # Tax mode: set to 0 to fill in products price with TAX and calculate notax price, 1 for the opposite behavior
+  taxMode = {$plugin.tx_extendedshop_pi1.taxMode}
+  taxPercent = {$plugin.tx_extendedshop_pi1.taxPercent}
+  disableVATUserCheck = {$plugin.tx_extendedshop_pi1.disableVATUserCheck}
+
+# Set to 1 if you want to view the original price of a product if a user or usergroup have a discount
+showOriginalPrice = {$plugin.tx_extendedshop_pi1.showOriginalPrice}
+  
+# XAJAX functionalities
+  xajax_preview = 0
+  xajax_preview.id = shop_product_
+  xajax_preview.linkTitle = 1
+  xajax_cart_update = 0
+  minibasket_id = shop_minibasket
+  minibasket_lightbox = 0
+  minibasket_conf < plugin.tx_extendedshop_pi2
+  
+  # default country in country selector
+  defaultCountry = ITA
+  deliveryEmptyCountry = ---
+  # country selector tabindex
+  countryTabIndex.personal = 6
+  countryTabIndex.delivery = 25
+  
+  dateFormat = d/m/Y
+  
+  # Set this to 1 if you want to show delivery address equal to billing address when delivery address is empty
+  switchDeliveryIfEmpty = 0
+  
+  # Set this to 1 if you want a plain text email instead of an HTML email when finalizing orders
+  plainTextEmail = 0
+  
+  # This is the max number of items for every single product in the cart
+  max_for_order = 999
+  
+  # Wrapper for warnings in basket and minibasket
+  warnings.wrap = {$plugin.tx_extendedshop_pi1.wrapWarnings}
+  
+  # Set this to 1 if you want to clear basket on logout
+  clearBasketOnLogout = 0
+  
+  
+  permissions	{
+  	userid = 1
+  	groupid = 1
+  	users = 27
+  	groups = 27
+  }
+  
+  # Set to 1 if list of product must be shown when Product Page Mode dont have a specified product to show.
+  # This configuration is usefull if you need to place a plugin in list mode and a plugin in product page mode in the same page.
+  detail_showListIfEmptyProduct = 1
+
+}
+
+plugin.tx_extendedshop_pi1.payment {
+  # Radio
+  radio = 1
+  default = 10
+
+  10.title = Bonifico bancario
+  10.message = Per ricevere gli articoli ordinati, è necessario effettuare un bonifico anticipato sul conto:<br /><br />- CC n° 000000000 ABI 0000 - CAB 00000 intestato a Mio nome
+  10.image.file = 
+  10.priceTax = 
+  10.priceNoTax = 
+#  10.perc = 0
+# perc can be used to calculate a payment cost related to the order amount (ex. 4%)
+
+  20.title = Contrassegno (+ 3,00 EURO)
+  20.image.file = 
+  20.priceTax = 3,00
+  20.priceNoTax =  
+  20.maxAmount = 100
+  20.minAmount = 50
+
+
+  #Dati per paypal
+  50.title = Credit card with PayPal
+  50.bankcode = wss_paypal
+  50.UICCODE = USD
+  50.ShopLogin = myPayPalLogin
+  50.bankname = PayPal
+  50.banklink = www.paypal.com
+  50.return = http://www.mysite.com/index.php?id=11
+  50.paylink = https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&upload=1
+  
+  
+  wss_paypal < plugin.tx_extendedshop_pi1.payment.50
+  50 >
+  
+
+  70.title =Credit card with Banca Sella
+#  70.image.file = fileadmin/template/images/visa_mastercard.gif
+  70.priceTax = 
+  70.priceNoTax =
+  #Dati per bancasella
+  70.bankcode = wss_bancasella
+  70.IDLANGUAGE = 1
+  70.UICCODE = 242
+  70.ShopLogin =0000000
+  70.bankname = Banca Sella
+  70.banklink = www.sellanet.it
+  70.paylink = https://ecomm.sella.it/gestpay/pagam.asp
+  70.linkError = index.php?id=266
+  70.id_ok = 4
+  70.id_ko = 9
+  70.otp_send = fileadmin/otp/21504__2005_11_5_44.ric
+  70.otp_receive = fileadmin/otp/21504__2005_11_5_54.ris
+  
+  wss_bancasella < plugin.tx_extendedshop_pi1.payment.70
+  70 >
+
+# Authorize.net
+  80.title = Credit card with Authorize.net
+  80.priceTax = 
+  80.priceNoTax =
+  80.bankcode = authorize
+  80.IDLANGUAGE = 1
+  80.UICCODE = 242
+  80.ShopLogin = 
+  80.TransactionKey = 
+  80.bankname = Authorize.net
+  80.banklink = www.authorize.net
+  80.paylink = https://certification.authorize.net/gateway/transact.dll
+  80.linkError = index.php?id=9
+  80.returnUrl = http://www.return.com/index.php?id=2
+
+}
+
+## EXAMPLE shipping config:
+plugin.tx_extendedshop_pi1.shipping {
+  10.title = ITALIA
+  10.price = 10
+  20.title = FRANCIA
+  20.price = 15
+  
+  image {
+    file.maxW = 50
+  }
+  
+  default = 10
+}
+
+plugin.tx_extendedshop_pi1.ordersInfo {
+  ordersForPage = {$plugin.tx_extendedshop_pi1.ordersForPage}
+}
+
+# This shows the product title in the page title
+config.titleTagFunction = tx_extendedshop_pi1->product_title
+
+includeLibs.tx_extendedshop_pi1 = EXT:extendedshop/pi1/class.tx_extendedshop_pi1.php
+plugin.tx_extendedshop_pi1.userFunc = tx_extendedshop_pi1->main
+
+
+
+
+
+

@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>FE labels</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_STATE,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_STATE,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT,AUTHORIZE_ERROR_TITLE,AUTHORIZE_ERROR_TEXT,KEYWORDS,COLOR,DATE,NUMBER,SHIPPINGCUSTOMER,ORDERSTATUS,DELIVERYDATE,SELLERNOTE,QUANTITY,ORDER_COMPLETED,DELIVERY_INFO_MORE,BASKET_PRODUCTSQUANTITY,ORDER_TITLE,ORDER_PRICE,BANK_FAILED_TITLE,BANK_FAILED_TEXT,BASKET_UPDATED,CLOSE_CART,PRODUCTS,ARTICLES,LATEST_PRICE,LABEL_SHIPPING_TRACKING</label>
+            <label index="LABEL_BACK">Back</label>
+            <label index="LABEL_SEARCH">Search</label>
+            <label index="LABEL_SUBMIT">Forward</label>
+            <label index="LABEL_PRICE">Unit price: EURO</label>
+            <label index="LABEL_PRICE_LIST">EURO</label>
+            <label index="LABEL_TITLE">Product</label>
+            <label index="LABEL_DESCRIPTION">Description</label>
+            <label index="LABEL_SUMMARY">Summary</label>
+            <label index="LABEL_IMAGE">View</label>
+            <label index="LABEL_CODE">Code</label>
+            <label index="LABEL_PRICENOTAX">Price no tax: EURO</label>
+            <label index="LABEL_INSTOCK">Available</label>
+            <label index="LABEL_CATEGORY">Category</label>
+            <label index="LABEL_WWW">WWW</label>
+            <label index="LABEL_DISCOUNT">Discount: </label>
+            <label index="LABEL_ORDERED">Number of orders</label>
+            <label index="LABEL_WEIGHT">Weight</label>
+            <label index="LABEL_VOLUME">Volume</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">Related articles</label>
+            <label index="LABEL_OFFERT">Offer</label>
+            <label index="LABEL_SIZES">Size</label>
+            <label index="LABEL_COLOR">Color</label>
+            <label index="LABEL_COLORS">Colors</label>
+            <label index="LABEL_relatedPRODUCTS">Product related articles</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Total price: EURO</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;Cart&lt;/b&gt;&lt;br /&gt;All products in your cart.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;Cart&lt;/b&gt;&lt;br /&gt;No products in your cart.</label>
+            <label index="LABEL_BASKET_TOTAL">Total amount: EURO</label>
+            <label index="LABEL_BASKET_CLEAR">Delete products in the cart</label>
+            <label index="LABEL_BASKET_PROCEED">Go on &amp; buy</label>
+            <label index="LABEL_BASKET_BACK">Back</label>
+            <label index="LABEL_BASKET_FINALIZE">Complete your order</label>
+			<label index="LABEL_USER_BUY">Buy the articles in your basket</label>
+			<label index="LABEL_USER_MODIFY">Modify your datas</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">Personal information</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">Please check once again all the required fields</label>
+            <label index="LABEL_PERSONAL_INFO_USER">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Password</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">Log in</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">Name and Surname</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Address</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">Company</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Telephone</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Fax</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">Name and Surname</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Address</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">Company</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Telephone</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Fax</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">Confirm data</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">Delete</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Mobile</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Shipping</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Payment</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">Order completed</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">Thank you, order ###ORDERID### has been completed. You'll receive an e-mail with order confirmation in your e-mail box you specified &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">Notes</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">Add to cart</label>
+            <label index="EMAIL_ORDER_SUBJECT">Confirm order ###ORDERID###</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">User log in</label>
+            <label index="LABEL_NEWUSER_TITLE">User log in</label>
+            <label index="LABEL_NEWUSER_TEXT">You are now logged in. Use the following password and ID to navigate the site.</label>
+            <label index="LABEL_NEWUSER_USER">User name</label>
+            <label index="LABEL_NEWUSER_PASS">Password</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">Your personal information</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">To complete the order, please insert your personal information. The fields marked with * are required.</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">Town</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">Country</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">District</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">ZIP code</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">VAT code</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Mobile</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Person or Company?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">I accept this website Privacy Policy according to Italian law &amp; privacy regulations (675/96 and 196/03)</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">I accept the sales conditions</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Delivery address</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">If you want to deliver your order to a different address, please complete the following form.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">Town</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">Country</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">District</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">ZIP code</label>
+            <label index="LABEL_DELIVERY_INFO_MORE">show</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Person</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">Company</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Web site</label>
+            <label index="LABEL_ITEMNUMBER">Article n.</label>
+            <label index="LABEL_QUANTITY">Quantity</label>
+            <label index="LABEL_OFFERTPRICE">Offer price</label>
+            <label index="LABEL_SHOW_ALL">View all</label>
+            <label index="LABEL_NO_RESULTS">No results were found with your search. Please try again with other words</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Price: EURO</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">You forgot the password?</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">If you have already subscribed, you can log in with this form.</label>
+            <label index="LABEL_UPDATE_BASKET">Update cart</label>
+            <label index="LABEL_BANCA_TITOLO">Online Payment</label>
+            <label index="LABEL_BANCA_TESTO">To effect online payment on ###BANK_NAME### (###BANK_LINK###) please click on the bottom of the page. You'll be redirected to secure server site to complete online payment. Then you'll be automatically brought back to our site for a final report.</label>
+            <label index="LABEL_BANCA_LINK">Go to ###BANK_NAME### for credit card payment</label>
+            <label index="LABEL_BASKET_ARTICOLI">Articles you ordered</label>
+            <label index="LABEL_BASKET_STAMPA">Print this page</label>
+            <label index="LABEL_FORGETPSW_TITLE">Password forgotten</label>
+            <label index="LABEL_FORGETPSW_TEXT">If you lost your password, please fill the following form. The new password will be sent to the mailbox you subscribed with.</label>
+            <label index="LABEL_FORGETPSW_USER">E-mail</label>
+            <label index="LABEL_FORGETPSW_PASS">Password</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">Sorry but this e-mail address is not in our database. Please effect subscription again</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">E-mail address is not valid</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">Account on XXX</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">The new password has been sent to your e-mail address.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Password sent</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">Require new password</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Here are all the website services you can get with your subscription</label>
+            <label index="LABEL_COMPANYDATA">MyShop&lt;br /&gt;my address&lt;br /&gt;&lt;br /&gt;Phone 0427/000000&lt;br /&gt;&lt;a href='http://www.webformat.com'&gt;www.webformat.com&lt;/a&gt; - &lt;a href='mailto:info@webformat.com'&gt;info@webformat.com&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">Previous</label>
+            <label index="LABEL_PRODUCTNEXT">Next</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE">Transaction failed</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT">The transaction with the gateway &lt;i&gt;Authorize.net&lt;/i&gt; failed. The server replays with this reason:&lt;br /&gt;###REASON_TEXT###.&lt;br /&gt;&lt;br /&gt;Contact us and report this error code: REASON_CODE.&lt;br /&gt;Thanks for your collaboration.</label>
+            <label index="LABEL_KEYWORDS">Keywords</label>
+            <label index="LABEL_DATE">Order date</label>
+            <label index="LABEL_NUMBER">Order number</label>
+            <label index="LABEL_SHIPPINGCUSTOMER">Shipping customer</label>
+            <label index="LABEL_ORDERSTATUS">Order status:</label>
+            <label index="LABEL_DELIVERYDATE">Expected delivery date:</label>
+            <label index="LABEL_SELLERNOTE">Seller note:</label>
+            <label index="LABEL_ORDER_COMPLETED">Order completed</label>
+			<label index="LABEL_PAGE_LIST">Correlated Pages:</label>
+			<label index="LABEL_DOC_LIST">Documentation:</label>
+			<label index="LABEL_SUPPLIER">Supplier:</label>
+			<label index="LABEL_BACK_URL">Back</label>
+			<label index="LABEL_BASKET_SHIPPING_COST">Shipping Costs</label>
+			<label index="LABEL_BASKET_PAYMENT_COST">Payment Cost</label>
+			<label index="LABEL_COMMENT_DATA">Date</label>
+			<label index="LABEL_COMMENT_MESSAGE">Message</label>
+			<label index="LABEL_COMMENT_USERID">User</label>
+			<label index="LABEL_COMMENT_BEID">Operator</label>
+			<label index="LABEL_SEND_COMMENT">Send Message</label>
+			<label index="LABEL_COMMENT_AREA">Message Area for the order</label>
+			<label index="LABEL_CATEGORY">Category: </label>
+			<label index="LABEL_CATEGORY_HEADER">Products in category </label>
+			<label index="LABEL_SUPPLIER_HEADER">Products for supplier </label>
+			<label index="LABEL_PERC">Percentual increment on this payment: </label>
+			<label index="shipping_not_available">Shipping not available for this country</label>
+			<label index="LABEL_BASKET_PRODUCTSQUANTITY">Products in your cart:</label>
+			<label index="LABEL_ORDER_BY">Order products by:</label>
+			<label index="LABEL_ORDER_TITLE">Title</label>
+			<label index="LABEL_ORDER_PRICE">Price</label>
+			<label index="LABEL_BANK_FAILED_TITLE">Payment not accepted</label>
+			<label index="LABEL_BANK_FAILED_TEXT">Your online payment has not been accepted. Please try again or contact the site administrator.</label>
+			<label index="LABEL_BASKET_UPDATED">Your basket has been updated</label>
+			<label index="LABEL_CLOSE_CART">Close</label>
+			<label index="closePreview">Close preview</label>
+			<label index="LABEL_CUSTOMER">Customer</label>
+			<label index="LABEL_PRODUCTS">Products</label>
+			<label index="LABEL_ARTICLES">Articles</label>
+			<label index="ERROR_PAYMENT">Payment method not available or not selected</label>
+			<label index="ERROR_SHIPPING">Shipping method not available or not selected</label>
+			<label index="LABEL_EMPTYORDERS_LIST">You don't have completed any order yet.</label>
+			<label index="LABEL_FINALIZE_EMAIL_TITLE">Dear ###USER_FIRST_NAME### ###USER_LAST_NAME###,</label>
+			<label index="LABEL_FINALIZE_EMAIL_TEXT">Thank you for shopping in our store.&lt;br /&gt;Below you will find the details of your purchase.</label>
+			<label index="LABEL_FINALIZE_EMAIL_FOOTER">You can check the status of your purchase in our site.&lt;br /&gt;If you have any questions, please check the email support.&lt;br /&gt;&lt;br /&gt;Regards,&lt;br /&gt;The Shop Team</label>
+			<label index="LABEL_LATEST_PRICE">Price:</label>
+			<label index="WARNING_LIMIT">You can only buy ###LIMIT### items of the product "###PRODUCT###"</label>
+			<label index="free_shipping_message">Free shipping</label>
+			<label index="LABEL_SHIPPING_TRACKING">Shipping Tracking Code</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT,AUTHORIZE_ERROR_TITLE,AUTHORIZE_ERROR_TEXT,KEYWORDS,COLOR,DATE,NUMBER,SHIPPINGCUSTOMER,ORDERSTATUS,DELIVERYDATE,SELLERNOTE,QUANTITY,ORDER_COMPLETED</label>
+            <label index="LABEL_BACK">Tilbage</label>
+            <label index="LABEL_SEARCH">Søg</label>
+            <label index="LABEL_SUBMIT">Fremad</label>
+            <label index="LABEL_PRICE">Pris per styk: DKK</label>
+            <label index="LABEL_PRICE_LIST">DKK</label>
+            <label index="LABEL_TITLE">Produkt</label>
+            <label index="LABEL_DESCRIPTION">Beskrivelse</label>
+            <label index="LABEL_SUMMARY">Summary</label>
+            <label index="LABEL_IMAGE">Se</label>
+            <label index="LABEL_CODE">Kode</label>
+            <label index="LABEL_PRICENOTAX">Pris uden moms: DKK</label>
+            <label index="LABEL_INSTOCK">Available</label>
+            <label index="LABEL_CATEGORY">Kategori</label>
+            <label index="LABEL_WWW">WWW</label>
+            <label index="LABEL_DISCOUNT">Rabat: </label>
+            <label index="LABEL_ORDERED">Antal ordrer</label>
+            <label index="LABEL_WEIGHT">Vægt</label>
+            <label index="LABEL_VOLUME">Volume</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">Beslægtede varer</label>
+            <label index="LABEL_OFFERT">Tilbud</label>
+            <label index="LABEL_SIZES">Størrelse</label>
+            <label index="LABEL_COLORS">Farver</label>
+            <label index="LABEL_relatedPRODUCTS">Product related articles</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Total pris: DKK</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;Kurv&lt;/b&gt;&lt;br /&gt;Alle varer i din kurv.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;Kurv&lt;/b&gt;&lt;br /&gt;Der er ingen varer i kurven.</label>
+            <label index="LABEL_BASKET_TOTAL">Totalt beløb: DKK</label>
+            <label index="LABEL_BASKET_CLEAR">Slet varerne i vognen</label>
+            <label index="LABEL_BASKET_PROCEED">Fortsæt &amp; køb</label>
+            <label index="LABEL_BASKET_BACK">Tilbage</label>
+            <label index="LABEL_BASKET_FINALIZE">Færdiggør ordre</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">Personlig information.</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">Venligst kontroller de obligatoriske felter igen</label>
+            <label index="LABEL_PERSONAL_INFO_USER">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Password</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">Log in</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">Navn</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Adresse</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">Firma</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Telefon</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Fax</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">Navn</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Adresse</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">Firma</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Telefon</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Fax</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">Bekræft data</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">Slet</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Mobil</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Forsendelse</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Betaling</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">Ordre gennemført</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">Tak for ordren. ###ORDERID### er gennemført. Du vil modtage en e-mail med ordrebekræftelse til den e-mail du har oplyst &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">Bemærkning</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">Læg i kurven</label>
+            <label index="EMAIL_ORDER_SUBJECT">Ordrebekræftelse for ###ORDERID###</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">Bruger login</label>
+            <label index="LABEL_NEWUSER_TITLE">Bruger login</label>
+            <label index="LABEL_NEWUSER_TEXT">Du er nu oprettet som bruger på sitet. Du kan bruge disse data for at logge ind.</label>
+            <label index="LABEL_NEWUSER_USER">Bruger navn</label>
+            <label index="LABEL_NEWUSER_PASS">Password</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">Dine personlige data</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">Indtast venligst dine personlige data for at fuldføre ordren. Felterne med * er obligatoriske.</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">By</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">Land</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">Område</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">Post nr.</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">SE/CVR-nr.</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Mobil</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Privat eller firma?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">Jeg accepterer at mine oplysninger gemmes på denne hjemmeside i henhold de Danske regler om dataregistre</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">Jeg accepterer Salgsbetingelserne</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Leverings adresse</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">Hvis du ønsker levering til en anden adresse end den ovenstående, Venligst udfyld nedenstående felter.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">By</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">Land</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">Område</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">Post nr.</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Privat</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">Firma</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Hjemmeside</label>
+            <label index="LABEL_ITEMNUMBER">Vare nr.</label>
+            <label index="LABEL_QUANTITY">Antal</label>
+            <label index="LABEL_OFFERTPRICE">Tilbudt pris</label>
+            <label index="LABEL_SHOW_ALL">Vis alle</label>
+            <label index="LABEL_NO_RESULTS">Ingen resultater blev fundet på din søgning. Prøvigen med andre ord</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Pris: DKK</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">Har du glemt dit password?</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">Hvis du allerede er kunde kan du logge på her, s&amp;aring; du slipper for indtaste alle dine data.</label>
+            <label index="LABEL_UPDATE_BASKET">Updater kurv</label>
+            <label index="LABEL_BANCA_TITOLO">Online betaling</label>
+            <label index="LABEL_BANCA_TESTO">For at udføre online betaling på ###BANK_NAME### (###BANK_LINK###) venligst klik på linket nedenfor. Du vil blive sendt til en betalingsserver for at udføre online betalingen. Derefter vil du automatisk vende tilbage hertil for at afslutte handelen.</label>
+            <label index="LABEL_BANCA_LINK">Gå til ###BANK_NAME### for credit card betaling</label>
+            <label index="LABEL_BASKET_ARTICOLI">Du har bestilt følgende</label>
+            <label index="LABEL_BASKET_STAMPA">Udskriv denne side</label>
+            <label index="LABEL_FORGETPSW_TITLE">Password glemt</label>
+            <label index="LABEL_FORGETPSW_TEXT">Hvis du har glemt dit password, kan du f&amp;aring; tilsendt et nyt ved at skrive din email og trykke p&amp;aring; knappen.</label>
+            <label index="LABEL_FORGETPSW_USER">E-mail</label>
+            <label index="LABEL_FORGETPSW_PASS">Password</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">Vi har desv&amp;aelig;rre ikke denne email i vores database</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">E-mail addressen er ugyldig</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">Konto p&amp;aring; skytteudstyr.com</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">Det nye password er sendt til din  e-mail addresse.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Password er sent</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">Bed om nyt password</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Here are all the website services you can get with your subscription</label>
+            <label index="LABEL_COMPANYDATA">MyShop&lt;br /&gt;my address&lt;br /&gt;&lt;br /&gt;Phone 0427/000000&lt;br /&gt;&lt;a href='http://www.webformat.com'&gt;www.webformat.com&lt;/a&gt; - &lt;a href='mailto:info@webformat.com'&gt;info@webformat.com&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">foregående</label>
+            <label index="LABEL_PRODUCTNEXT">Næste</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_STATE,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_STATE,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT,AUTHORIZE_ERROR_TITLE,AUTHORIZE_ERROR_TEXT,KEYWORDS,COLOR,DATE,NUMBER,SHIPPINGCUSTOMER,ORDERSTATUS,DELIVERYDATE,SELLERNOTE,QUANTITY,ORDER_COMPLETED</label>
+            <label index="LABEL_BACK">Zurück</label>
+            <label index="LABEL_SEARCH">Suche</label>
+            <label index="LABEL_SUBMIT">Vorwärts</label>
+            <label index="LABEL_PRICE">Einzelpreis: EURO</label>
+            <label index="LABEL_PRICE_LIST">EURO</label>
+            <label index="LABEL_TITLE">Produkt</label>
+            <label index="LABEL_DESCRIPTION">Beschreibung</label>
+            <label index="LABEL_SUMMARY">Zusammenfassung</label>
+            <label index="LABEL_IMAGE">Ansehen</label>
+            <label index="LABEL_CODE">Code</label>
+            <label index="LABEL_PRICENOTAX">Nettopreis: EURO</label>
+            <label index="LABEL_INSTOCK">Verfügbarkeit</label>
+            <label index="LABEL_CATEGORY">Category</label>
+            <label index="LABEL_WWW">WWW</label>
+            <label index="LABEL_DISCOUNT">Discount: </label>
+            <label index="LABEL_ORDERED">Number of orders</label>
+            <label index="LABEL_WEIGHT">Gewicht</label>
+            <label index="LABEL_VOLUME">Volumen</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">Related articles</label>
+            <label index="LABEL_OFFERT">Offer</label>
+            <label index="LABEL_SIZES">Size</label>
+            <label index="LABEL_COLORS">Colors</label>
+            <label index="LABEL_relatedPRODUCTS">Product related articles</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Gesamtpreis: EURO</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;Warenkorb&lt;/b&gt;&lt;br /&gt;Alle Produkte im Warenkorb.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;Warenkorb&lt;/b&gt;&lt;br /&gt;Ihr Warenkorb ist noch leer.</label>
+            <label index="LABEL_BASKET_TOTAL">Gesamtpreis: EURO</label>
+            <label index="LABEL_BASKET_CLEAR">Warenkorb leeren</label>
+            <label index="LABEL_BASKET_PROCEED">Weiter</label>
+            <label index="LABEL_BASKET_BACK">Zurück</label>
+            <label index="LABEL_BASKET_FINALIZE">Bestellung abschließen</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">Persönliche Daten</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">Bitte füllen Sie alle benötigten Felder aus.</label>
+            <label index="LABEL_PERSONAL_INFO_USER">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Passwort</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">Log in</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">Name und Vorname</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Adresse</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">Firma</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Telefon</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Fax</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">Name und Vorname</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Adresse</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">Firma</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Telefon</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Fax</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">Angaben bestätigen</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">Löschen</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Mobil</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Versandkosten</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Bezahlung</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">Bestellung abgeschlossen</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">Vielen Dank, die Bestellung ###ORDERID### ist abgeschlossen. Sie erhalten eine Bestätigungs E-Mail an folgende Adresse: &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">Kommentar</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">In den Warenkorb</label>
+            <label index="EMAIL_ORDER_SUBJECT">Confirm order ###ORDERID###</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">User log in</label>
+            <label index="LABEL_NEWUSER_TITLE">User log in</label>
+            <label index="LABEL_NEWUSER_TEXT">You are now logged in. Use the following password and ID to navigate the site.</label>
+            <label index="LABEL_NEWUSER_USER">Benutzername</label>
+            <label index="LABEL_NEWUSER_PASS">Passwort</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">Ihre persönlichen Daten</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">Bitte füllen Sie alle mit * markierten Felder aus.</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">Stadt</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">Land</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">Landkreis</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">PLZ</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">Steuernummer</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Mobil</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Person oder Firma?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">Ich bin mit der Speicherung meiner Daten einverstanden.</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">Ich akzeptiere die AGB.</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Lieferadresse</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">Hier können Sie eine abweichende Lieferadresse angeben.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">Stadt</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">Land</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">Landkreis</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">PLZ</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Person</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">Firma</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Website</label>
+            <label index="LABEL_ITEMNUMBER">Artikelnr.</label>
+            <label index="LABEL_QUANTITY">Menge</label>
+            <label index="LABEL_OFFERTPRICE">Angebotspreis</label>
+            <label index="LABEL_SHOW_ALL">Alle ansehen</label>
+            <label index="LABEL_NO_RESULTS">No results were found with your search. Please try again with other words</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Preis: EURO</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">Haben Sie Ihr Passwort vergessen?</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">Wenn Sie bereits Kunde sind, können Sie sich mit Ihrer E-Mail-Adresse einloggen:</label>
+            <label index="LABEL_UPDATE_BASKET">Warenkorb aktualisieren</label>
+            <label index="LABEL_BANCA_TITOLO">Online Payment</label>
+            <label index="LABEL_BANCA_TESTO">To effect online payment on ###BANK_NAME### (###BANK_LINK###) please click on the bottom of the page. You'll be redirected to secure server site to complete online payment. Then you'll be automatically brought back to our site for a final report.</label>
+            <label index="LABEL_BANCA_LINK">Go to ###BANK_NAME### for credit card payment</label>
+            <label index="LABEL_BASKET_ARTICOLI">Ihre bestellten Artikel</label>
+            <label index="LABEL_BASKET_STAMPA">Seite drucken</label>
+            <label index="LABEL_FORGETPSW_TITLE">Passwort vergessen</label>
+            <label index="LABEL_FORGETPSW_TEXT">Falls Sie Ihr Passwort vergessen haben sollten, schicken wir Ihnen gern ein neues zu.</label>
+            <label index="LABEL_FORGETPSW_USER">E-mail</label>
+            <label index="LABEL_FORGETPSW_PASS">Passwort</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">Leider können wir Ihre E-Mailadresse nicht in unserer Datenbank finden. Bitte füllen Sie das Formular aus.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">Ihre E-Mail-Adresse ist nicht gültig</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">Account on XXX</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">Das neue Passwort wurde an Ihre E-Mailadresse verschickt.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Passwort gesendet.</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">Neues Passwort anfordern</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Here are all the website services you can get with your subscription</label>
+            <label index="LABEL_COMPANYDATA">MyShop&lt;br /&gt;my address&lt;br /&gt;&lt;br /&gt;Phone 0427/000000&lt;br /&gt;&lt;a href='http://www.webformat.com'&gt;www.webformat.com&lt;/a&gt; - &lt;a href='mailto:info@webformat.com'&gt;info@webformat.com&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">vorherige</label>
+            <label index="LABEL_PRODUCTNEXT">nächste</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE">Transaction failed</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT">The transaction with the gateway &lt;i&gt;Authorize.net&lt;/i&gt; failed. The server replays with this reason:&lt;br /&gt;###REASON_TEXT###.&lt;br /&gt;&lt;br /&gt;Contact us and report this error code: REASON_CODE.&lt;br /&gt;Thanks for your collaboration.</label>
+            <label index="LABEL_KEYWORDS">Keywords</label>
+            <label index="LABEL_DATE">Order date</label>
+            <label index="LABEL_NUMBER">Order number</label>
+            <label index="LABEL_SHIPPINGCUSTOMER">Shipping customer</label>
+            <label index="LABEL_ORDERSTATUS">Order status:</label>
+            <label index="LABEL_DELIVERYDATE">Expected delivery date:</label>
+            <label index="LABEL_SELLERNOTE">Seller note:</label>
+            <label index="LABEL_ORDER_COMPLETED">Order completed</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_STATE,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_STATE,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT,AUTHORIZE_ERROR_TITLE,AUTHORIZE_ERROR_TEXT,KEYWORDS,COLOR,DATE,NUMBER,SHIPPINGCUSTOMER,ORDERSTATUS,DELIVERYDATE,SELLERNOTE,QUANTITY,ORDER_COMPLETED,DELIVERY_INFO_MORE,BASKET_PRODUCTSQUANTITY,BASKET_UPDATED,CLOSE_CART,PRODUCTS,ARTICLES,LATEST_PRICE,LABEL_SHIPPING_TRACKING</label>
+            <label index="LABEL_BACK">Indietro</label>
+            <label index="LABEL_SEARCH">Cerca</label>
+            <label index="LABEL_SUBMIT">Clicca qui per continuare</label>
+            <label index="LABEL_PRICE">Prezzo unitario: EURO</label>
+            <label index="LABEL_PRICE_LIST">EURO</label>
+            <label index="LABEL_TITLE">Prodotto</label>
+            <label index="LABEL_DESCRIPTION">Descrizione</label>
+            <label index="LABEL_SUMMARY">Sommario</label>
+            <label index="LABEL_IMAGE">Immagine</label>
+            <label index="LABEL_CODE">Codice Prodotto</label>
+            <label index="LABEL_PRICENOTAX">Prezzo senza IVA: EURO</label>
+            <label index="LABEL_INSTOCK">Prodotti disponibili</label>
+            <label index="LABEL_CATEGORY">Categoria</label>
+            <label index="LABEL_WWW">WWW</label>
+            <label index="LABEL_DISCOUNT">Sconto: </label>
+            <label index="LABEL_ORDERED">Numero ordinazioni</label>
+            <label index="LABEL_WEIGHT">Peso</label>
+            <label index="LABEL_VOLUME">Volume</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">Accessori Correlati</label>
+            <label index="LABEL_OFFERT">Offerta</label>
+            <label index="LABEL_SIZES">Taglie</label>
+            <label index="LABEL_COLORS">Colore</label>
+            <label index="LABEL_CORRELATEDPRODUCTS">Penso ti piacerebbe anche</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Sovrapprezzo: EURO</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;Carrello&lt;/b&gt;&lt;br /&gt;Lista dei prodotti nel carrello.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;Carrello&lt;/b&gt;&lt;br /&gt;Il carrello non contiene prodotti.</label>
+            <label index="LABEL_BASKET_TOTAL">Totale: EURO</label>
+            <label index="LABEL_BASKET_CLEAR">Svuota carrello</label>
+            <label index="LABEL_BASKET_PROCEED">Procedi all'acquisto</label>
+            <label index="LABEL_BASKET_BACK">Indietro</label>
+            <label index="LABEL_BASKET_FINALIZE">Completa l'ordine</label>
+			<label index="LABEL_USER_BUY">Compra gli articoli nel carrello</label>
+			<label index="LABEL_USER_MODIFY">Modifica i tuoi dati</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">Dati personali</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">Verifica di aver completato tutti i campi obbligatori</label>
+            <label index="LABEL_PERSONAL_INFO_USER">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Password</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">Accedi</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">Nome e Cognome</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Indirizzo</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">Azienda</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Telefono</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Fax</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">Nome e Cognome</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Indirizzo</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">Azienda</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Telefono</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Fax</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">Conferma dati</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">Cancella</label>
+            <label index="LABEL_DELIVERY_INFO_MORE">visualizza</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Cellulare</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Spedizione</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Modalità di pagamento</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">Ordine completato</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">Grazie, l'ordine ###ORDERID### è stato completato. Riceverai una mail di conferma all'indirizzo email da te specificato &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">Note</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">Aggiungi al carrello</label>
+            <label index="EMAIL_ORDER_SUBJECT">Conferma ordine ###ORDERID###</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">Registrazione utente</label>
+            <label index="LABEL_NEWUSER_TITLE">Registrazione utente</label>
+            <label index="LABEL_NEWUSER_TEXT">Sei stato registrato. Puoi accedere ai servizi del nostro sito tramite lo username e la password seguenti.</label>
+            <label index="LABEL_NEWUSER_USER">Username</label>
+            <label index="LABEL_NEWUSER_PASS">Password</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">I tuoi dati</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">Inserisci i tuoi dati nei campi sottostanti per completare l'ordine. I campi contrassegnati dall'asterisco * sono richiesti.</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">Città</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">Stato</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">Provincia</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">Codice Postale</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">Partita IVA</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Cellulare</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Privato o Azienda?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">Autorizzo il trattamento dei miei dati personali in base alla legge numero 196/2003</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">Accetto le condizioni di vendita</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Indirizzo di spedizione</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">Se vuoi spedire ad un indirizzo diverso da quello di fatturazione completa il modulo seguente.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">Città</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">Stato</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">Provincia</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">Codice Postale</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Privato</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">Azienda</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Sito Web</label>
+            <label index="LABEL_ITEMNUMBER">articolo n.</label>
+            <label index="LABEL_QUANTITY">Quantità</label>
+            <label index="LABEL_OFFERTPRICE">Prezzo offerta</label>
+            <label index="LABEL_SHOW_ALL">Visualizza tutti</label>
+            <label index="LABEL_NO_RESULTS">La ricerca non ha prodotto risultati. La preghiamo di riprovare con altre parole</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Prezzo: EURO</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">Hai dimenticato la password?</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">Se sei già un utente registrato puoi effettuare il login mediante questo modulo.</label>
+            <label index="LABEL_UPDATE_BASKET">Aggiorna carrello</label>
+            <label index="LABEL_BANCA_TITOLO">Pagamento on-line</label>
+            <label index="LABEL_BANCA_TESTO">Cliccando sul pulsante in fondo alla pagina verrai portato sul sito di ###BANK_NAME### (###BANK_LINK###) dove dovrai inserire i tuoi dati personali e la tua carta di credito per completare il pagamento. In seguito verrai riportato su questo sito per un rapporto finale.</label>
+            <label index="LABEL_BANCA_LINK">Effettua il pagamento su ###BANK_NAME###</label>
+            <label index="LABEL_BASKET_ARTICOLI">Articoli ordinati</label>
+            <label index="LABEL_BASKET_STAMPA">Stampa la pagina</label>
+            <label index="LABEL_FORGETPSW_TITLE">Dimenticato la password</label>
+            <label index="LABEL_FORGETPSW_TEXT">Se non ricordi più la tua password per accedere ai tuoi dati, compila il modulo sottostante inserendo la tua email e ti verrà inviato un messaggio contenente la tua password.</label>
+            <label index="LABEL_FORGETPSW_USER">E-mail</label>
+            <label index="LABEL_FORGETPSW_PASS">Password</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">Spiacente ma il suo indirizzo email non è presente nel nostro database. Deve effettuare nuovamente la registrazione</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">Email non corretta</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">Account su XXX</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">La password è stata inviata alla sua casella di posta elettronica.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Password inviata</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">Richiedi Password</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Di seguito trovi i tuoi dati per accedere ai servizi di XXX</label>
+            <label index="LABEL_COMPANYDATA">MyShop&lt;br /&gt;my address&lt;br /&gt;&lt;br /&gt;Phone 0427/000000&lt;br /&gt;&lt;a href='http://www.webformat.com'&gt;www.webformat.com&lt;/a&gt; - &lt;a href='mailto:info@webformat.com'&gt;info@webformat.com&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">Precedente</label>
+            <label index="LABEL_PRODUCTNEXT">Successivo</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE">Transazione fallita</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT">La transazione su &lt;i&gt;Authorize.net&lt;/i&gt; &amp;egrave; fallita. Il server ha fornito la seguente spiegazione:&lt;br /&gt;###REASON_TEXT###.&lt;br /&gt;&lt;br /&gt;Ti preghiamo di contattarci e di fornirci il seguente codice di errore: REASON_CODE.&lt;br /&gt;Grazie per la collaborazione.</label>
+            <label index="LABEL_KEYWORDS">Parole chiave</label>
+            <label index="LABEL_DATE">Data dell'ordine</label>
+            <label index="LABEL_NUMBER">Numero d'ordine</label>
+            <label index="LABEL_SHIPPINGCUSTOMER">Destinatario della merce</label>
+            <label index="LABEL_ORDERSTATUS">Stato dell'ordine:</label>
+            <label index="LABEL_DELIVERYDATE">Data di consegna prevista:</label>
+            <label index="LABEL_SELLERNOTE">Note del venditore:</label>
+            <label index="LABEL_ORDER_COMPLETED">Order completed</label>
+			<label index="LABEL_DIFFERENT_ADDRESS">Indirizzo per invio merce</label>
+			<label index="LABEL_PAGE_LIST">Pagine Correlate:</label>
+			<label index="LABEL_DOC_LIST">Documentazione:</label>
+			<label index="LABEL_SUPPLIER">Rivenditore:</label>
+			<label index="LABEL_BACK_URL">Indietro</label>
+			<label index="LABEL_BASKET_SHIPPING_COST">Costo Spedizione</label>
+			<label index="LABEL_BASKET_PAYMENT_COST">Costo Pagamento</label>
+			<label index="LABEL_COMMENT_DATA">Data</label>
+			<label index="LABEL_COMMENT_MESSAGE">Messaggio</label>
+			<label index="LABEL_COMMENT_USERID">Utente</label>
+			<label index="LABEL_COMMENT_BEID">Operatore</label>
+			<label index="LABEL_SEND_COMMENT">Invia messaggio</label>
+			<label index="LABEL_COMMENT_AREA">Area Messaggi per l'ordine</label>
+			<label index="LABEL_CATEGORY">Categoria: </label>
+			<label index="LABEL_CATEGORY_HEADER">Prodotti della categoria </label>
+			<label index="LABEL_SUPPLIER_HEADER">Prodotti del rivenditore </label>
+			<label index="LABEL_PERC">Incremento percentuale su questo pagamento: </label>
+			<label index="shipping_not_available">Spedizione non disponibile in questo Stato</label>
+			<label index="LABEL_BASKET_PRODUCTSQUANTITY">Prodotti nel carrello:</label>
+			<label index="LABEL_BASKET_UPDATED">Il carrello è stato aggiornato</label>
+			<label index="LABEL_CLOSE_CART">Chiudi</label>
+			<label index="closePreview">nascondi dettagli</label>
+			<label index="LABEL_CUSTOMER">Cliente</label>
+			<label index="LABEL_PRODUCTS">Prodotti</label>
+			<label index="LABEL_ARTICLES">Articoli</label>
+			<label index="ERROR_PAYMENT">Metodo di pagamento non disponibile o non selezionato</label>
+			<label index="ERROR_SHIPPING">Metodo di spedizione non disponibile o non selezionato</label>
+			<label index="LABEL_EMPTYORDERS_LIST">Nessun ordine è stato ancora completato.</label>
+			<label index="LABEL_FINALIZE_EMAIL_TITLE">Gentile ###USER_FIRST_NAME### ###USER_LAST_NAME###,</label>
+			<label index="LABEL_FINALIZE_EMAIL_TEXT">Grazie per aver acquistato dal nostro e-commerce.&lt;br /&gt;Di seguito riportiamo i dati del tuo ordine.</label>
+			<label index="LABEL_FINALIZE_EMAIL_FOOTER">Puoi seguire lo stato del tuo ordine dal nostro sito.&lt;br /&gt;Per ogni evenienza, contatta pure il nostro servizio clienti.&lt;br /&gt;&lt;br /&gt;Cordiali saluti,&lt;br /&gt;Il nostro team</label>
+			<label index="LABEL_LATEST_PRICE">Prezzo:</label>
+			<label index="WARNING_LIMIT">Puoi comprare solo ###LIMIT### unità del prodotto "###PRODUCT###"</label>
+			<label index="free_shipping_message">Spedizione gratuita</label>
+			<label index="LABEL_SHIPPING_TRACKING">Tracking della spedizione</label>
+			<label index="pi_list_browseresults_prev">&lt; Precedente</label>
+			<label index="pi_list_browseresults_page">Pagina</label>
+			<label index="pi_list_browseresults_next">Prossima &gt;</label>
+			<label index="pi_list_browseresults_first">&lt;&lt; Prima</label>
+			<label index="pi_list_browseresults_last">Ultima &gt;&gt;</label>
+			<label index="pi_list_browseresults_displays">Risultati da ###SPAN_BEGIN###%s a %s&lt;/span&gt; su ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="pi_list_browseresults_displays_advanced">Risultati da ###FROM### a ###TO### su ###OUT_OF###</label>
+			<label index="pi_list_browseresults_to">a</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_STATE,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_STATE,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT</label>
+            <label index="LABEL_BACK">ZpÄ›t</label>
+            <label index="LABEL_SEARCH">Hledej</label>
+            <label index="LABEL_SUBMIT">OdeĹˇli</label>
+            <label index="LABEL_PRICE">Cena za jednotku: KÄ?</label>
+            <label index="LABEL_PRICE_LIST">KÄ?</label>
+            <label index="LABEL_TITLE">Produkt</label>
+            <label index="LABEL_DESCRIPTION">Popis</label>
+            <label index="LABEL_SUMMARY">SumĂˇĹ™</label>
+            <label index="LABEL_IMAGE">Zobraz</label>
+            <label index="LABEL_CODE">KĂłd</label>
+            <label index="LABEL_PRICENOTAX">Cena bez DPH: KÄ?</label>
+            <label index="LABEL_INSTOCK">DostupnĂ©</label>
+            <label index="LABEL_CATEGORY">Kategorie</label>
+            <label index="LABEL_WWW">WWW</label>
+            <label index="LABEL_DISCOUNT">Diskont: </label>
+            <label index="LABEL_ORDERED">PoÄ?et objednĂˇvek</label>
+            <label index="LABEL_WEIGHT">VĂˇha</label>
+            <label index="LABEL_VOLUME">MnoĹľstvĂ­</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">SouvysejĂ­cĂ­ poloĹľky</label>
+            <label index="LABEL_OFFERT">ObjednĂˇvka</label>
+            <label index="LABEL_SIZES">Velikosti</label>
+            <label index="LABEL_COLORS">Barvy</label>
+            <label index="LABEL_relatedPRODUCTS">SouvysejĂ­cĂ­ produkty</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Cena celkem: KÄ?</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;KoĹˇĂ­k&lt;/b&gt;&lt;br /&gt;PoloĹľky v koĹˇĂ­ku.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;KoĹˇĂ­k&lt;/b&gt;&lt;br /&gt;Ĺ˝ĂˇdnĂ© poloĹľky v koĹˇĂ­ku.</label>
+            <label index="LABEL_BASKET_TOTAL">CelkovĂˇ Ä?Ăˇstka: KÄ?</label>
+            <label index="LABEL_BASKET_CLEAR">Odeber z koĹˇĂ­ku</label>
+            <label index="LABEL_BASKET_PROCEED">DokonÄ?i</label>
+            <label index="LABEL_BASKET_BACK">ZpÄ›t</label>
+            <label index="LABEL_BASKET_FINALIZE">DokonÄ?i objednĂˇvku</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">OsobnĂ­ informace</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">ProsĂ­m zkontrolujte znovu vloĹľenĂ© Ăşdaje - poĹľadovanĂ© poloĹľky nevyplnÄ›ny</label>
+            <label index="LABEL_PERSONAL_INFO_USER">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Heslo</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">PĹ™ihlĂˇĹˇenĂ­</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">JmĂ©no a pĹ™Ă­jmenĂ­</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Addresa</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">SpoleÄ?nost</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Telefon</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Fax</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">JmĂ©no a pĹ™Ă­jmenĂ­</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Addresa</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">SpoleÄ?nost</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Telefon</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Fax</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">E-mail</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">PotvrÄ?te data</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">VymaĹľ</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Mobil</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Poplatek za dodĂˇnĂ­</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Platba</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">ObjednĂˇvka dokonÄ?ena</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">DÄ›kujeme, objednĂˇvka Ä?. ###ORDERID### byla dokonÄ?ena. ObdrĹľĂ­te e-mail s potvrzenĂ­m objednĂˇvky na zadanou e-mailovou adresu &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">PoznĂˇmka</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">PĹ™idej do koĹˇĂ­ku</label>
+            <label index="EMAIL_ORDER_SUBJECT">Potvrzeni objednavky ###ORDERID###</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">Uzivatel prihlasen</label>
+            <label index="LABEL_NEWUSER_TITLE">UĹľivatel pĹ™ihlĂˇĹˇen</label>
+            <label index="LABEL_NEWUSER_TEXT">Nejste pĹ™ihĂˇĹˇen. PouĹľijte prosĂ­m nĂˇsledujĂ­cĂ­ uĹľivatelskĂ© jmĂ©no a heslo k pĹ™ihlĂˇĹˇenĂ­.</label>
+            <label index="LABEL_NEWUSER_USER">UĹľivatelskĂ© jmĂ©no</label>
+            <label index="LABEL_NEWUSER_PASS">Heslo</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">VaĹˇe osobnĂ­ informace</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">K dokonÄ?enĂ­ objednĂˇvky prosĂ­m vyplĹ?te nĂˇsledujĂ­cĂ­ poloĹľky. PolĂ­Ä?ka oznaÄ?enĂˇ * jsou povinnĂˇ.</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">MÄ›sto</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">ZemÄ›</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">StĂˇt</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">PSÄŚ</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">DIÄŚ</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Mobil</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Osoba Ä?i spoleÄ?nost?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">Akceptuji podmĂ­nky tohoto e-shopu</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">Akceptuji uloĹľenĂ­ osobnĂ­ch ĂşdajĹŻ</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Adresa dodĂˇnĂ­</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">Pokud chcete objednĂˇvku dodat na adresu jinou neĹľ je fakturaÄ?nĂ­, prosĂ­m uveÄ?te ji.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">MÄ›sto</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">ZemÄ›</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">StĂˇt</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">PSÄŚ</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Osoba</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">SpoleÄ?nost</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Web</label>
+            <label index="LABEL_ITEMNUMBER">PoloĹľka Ä?.</label>
+            <label index="LABEL_QUANTITY">MnoĹľstvĂ­</label>
+            <label index="LABEL_OFFERTPRICE">Cena</label>
+            <label index="LABEL_SHOW_ALL">Zobraz vĹˇe</label>
+            <label index="LABEL_NO_RESULTS">Ĺ˝ĂˇdnĂˇ poloĹľka neodpovĂ­dĂˇ zadanĂ˝m kritĂ©riĂ­m. ProsĂ­m opakujte hledĂˇnĂ­</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Cena: KÄ?</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">ZapomenutĂ© heslo</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">Pokud jste zaregistrovĂˇn, mĹŻĹľete se pĹ™ihlĂˇsit zde.</label>
+            <label index="LABEL_UPDATE_BASKET">Aktualizuj koĹˇĂ­k</label>
+            <label index="LABEL_BANCA_TITOLO">Online platba</label>
+            <label index="LABEL_BANCA_TESTO">To effect online payment on ###BANK_NAME### (###BANK_LINK###) please click on the bottom of the page. You'll be redirected to secure server site to complete online payment. Then you'll be automatically brought back to our site for a final report.</label>
+            <label index="LABEL_BANCA_LINK">Go to ###BANK_NAME### for credit card payment</label>
+            <label index="LABEL_BASKET_ARTICOLI">ObjednanĂ© poloĹľky</label>
+            <label index="LABEL_BASKET_STAMPA">Tiskni</label>
+            <label index="LABEL_FORGETPSW_TITLE">ZapomenutĂ© heslo</label>
+            <label index="LABEL_FORGETPSW_TEXT">Pokud jste zapomÄ›l(a) svĂ© heslo, prosĂ­m vyplĹ?te formulĂˇĹ™. NovĂ© heslo VĂˇm bude zaslĂˇno na e-mail uvedenĂ˝ pĹ™i registraci.</label>
+            <label index="LABEL_FORGETPSW_USER">E-mail</label>
+            <label index="LABEL_FORGETPSW_PASS">Heslo</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">OmlouvĂˇme se, uvedenĂ˝ e-mail nenĂ­ v naĹˇĂ­ databĂˇzi. ProsĂ­m opakujte</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">E-mailovĂˇ adresa neplatnĂˇ</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">ĂšÄ?et na Megafloors</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">NovĂ© heslo bylo zaslĂˇno.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Heslo zaslĂˇno</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">ZaĹˇli heslo</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Zde je seznam vĹˇech web strĂˇnek, kam se mĹŻĹľete pĹ™ihlĂˇsit se svĂ˝m heslem:</label>
+            <label index="LABEL_COMPANYDATA">Megafloors&lt;br /&gt;adresa&lt;br /&gt;&lt;br /&gt;Telefon&lt;br /&gt;&lt;a href='http://www.megafloors.cz'&gt;www.megafloors.cz&lt;/a&gt; - &lt;a href='mailto:info@megafloors.cz'&gt;info@megafloors.cz&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">PĹ™edchozĂ­</label>
+            <label index="LABEL_PRODUCTNEXT">DalĹˇĂ­</label>
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_STATE,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_STATE,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT</label>
+            <label index="LABEL_BACK">Taaksepäin</label>
+            <label index="LABEL_SEARCH">Hae</label>
+            <label index="LABEL_SUBMIT">Eteenpäin</label>
+            <label index="LABEL_PRICE">Yksikköhinta: EURO</label>
+            <label index="LABEL_PRICE_LIST">EURO</label>
+            <label index="LABEL_TITLE">Tuote</label>
+            <label index="LABEL_DESCRIPTION">Kuvaus</label>
+            <label index="LABEL_SUMMARY">Yhteenveto</label>
+            <label index="LABEL_IMAGE">Näkymä</label>
+            <label index="LABEL_CODE">Koodi</label>
+            <label index="LABEL_PRICENOTAX">Hinta ilman veroja: EURO</label>
+            <label index="LABEL_INSTOCK">Saatavilla</label>
+            <label index="LABEL_CATEGORY">Kategoria</label>
+            <label index="LABEL_WWW">WWW-osoite</label>
+            <label index="LABEL_DISCOUNT">Alennus: </label>
+            <label index="LABEL_ORDERED">Tilausten numero</label>
+            <label index="LABEL_WEIGHT">Paino</label>
+            <label index="LABEL_VOLUME">Määrä</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">Tuotteeseen liittyvät lisätarvikkeet</label>
+            <label index="LABEL_OFFERT">Tarjous</label>
+            <label index="LABEL_SIZES">Koko</label>
+            <label index="LABEL_COLORS">Värit</label>
+            <label index="LABEL_relatedPRODUCTS">Tuotteeseen liittyvät muut tuotteet</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Kokonaishinta: EURO</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;Kori&lt;/b&gt;&lt;br /&gt;Kaikki ostoskorissasi olevat tuotteet.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;Kori&lt;/b&gt;&lt;br /&gt;Ostoskorissasi ei ole tuotteita.</label>
+            <label index="LABEL_BASKET_TOTAL">Kokonaissumma: EURO</label>
+            <label index="LABEL_BASKET_CLEAR">Poista tuotteita ostoskorista</label>
+            <label index="LABEL_BASKET_PROCEED">Mene &amp;amp; osta</label>
+            <label index="LABEL_BASKET_BACK">Eteenpäin</label>
+            <label index="LABEL_BASKET_FINALIZE">Täytä lomake</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">Henkilökohtaiset tiedot</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">Please ceck once again all the required fields</label>
+            <label index="LABEL_PERSONAL_INFO_USER">S-posti</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Salasana</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">Kirjaudu</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">Etu- ja sukunimi</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Osoite</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">Yhtiö</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Puhelinnumero</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Fax</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">S-posti</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">Etu- ja sukunimi</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Osoite</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">Yhtiö</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Puhelinnumero</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Fax</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">S-posti</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">Vahvista tiedot</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">Poista</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Matkapuhelin</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Kuljetus</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Maksu</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">Tilaus on tehty</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">Tilaus ###ORDERID### on tehty. Saat sähköpostilla vahvistuksen antaamaasi osoitteeseen &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">Huomautukset</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">Lisää ostoskoriin</label>
+            <label index="EMAIL_ORDER_SUBJECT">Vahvista tilaus ###ORDERID###</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">User log in</label>
+            <label index="LABEL_NEWUSER_TITLE">User log in</label>
+            <label index="LABEL_NEWUSER_TEXT">Olet nyt kirjautunut. Käytä seuraavaa salasanaa ja tunnusta (ID) vieraillessasi sivustolla.</label>
+            <label index="LABEL_NEWUSER_USER">Käyttäjänimi</label>
+            <label index="LABEL_NEWUSER_PASS">Salasana</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">Henkilökohtaiset tiedot</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">Suorittaaksesi tilauksen loppuun asti, ole hyvä ja anna henkilökohtaiset tietosi. *-merkillä merkityt ovat pakollisia.</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">Kaupunki</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">Maa</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">Alue</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">Postinumero</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">VAT-koodi</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Matkapuhelin</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Henkilö tai yhtiö?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">Hyväksyn tämän Web-sivuston yksityisyysehdot</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">Hyväksyn myyntiehdot</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Jakeluosoite</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">Jos haluat, että tilaus toimitetaan eri jakeluosoitteeseen, ole hyvä ja täytä seuraava lomake.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">Kaupunki</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">Maa</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">Alue</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">Postinumero</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Henkilö</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">Yhtiö</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Web-sivusto</label>
+            <label index="LABEL_ITEMNUMBER">Artikkeli n.</label>
+            <label index="LABEL_QUANTITY">Määrä</label>
+            <label index="LABEL_OFFERTPRICE">Tarjoushinta</label>
+            <label index="LABEL_SHOW_ALL">Näkymä 'Kaikki'</label>
+            <label index="LABEL_NO_RESULTS">Etsintäsi ei tuottanut yhtään osumaa. Ole hyvä ja yritä uudelleen käyttäen muita sanoja.</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Hinta: EURO</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">Oletko unohtanut salasanasi?</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">Jos olet jo ennestään liittynyt asiakkasemme, voit kirjautua sisään tällä lomakkeella.</label>
+            <label index="LABEL_UPDATE_BASKET">Päivitä ostoskori</label>
+            <label index="LABEL_BANCA_TITOLO">Verkkomaksu</label>
+            <label index="LABEL_BANCA_TESTO">Jotta voisit käyttää ###BANK_NAME### pankin verkkomaksua (###BANK_LINK###) ole hyvä ja klikkaa sivun lopussa olevaa linkkiä. Sinut ohjataan suojatulle palvelimelle verkkoasioimista varten. Sen jälkeen sinut tuodaan automaattisesti takaisin  tälle sivustolle saadaksesi loppuraportin.</label>
+            <label index="LABEL_BANCA_LINK">Siirry ###BANK_NAME###-pankin sivustolle luottokorttimaksua varten</label>
+            <label index="LABEL_BASKET_ARTICOLI">Artikkelit, jotka olet tilannut</label>
+            <label index="LABEL_BASKET_STAMPA">Tulosta tämä sivu</label>
+            <label index="LABEL_FORGETPSW_TITLE">Salasana on unohtunut</label>
+            <label index="LABEL_FORGETPSW_TEXT">Jos olet unohtanut salasanasi, ole hyvä ja täytä seuraava lomake. Uusi salasana lähetetään sinulle siihen sähköpostiosoitteeseen, jonka olet meille ilmoittanut liittyessäsi asiakkaaksemme.</label>
+            <label index="LABEL_FORGETPSW_USER">S-posti</label>
+            <label index="LABEL_FORGETPSW_PASS">Salasana</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">Valitettavasti tätä sähköpostiosoitetta ei löydy tietokannastamme. Ole hyvä ja tee uusi liittymisilmoitus.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">S-postiosoite ei ole kelvollinen</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">Tili XXX</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">Uusi salasana on lähetetty sähköpostiosoitteesesi.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Salasana on lähetetty</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">Tarvitaan uusi salasana</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Tässä ovat kaikki verkkopalvelut, jotka saat asiakkaanamme</label>
+            <label index="LABEL_COMPANYDATA">MyShop&lt;br /&gt;my address&lt;br /&gt;&lt;br /&gt;Phone 0427/000000&lt;br /&gt;&lt;a href='http://www.webformat.com'&gt;www.webformat.com&lt;/a&gt; - &lt;a href='mailto:info@webformat.com'&gt;info@webformat.com&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">Edellinen</label>
+            <label index="LABEL_PRODUCTNEXT">Seuraava</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="LABELS">BACK,SEARCH,SUBMIT,PRICE,TITLE,DESCRIPTION,SUMMARY,IMAGE,CODE,PRICENOTAX,INSTOCK,CATEGORY,WWW,ORDERED,WEIGHT,VOLUME,CORRELATEDACCESSORIES,OFFERT,DISCOUNT,SIZES,COLORS,CORRELATEDPRODUCTS,ACCESSORIES_PRICE,BASKET_INTRO,BASKET_EMPTY,BASKET_TOTAL,BASKET_CLEAR,BASKET_PROCEED,PERSONAL_INFO_TITLE,PERSONAL_INFO_USER,PERSONAL_INFO_PASSWORD,PERSONAL_INFO_LOGIN,PERSONAL_INFO_NAME,PERSONAL_INFO_ADDRESS,PERSONAL_INFO_COMPANY,PERSONAL_INFO_PHONE,PERSONAL_INFO_FAX,PERSONAL_INFO_EMAIL,DELIVERY_INFO_NAME,DELIVERY_INFO_ADDRESS,DELIVERY_INFO_COMPANY,DELIVERY_INFO_PHONE,DELIVERY_INFO_FAX,DELIVERY_INFO_EMAIL,PERSONAL_INFO_NEW,ADD,PERSONAL_INFO_CLEAR,BASKET_SHIPPING_TITLE,BASKET_BACK,BASKET_FINALIZE,BASKET_FINALIZE_TEXT,BASKET_FINALIZE_TITLE,ADD_COMBINATION,CLEAR_COMBINATION,NEWUSER_PASS,NEWUSER_USER,NEWUSER_TEXT,NEWUSER_TITLE,BASKET_NOTE,DISCOUNT,PERSONAL_INFO_NOTCOMPLETE,PERSONAL_INFO_INVOICING,PERSONAL_INFO_INVOICING_TEXT,PERSONAL_INFO_CITY,PERSONAL_INFO_COUNTRY,PERSONAL_INFO_STATE,PERSONAL_INFO_ZIP,PERSONAL_INFO_VATCODE,PERSONAL_INFO_MOBILE,PERSONAL_INFO_PRIVATE,PERSONAL_INFO_AUTHORIZATION,PERSONAL_INFO_CONDITIONS,PERSONAL_INFO_DELIVERY,PERSONAL_INFO_DELIVERY_TEXT,DELIVERY_INFO_CITY,DELIVERY_INFO_COUNTRY,DELIVERY_INFO_STATE,DELIVERY_INFO_ZIP,PERSONAL_INFO_PRIVATE_P,PERSONAL_INFO_PRIVATE_A,PERSONAL_INFO_WWW,ITEMNUMBER,OFFERTPRICE,SHOW_ALL,NO_RESULTS,TOTAL_PRODUCT_PRICE,PERSONAL_INFO_FORGOTPASSWORD,PERSONAL_INFO_TEXT,DELIVERY_INFO_MOBILE,UPDATE_BASKET,BASKET_PAYMENT_TITLE,BANCA_TITOLO,BANCA_TESTO,BANCA_LINK,BASKET_ARTICOLI,BASKET_STAMPA,FORGETPSW_PASS,FORGETPSW_USER,FORGETPSW_TEXT,FORGETPSW_TITLE,FORGETPSW_RESPONSE_TITLE_OK,FORGETPSW_RESPONSE_TEXT_OK,FORGETPSW_RESPONSE_TITLE_KO,FORGETPSW_RESPONSE_TEXT_KO,PRICE_LIST,FORGETPSW_SUBMIT,FORGETPSW_TEXT_EMAIL,COMPANYDATA,PRODUCTPREVIOUS,PRODUCTNEXT,AUTHORIZE_ERROR_TITLE,AUTHORIZE_ERROR_TEXT,KEYWORDS,COLOR,DATE,NUMBER,SHIPPINGCUSTOMER,ORDERSTATUS,DELIVERYDATE,SELLERNOTE,QUANTITY,ORDER_COMPLETED</label>
+            <label index="LABEL_BACK">Atgal</label>
+            <label index="LABEL_SEARCH">Ieškoti</label>
+            <label index="LABEL_SUBMIT">Pirmyn</label>
+            <label index="LABEL_PRICE">Vieneto kaina: LT</label>
+            <label index="LABEL_PRICE_LIST">LT</label>
+            <label index="LABEL_TITLE">Pavadinimas</label>
+            <label index="LABEL_DESCRIPTION">Aprašas</label>
+            <label index="LABEL_SUMMARY">Santrauka</label>
+            <label index="LABEL_IMAGE">Rodyti</label>
+            <label index="LABEL_CODE">Kodas</label>
+            <label index="LABEL_PRICENOTAX">Kaina be mokesčių: LT</label>
+            <label index="LABEL_INSTOCK">Turima</label>
+            <label index="LABEL_CATEGORY">Kategorija</label>
+            <label index="LABEL_WWW">WWW</label>
+            <label index="LABEL_DISCOUNT">Nuolaida: </label>
+            <label index="LABEL_ORDERED">Užsakymų numeris</label>
+            <label index="LABEL_WEIGHT">Svoris</label>
+            <label index="LABEL_VOLUME">Tūris</label>
+            <label index="LABEL_CORRELATEDACCESSORIES">Susiję aksesuarai</label>
+            <label index="LABEL_OFFERT">Pasiūlymas</label>
+            <label index="LABEL_SIZES">Dydis</label>
+            <label index="LABEL_COLORS">Colors</label>
+            <label index="LABEL_relatedPRODUCTS">Susiję gaminiai</label>
+            <label index="LABEL_ACCESSORIES_PRICE">Visa kaina: LT</label>
+            <label index="LABEL_BASKET_INTRO">&lt;b&gt;Krepšelis&lt;/b&gt;&lt;br /&gt;Visos prekės Jūsų krepšelyje.</label>
+            <label index="LABEL_BASKET_EMPTY">&lt;b&gt;Krepšelis&lt;/b&gt;&lt;br /&gt;Jūsų krepšelis tuščias.</label>
+            <label index="LABEL_BASKET_TOTAL">Bendroji suma: LT</label>
+            <label index="LABEL_BASKET_CLEAR">Pašalinti prekes iš krepšelio</label>
+            <label index="LABEL_BASKET_PROCEED">Pirkti</label>
+            <label index="LABEL_BASKET_BACK">Atgal</label>
+            <label index="LABEL_BASKET_FINALIZE">Užbaigti užsakymą</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE">Asmeninė informacija</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE">Prašau dar kartą patikrinkite visus būtinus laukus</label>
+            <label index="LABEL_PERSONAL_INFO_USER">E-paštas</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD">Slaptažodis</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN">Registracija</label>
+            <label index="LABEL_PERSONAL_INFO_NAME">Vardas ir pavardė</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS">Adresas</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY">Įmonė</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE">Telefonas</label>
+            <label index="LABEL_PERSONAL_INFO_FAX">Faksas</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL">E-paštas</label>
+            <label index="LABEL_DELIVERY_INFO_NAME">Vardas ir pavardė</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS">Adresas</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY">Įmonė</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE">Telefonas</label>
+            <label index="LABEL_DELIVERY_INFO_FAX">Faksas</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL">E-paštas</label>
+            <label index="LABEL_PERSONAL_INFO_NEW">Patvirtinu</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR">Ištrinti</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE">Mobilus</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE">Pristatymas</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE">Apmokėjimas</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE">Užsakymas baigtas</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT">Ačiū, užsakymas ###ORDERID### užbaigtas. Jūs gausite e-laišką su užsakymo patvirtinimu Jūsų nurodytu e-pašto adresu &lt;strong&gt;###PERSONAL_EMAIL###&lt;/strong&gt;.</label>
+            <label index="LABEL_BASKET_NOTE">Pastabos</label>
+            <label index="LABEL_ADD_COMBINATION">+</label>
+            <label index="LABEL_CLEAR_COMBINATION">-</label>
+            <label index="LABEL_ADD">Į krepšelį</label>
+            <label index="EMAIL_ORDER_SUBJECT">Užsakymo ###ORDERID### patvirtinimas</label>
+            <label index="EMAIL_NEWUSER_SUBJECT">Naujo kliento registracija</label>
+            <label index="LABEL_NEWUSER_TITLE">Naujo kliento registracija</label>
+            <label index="LABEL_NEWUSER_TEXT">Jūs prisijungėte. Naudokite šiuos slaptažodį ir identifikavimą lankymuise svetainėje.</label>
+            <label index="LABEL_NEWUSER_USER">Kliento vardas</label>
+            <label index="LABEL_NEWUSER_PASS">Slaptažodis</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING">Jūsų asmeninė informacija</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT">Užsakymui pabaigti, prašome įvesti jūsų asmeninę informaciją. Būtini laukai pažymėti * .</label>
+            <label index="LABEL_PERSONAL_INFO_CITY">Miestas</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY">Šalis</label>
+            <label index="LABEL_PERSONAL_INFO_STATE">Valstija</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP">Pašto indeksas</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE">PVM kodas</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE">Mobilus</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE">Privatus ar Įmonės?</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION">Aš sutinku su privatumo sąlygomis pagal Lietuvos Respublikos įstatymus</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS">Sutinku su pardavimo sąlygomis</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY">Pristatymo adresas</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT">Jei pageidaujate gauti užsakymą kitu adresu, prašau užpildyti šią formą.</label>
+            <label index="LABEL_DELIVERY_INFO_CITY">Miestas</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY">Šalis</label>
+            <label index="LABEL_DELIVERY_INFO_STATE">Valstija</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP">Pašto kodas</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P">Asmuo</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A">Įmonė</label>
+            <label index="LABEL_PERSONAL_INFO_WWW">Web svetainė</label>
+            <label index="LABEL_ITEMNUMBER">Artikulo nr.</label>
+            <label index="LABEL_QUANTITY">Kiekis</label>
+            <label index="LABEL_OFFERTPRICE">Akcija</label>
+            <label index="LABEL_SHOW_ALL">Rodyti visus</label>
+            <label index="LABEL_NO_RESULTS">Jūsų užklausa neatitiko jokių dokumentų. Prašome naudoti kitus žodžius</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE">Kaina: LT</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD">Pamiršote slaptažodį?</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT">Jeigu Jūs esate užsiregistravęs, galite prisijungti šia forma.</label>
+            <label index="LABEL_UPDATE_BASKET">Atnaujinti krepšelį</label>
+            <label index="LABEL_BANCA_TITOLO">Tiesioginis apmokėjimas</label>
+            <label index="LABEL_BANCA_TESTO">Tiesioginiam apmokėjimui atlikti ###BANK_NAME### (###BANK_LINK###) prašome paspausti lapo apačioje. Jūs būsite nukreipti į saugios stoties svetainę tiesioginiam mokėjimui užbaigti. Po to Jūs būsite automatiškai grąžintas atgal į mūsų svetainę galutinei ataskaitai.</label>
+            <label index="LABEL_BANCA_LINK">Vykdyti ###BANK_NAME### mokėjimą kreditine kortele</label>
+            <label index="LABEL_BASKET_ARTICOLI">Užsakyti gaminiai</label>
+            <label index="LABEL_BASKET_STAMPA">Spausdinti šį lapą</label>
+            <label index="LABEL_FORGETPSW_TITLE">Pamiršote slaptažodį</label>
+            <label index="LABEL_FORGETPSW_TEXT">Jei pamiršote slaptažodį, prašome užpildyti šią formą. Naujas slaptažodis bus nusiųstas į Jūsų e-pašto dėžutę.</label>
+            <label index="LABEL_FORGETPSW_USER">E-paštas</label>
+            <label index="LABEL_FORGETPSW_PASS">Slaptažodis</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO">Deja, bet šio e-pašto adreso nėra mūsų duomenų bazėje. Prašome registraciją atlikti naujai</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO">Negaliojantis e-pašto adresas</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT">XXX abonementas</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK">Naujas slaptažodis išsiųstas į Jūsų e-pašto adresą.</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK">Slaptažodis išsiųstas</label>
+            <label index="LABEL_FORGETPSW_SUBMIT">Reikalingas naujas slaptažodis</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL">Visos svetainės paslaugos, pasiekiamos Jums</label>
+            <label index="LABEL_COMPANYDATA">MyShop&lt;br /&gt;my address&lt;br /&gt;&lt;br /&gt;Phone 0427/000000&lt;br /&gt;&lt;a href='http://www.webformat.com'&gt;www.webformat.com&lt;/a&gt; - &lt;a href='mailto:info@webformat.com'&gt;info@webformat.com&lt;/a&gt;</label>
+            <label index="LABEL_PRODUCTPREVIOUS">Ankstesnis</label>
+            <label index="LABEL_PRODUCTNEXT">Pirmyn</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE">Transaction failed</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT">The transaction with the gateway &lt;i&gt;Authorize.net&lt;/i&gt; failed. The server replays with this reason:&lt;br /&gt;###REASON_TEXT###.&lt;br /&gt;&lt;br /&gt;Contact us and report this error code: ###REASON_CODE###.&lt;br /&gt;Thanks for your collaboration.</label>
+            <label index="LABEL_KEYWORDS">Keywords</label>
+            <label index="LABEL_DATE">Order date</label>
+            <label index="LABEL_NUMBER">Order number</label>
+            <label index="LABEL_SHIPPINGCUSTOMER">Shipping customer</label>
+            <label index="LABEL_ORDERSTATUS">Order status:</label>
+            <label index="LABEL_DELIVERYDATE">Expected delivery date:</label>
+            <label index="LABEL_SELLERNOTE">Seller note:</label>
+            <label index="LABEL_ORDER_COMPLETED">Order completed</label>
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLOR" type="integer">213253809</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_relatedPRODUCTS" type="integer">135845181</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE" type="integer">66610403</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT" type="integer">147193450</label>
+            <label index="LABEL_KEYWORDS" type="integer">140981301</label>
+            <label index="LABEL_DATE" type="integer">89778122</label>
+            <label index="LABEL_NUMBER" type="integer">67411351</label>
+            <label index="LABEL_SHIPPINGCUSTOMER" type="integer">158987869</label>
+            <label index="LABEL_ORDERSTATUS" type="integer">176792492</label>
+            <label index="LABEL_DELIVERYDATE" type="integer">91017545</label>
+            <label index="LABEL_SELLERNOTE" type="integer">43615169</label>
+            <label index="LABEL_ORDER_COMPLETED" type="integer">136125137</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_relatedPRODUCTS" type="integer">135845181</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_relatedPRODUCTS" type="integer">135845181</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE" type="integer">66610403</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT" type="integer">147193450</label>
+            <label index="LABEL_KEYWORDS" type="integer">140981301</label>
+            <label index="LABEL_DATE" type="integer">89778122</label>
+            <label index="LABEL_NUMBER" type="integer">67411351</label>
+            <label index="LABEL_SHIPPINGCUSTOMER" type="integer">158987869</label>
+            <label index="LABEL_ORDERSTATUS" type="integer">176792492</label>
+            <label index="LABEL_DELIVERYDATE" type="integer">91017545</label>
+            <label index="LABEL_SELLERNOTE" type="integer">43615169</label>
+            <label index="LABEL_ORDER_COMPLETED" type="integer">136125137</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_CORRELATEDPRODUCTS" type="integer">222419149</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE" type="integer">66610403</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT" type="integer">147193450</label>
+            <label index="LABEL_KEYWORDS" type="integer">140981301</label>
+            <label index="LABEL_DATE" type="integer">89778122</label>
+            <label index="LABEL_NUMBER" type="integer">67411351</label>
+            <label index="LABEL_SHIPPINGCUSTOMER" type="integer">158987869</label>
+            <label index="LABEL_ORDERSTATUS" type="integer">176792492</label>
+            <label index="LABEL_DELIVERYDATE" type="integer">91017545</label>
+            <label index="LABEL_SELLERNOTE" type="integer">43615169</label>
+            <label index="LABEL_ORDER_COMPLETED" type="integer">136125137</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_relatedPRODUCTS" type="integer">135845181</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_relatedPRODUCTS" type="integer">135845181</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="LABELS" type="integer">151337884</label>
+            <label index="LABEL_BACK" type="integer">5603241</label>
+            <label index="LABEL_SEARCH" type="integer">20138052</label>
+            <label index="LABEL_SUBMIT" type="integer">108867431</label>
+            <label index="LABEL_PRICE" type="integer">170310675</label>
+            <label index="LABEL_PRICE_LIST" type="integer">264687324</label>
+            <label index="LABEL_TITLE" type="integer">233508945</label>
+            <label index="LABEL_DESCRIPTION" type="integer">190479069</label>
+            <label index="LABEL_SUMMARY" type="integer">43016481</label>
+            <label index="LABEL_IMAGE" type="integer">70589694</label>
+            <label index="LABEL_CODE" type="integer">211868589</label>
+            <label index="LABEL_PRICENOTAX" type="integer">81937812</label>
+            <label index="LABEL_INSTOCK" type="integer">126436830</label>
+            <label index="LABEL_CATEGORY" type="integer">61717939</label>
+            <label index="LABEL_WWW" type="integer">127121561</label>
+            <label index="LABEL_DISCOUNT" type="integer">119883119</label>
+            <label index="LABEL_ORDERED" type="integer">114905910</label>
+            <label index="LABEL_WEIGHT" type="integer">147098064</label>
+            <label index="LABEL_VOLUME" type="integer">198682993</label>
+            <label index="LABEL_CORRELATEDACCESSORIES" type="integer">23372485</label>
+            <label index="LABEL_OFFERT" type="integer">112927814</label>
+            <label index="LABEL_SIZES" type="integer">116837234</label>
+            <label index="LABEL_COLORS" type="integer">97847433</label>
+            <label index="LABEL_relatedPRODUCTS" type="integer">135845181</label>
+            <label index="LABEL_ACCESSORIES_PRICE" type="integer">122501606</label>
+            <label index="LABEL_BASKET_INTRO" type="integer">37892335</label>
+            <label index="LABEL_BASKET_EMPTY" type="integer">154722606</label>
+            <label index="LABEL_BASKET_TOTAL" type="integer">23751964</label>
+            <label index="LABEL_BASKET_CLEAR" type="integer">168575456</label>
+            <label index="LABEL_BASKET_PROCEED" type="integer">195350381</label>
+            <label index="LABEL_BASKET_BACK" type="integer">5603241</label>
+            <label index="LABEL_BASKET_FINALIZE" type="integer">174125486</label>
+            <label index="LABEL_PERSONAL_INFO_TITLE" type="integer">37961141</label>
+            <label index="LABEL_PERSONAL_INFO_NOTCOMPLETE" type="integer">105771348</label>
+            <label index="LABEL_PERSONAL_INFO_USER" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_PASSWORD" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_LOGIN" type="integer">201320867</label>
+            <label index="LABEL_PERSONAL_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_PERSONAL_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_PERSONAL_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_PERSONAL_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_PERSONAL_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_DELIVERY_INFO_NAME" type="integer">116304486</label>
+            <label index="LABEL_DELIVERY_INFO_ADDRESS" type="integer">232242979</label>
+            <label index="LABEL_DELIVERY_INFO_COMPANY" type="integer">29846719</label>
+            <label index="LABEL_DELIVERY_INFO_PHONE" type="integer">187309708</label>
+            <label index="LABEL_DELIVERY_INFO_FAX" type="integer">159451810</label>
+            <label index="LABEL_DELIVERY_INFO_EMAIL" type="integer">32015587</label>
+            <label index="LABEL_PERSONAL_INFO_NEW" type="integer">177006294</label>
+            <label index="LABEL_PERSONAL_INFO_CLEAR" type="integer">254438473</label>
+            <label index="LABEL_DELIVERY_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_BASKET_SHIPPING_TITLE" type="integer">246009726</label>
+            <label index="LABEL_BASKET_PAYMENT_TITLE" type="integer">205863499</label>
+            <label index="LABEL_BASKET_FINALIZE_TITLE" type="integer">136125137</label>
+            <label index="LABEL_BASKET_FINALIZE_TEXT" type="integer">256825459</label>
+            <label index="LABEL_BASKET_NOTE" type="integer">256667525</label>
+            <label index="LABEL_ADD_COMBINATION" type="integer">40572706</label>
+            <label index="LABEL_CLEAR_COMBINATION" type="integer">53925355</label>
+            <label index="LABEL_ADD" type="integer">47249080</label>
+            <label index="EMAIL_ORDER_SUBJECT" type="integer">214099172</label>
+            <label index="EMAIL_NEWUSER_SUBJECT" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TITLE" type="integer">130924219</label>
+            <label index="LABEL_NEWUSER_TEXT" type="integer">78485223</label>
+            <label index="LABEL_NEWUSER_USER" type="integer">159898854</label>
+            <label index="LABEL_NEWUSER_PASS" type="integer">231098347</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING" type="integer">104028672</label>
+            <label index="LABEL_PERSONAL_INFO_INVOICING_TEXT" type="integer">38744450</label>
+            <label index="LABEL_PERSONAL_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_PERSONAL_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_PERSONAL_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_PERSONAL_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_VATCODE" type="integer">167434956</label>
+            <label index="LABEL_PERSONAL_INFO_MOBILE" type="integer">142415860</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE" type="integer">197474471</label>
+            <label index="LABEL_PERSONAL_INFO_AUTHORIZATION" type="integer">36441185</label>
+            <label index="LABEL_PERSONAL_INFO_CONDITIONS" type="integer">123970173</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY" type="integer">183563709</label>
+            <label index="LABEL_PERSONAL_INFO_DELIVERY_TEXT" type="integer">261477605</label>
+            <label index="LABEL_DELIVERY_INFO_CITY" type="integer">202824385</label>
+            <label index="LABEL_DELIVERY_INFO_COUNTRY" type="integer">93787849</label>
+            <label index="LABEL_DELIVERY_INFO_STATE" type="integer">235647734</label>
+            <label index="LABEL_DELIVERY_INFO_ZIP" type="integer">164100864</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_P" type="integer">67890556</label>
+            <label index="LABEL_PERSONAL_INFO_PRIVATE_A" type="integer">29846719</label>
+            <label index="LABEL_PERSONAL_INFO_WWW" type="integer">135530793</label>
+            <label index="LABEL_ITEMNUMBER" type="integer">181083835</label>
+            <label index="LABEL_QUANTITY" type="integer">110422225</label>
+            <label index="LABEL_OFFERTPRICE" type="integer">2014230</label>
+            <label index="LABEL_SHOW_ALL" type="integer">11852583</label>
+            <label index="LABEL_NO_RESULTS" type="integer">227113984</label>
+            <label index="LABEL_TOTAL_PRODUCT_PRICE" type="integer">12157026</label>
+            <label index="LABEL_PERSONAL_INFO_FORGOTPASSWORD" type="integer">90988741</label>
+            <label index="LABEL_PERSONAL_INFO_TEXT" type="integer">21704339</label>
+            <label index="LABEL_UPDATE_BASKET" type="integer">31330207</label>
+            <label index="LABEL_BANCA_TITOLO" type="integer">196061216</label>
+            <label index="LABEL_BANCA_TESTO" type="integer">252206162</label>
+            <label index="LABEL_BANCA_LINK" type="integer">104986035</label>
+            <label index="LABEL_BASKET_ARTICOLI" type="integer">159017646</label>
+            <label index="LABEL_BASKET_STAMPA" type="integer">69722774</label>
+            <label index="LABEL_FORGETPSW_TITLE" type="integer">40486453</label>
+            <label index="LABEL_FORGETPSW_TEXT" type="integer">30015185</label>
+            <label index="LABEL_FORGETPSW_USER" type="integer">32015587</label>
+            <label index="LABEL_FORGETPSW_PASS" type="integer">231098347</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_KO" type="integer">20887151</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_KO" type="integer">50265669</label>
+            <label index="EMAIL_FORGETPSW_SUBJECT" type="integer">228957735</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TEXT_OK" type="integer">16303358</label>
+            <label index="LABEL_FORGETPSW_RESPONSE_TITLE_OK" type="integer">9015365</label>
+            <label index="LABEL_FORGETPSW_SUBMIT" type="integer">63351526</label>
+            <label index="LABEL_FORGETPSW_TEXT_EMAIL" type="integer">158622525</label>
+            <label index="LABEL_COMPANYDATA" type="integer">156394098</label>
+            <label index="LABEL_PRODUCTPREVIOUS" type="integer">231864181</label>
+            <label index="LABEL_PRODUCTNEXT" type="integer">17482704</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TITLE" type="integer">66610403</label>
+            <label index="LABEL_AUTHORIZE_ERROR_TEXT" type="integer">147193450</label>
+            <label index="LABEL_KEYWORDS" type="integer">140981301</label>
+            <label index="LABEL_DATE" type="integer">89778122</label>
+            <label index="LABEL_NUMBER" type="integer">67411351</label>
+            <label index="LABEL_SHIPPINGCUSTOMER" type="integer">158987869</label>
+            <label index="LABEL_ORDERSTATUS" type="integer">176792492</label>
+            <label index="LABEL_DELIVERYDATE" type="integer">91017545</label>
+            <label index="LABEL_SELLERNOTE" type="integer">43615169</label>
+            <label index="LABEL_ORDER_COMPLETED" type="integer">136125137</label>
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>
